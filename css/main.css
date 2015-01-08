@@ -1,0 +1,74 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron{
+  padding: 0;
+}
+.hero{
+  background: #332f30 url(../img/MJ-hero.jpg) 0 0 no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  overflow:hidden;
+/*  padding: 15% 0; */
+}
+
+.container {
+  padding: 5em;
+}
+
+.jumbotron:nth-child(even) {
+  background-color: white; 
+}
+.jumbotron:nth-child(odd) {
+}
+
+.hero svg {
+  width: 75%;
+}
+.hero .hero-math {
+  font-size: 2.5em;
+  padding: 1em;
+}
+
+.text-muted {
+  color: #b4adaf;
+}
+
+.code-snippet-mj {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  font-size:.75em;
+}
+
+#about p {
+  font-size: 14px;
+  text-align: left;
+}
+#about ul {
+  text-align: left;
+}
+
+footer {
+  float: right;
+}
+
+.col-md-4 img {
+  width: 50%;
+}
+
+.vcenter {
+   min-height: 130px;
+   padding: 2.5em;
+}
+.popover{
+  width: 768px;
+  max-width: 100%; 
+}

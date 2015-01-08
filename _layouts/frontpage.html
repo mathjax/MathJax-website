@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover(
+            )
+        })
+    </script>
+<!--collection of scripts to be cleaned up-->
+  <script>
+//    open modals when linked directly (for redirects from old site)
+    $(window).load(function(){
+    var hash = window.location.hash;
+    var modals = ['modal-samples','modal-livedemo','modal-zoom','modal-sponsorship'];
+    if (modals.indexOf(hash.substring(1,hash.length)) > -1) {
+       $(hash).modal('show');
+    } else {}
+    });
+  </script>
+    <!--     Christian's script for zoom  -->
+
+    <script type="text/javascript">
+        function display() {
+            var tex = $('#input #tex').val();
+            $('#output').html('\\[' + tex + '\\]');
+            MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+            if (!window.location.origin) window.location.origin = window.location.protocol + "//" + window.location.host;
+            var url = window.location.origin + window.location.pathname + (tex.length ? '?' + encodeURIComponent(tex) : '');
+            $('#link').text(url).attr('href', url);
+        }
+        $(function() {
+            $('#input #tex').on('change keyup', display);
+            $('#input #size').on('change', function() {
+                var size = parseFloat($(this).val()) / 5;
+                $('#output').css('font-size', size + 'em');
+                display();
+            });
+            display();
+            if (location.search.length) $('#input #tex').val(unescape(location.search.slice(1))).change();
+        });
+    </script>
+          
+<!--        script to output options in demo samples-->
+        <script type="text/javascript">
+(function () {
+  var HUB = MathJax.Hub;
+
+  HUB.Register.StartupHook("Begin Typeset",function () {
+    //
+    //  Get the current renderer and set the page's
+    //  menu item to reflect that.
+    //
+    var renderer = HUB.config.menuSettings.renderer;
+    document.getElementById("Renderer").value = renderer;
+  });
+
+  //
+  //  Listen for radio button messages and
+  //  if the renderer changes, update the page's menu.
+  //
+  HUB.Register.StartupHook("MathMenu Ready",function () {
+    delete MathJax.Menu.Renderer.Messages.MML.Firefox;
+    MathJax.Extension.MathMenu.signal.Interest(function (message) {
+      if (message[0] === "radio button") {
+        var renderer = message[1].value;
+        if (String(renderer).match(/^(HTML-CSS|NativeMML|SVG)$/)) {
+          document.getElementById("Renderer").value = renderer;
+        }
+      }
+    });
+  });
+
+  //
+  //  When the renderer changes, ask the MathMenu to change
+  //  the renderer (this way we get any warning messages
+  //
+  window.setMode = function (renderer) {
+    HUB.config.MathMenu.settings.renderer = renderer;
+    MathJax.Menu.Renderer.call(this);
+  };
+})()
+</script>
+
+    </body>
+</html>

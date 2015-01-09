@@ -4,7 +4,8 @@ email: info@mathjax.org
 description: "Beautiful math in all browsers."
 baseurl: ""
 url: "http://www.mathjax.org"
+TimeZone: America/New_York
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none

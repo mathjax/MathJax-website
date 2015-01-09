@@ -31,7 +31,7 @@ body {
 .hero .hero-math {
   font-size: 2.5em;
   padding: 1em;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .text-muted {
@@ -71,4 +71,8 @@ footer {
 .popover{
   width: 768px;
   max-width: 100%; 
+}
+.MathJax_Display{
+ /*leads to vertical scrollbars*/
+/*    overflow-x: auto;  */
 }

@@ -8,4 +8,4 @@ TimeZone: America/New_York
 
 # Build settings
 markdown: kramdown
-permalink: none
+permalink: /:title/

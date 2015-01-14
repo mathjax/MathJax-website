@@ -19,10 +19,10 @@ body {
   padding: 5em;
 }
 
-.jumbotron:nth-child(even) {
+.jumbotron:nth-child(odd) {
   background-color: white; 
 }
-.jumbotron:nth-child(odd) {
+.jumbotron:nth-child(even) {
 }
 
 .hero svg {

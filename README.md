@@ -1,4 +1,4 @@
-# MathJax-website, the repository  http://www.mathjax.org
+# MathJax-website, the repository for www.mathjax.org
 
 This repository is work in progress and will eventually be the new home for 
 www.mathjax.org.

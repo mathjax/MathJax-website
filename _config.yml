@@ -3,7 +3,7 @@ title: MathJax
 email: info@mathjax.org
 description: "Beautiful math in all browsers."
 baseurl: ""
-url: "http://www.mathjax.org"
+# url: "http://www.mathjax.org"
 TimeZone: America/New_York
 
 # Build settings

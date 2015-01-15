@@ -17,7 +17,7 @@ full_posts: 2
   {% else %}
     {% if forloop.index == page.full_posts %}
     <section>
-    <h3>Older Posts</h3>
+    <h3>Previous News</h3>
     <ul>
     {% endif %}
       <li>{{ post.date | date_to_string }} | <a href='{{ post.url }}'>{{ post.title }}</a></li>

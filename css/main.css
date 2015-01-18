@@ -19,25 +19,38 @@ body {
   padding: 5em;
 }
 
-.jumbotron:nth-child(odd) {
+.jumbotron:nth-child(even) {
   background-color: white; 
 }
-.jumbotron:nth-child(even) {
+.jumbotron:nth-child(odd) {
 }
 
-.hero svg {
-  width: 75%;
-}
 .hero .hero-math {
   font-size: 2.5em;
   padding: 1em;
   overflow-x: auto;
 }
 
+#mj-logo {
+  background-size: 66%;
+  padding: 3%;
+  background-image: url(//cdn.mathjax.org/mathjax/badge/mj-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mj-logo .mj-logo-text {
+  visibility: hidden;
+}
+
+#sponsors h3 {
+  font-size: 30px;
+}
+
 .text-muted {
   color: #b4adaf;
 }
-
+/*
 .code-snippet-mj {
   display: inline-block;
   max-width: 100%;
@@ -47,6 +60,7 @@ body {
   line-height: 1;
   font-size:.75em;
 }
+*/
 
 #about p {
   font-size: 14px;

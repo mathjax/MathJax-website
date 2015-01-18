@@ -9,17 +9,21 @@ We are currently migrating from the existing Wordpress-driven site.
 
 * The site is build with [Jekyll](https://github.com/jekyll/jekyll) and [GitHub
 Pages](https://help.github.com/articles/using-jekyll-with-pages/).
-* For GitHub pages, the gh-pages branch is the main branch; work off it.
+* For GitHub pages, the gh-pages branch is the main branch; work off that one.
 * Logos etc. must be hosted on the CDN for IP reasons.
 
 ## Todo
 
 * Add license (which one?)
 * Add Google analytics
-  * add MathJax performance tracker
+  * add MathJax performance tracker (see current site)
 * integrate social icons
-* CNAME file
-
+* replace copy&paste video
+* change link color to shades of green
+* fix paragraphs a11y, works everywhere (too long on FF fonts)
+* test, test, test
+  * check each post for broken code / links to old content
+* CNAME file (at launch)
 
 ### Pages to replicate (here or on the docs)
 
@@ -48,3 +52,7 @@ http://www.mathjax.org/download/mathjax-change-log/
 * create complete backup.
 * create static copy
   * e.g. https://wordpress.org/plugins/really-static/
+
+#### plans
+
+* would love to use flexbox (sponsor image grid etc)

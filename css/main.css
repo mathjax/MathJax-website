@@ -50,17 +50,6 @@ body {
 .text-muted {
   color: #b4adaf;
 }
-/*
-.code-snippet-mj {
-  display: inline-block;
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1;
-  font-size:.75em;
-}
-*/
 
 #about p {
   font-size: 14px;
@@ -89,4 +78,17 @@ footer {
 .MathJax_Display{
  /*leads to vertical scrollbars*/
 /*    overflow-x: auto;  */
+}
+.date {
+  padding-bottom: 1em;
+/*  padding-top: .5em;*/
+  color:gray;
+}
+a {
+  color: #169538;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #397F4C;
+  text-decoration: none;
 }

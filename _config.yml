@@ -9,3 +9,6 @@ TimeZone: America/New_York
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+gems:
+  - jekyll-redirect-from

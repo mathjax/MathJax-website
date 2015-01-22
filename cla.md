@@ -2,7 +2,6 @@
 layout: page
 title: CLA
 redirect_from: "/cla/"
-redirect_from: "/cla"
 ---
 
 # MathJax Contributor License Agreement

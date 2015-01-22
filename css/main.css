@@ -7,6 +7,11 @@ body {
 .jumbotron{
   padding: 0;
 }
+
+.jumbotron p {
+  font-size: 16px;  
+}
+
 .hero{
   background: #332f30 url(../img/MJ-hero.jpg) 0 0 no-repeat;
   background-size: cover;
@@ -63,9 +68,6 @@ footer {
   float: right;
 }
 
-.col-md-4 img {
-  width: 50%;
-}
 
 .vcenter {
    min-height: 130px;

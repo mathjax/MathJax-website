@@ -11,6 +11,10 @@ var modals = ['modal-samples','modal-livedemo','modal-zoom','modal-sponsorship']
 if (modals.indexOf(hash.substring(1,hash.length)) > -1) {
    $(hash).modal('show');
 } else {}
+var video = document.getElementsByTagName('video')[0];
+$('#modal-zoom').on('hidden.bs.modal', function () {
+  video.pause();
+});
 });
 
 // ***Modal*** "Samples" -- switch renderer button

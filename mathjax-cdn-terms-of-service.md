@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: MathJax CDN Terms of Service

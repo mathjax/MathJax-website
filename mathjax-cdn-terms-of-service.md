@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MathJax CDN Terms of Service
-redirect_from: "/downloads/mathjax-cdn-terms-of-service/"
+redirect_from: "/download/mathjax-cdn-terms-of-service/"
 ---
 
 **Intended Relationship.** MathJax software is made available through a content distribution network (MathJax CDN) by [MathJax Sponsors]({{ site.baseurl }}/#sponsors) to facilitate the use of high-quality, accessible, reusable mathematics notation in web pages.  The MathJax CDN enables users to take advantage of MathJax software without installing or maintaining the software themselves.

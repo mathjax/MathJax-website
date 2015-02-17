@@ -4,7 +4,7 @@ title: CLA
 redirect_from: "/cla/"
 ---
 
-# MathJax Contributor License Agreement
+# MathJax Individual Contributor License Agreement (v1.0)
 
 ### Introduction
 

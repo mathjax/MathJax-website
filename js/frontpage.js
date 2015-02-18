@@ -46,8 +46,24 @@ $('#modal-zoom').on('hidden.bs.modal', function () {
   //  When the renderer changes, ask the MathMenu to change
   //  the renderer (this way we get any warning messages
   window.setMode = function (renderer) {
-    HUB.config.MathMenu.settings.renderer = renderer;
-    MathJax.Menu.Renderer.call(this);
+    var MENU = MathJax.Menu,
+        original = MENU.cookie.renderer;           // the original renderer
+    //
+    //  Wait for the menu to update before posting the dialog for 
+    //  switching to MathML
+    //
+    setTimeout(function () {
+      MENU.config.settings.renderer = renderer;    // Set the new renderer 
+      MENU.Renderer.call(this);                    // Change it using the menu action
+      if (MENU.cookie.renderer != original) {      // If the cookie changed,
+        if (original == null) {delete MENU.cookie.renderer}
+          else {MENU.cookie.renderer = original}   // Put back the original renderer
+        MENU.saveCookie();                         //  and save the cookie
+      }
+      HUB.Queue(function () {   // Update the menu in case the user cancelled the change
+        document.getElementById("Renderer").value = HUB.outputJax["jax/mml"][0].id;
+      });
+    },10);
   };
 })()
 

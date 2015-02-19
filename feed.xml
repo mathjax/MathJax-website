@@ -4,20 +4,31 @@ redirect_from:
   - "/feed/"
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ site.title | xml_escape }}</title>
+	<link href="{{ site.url }}{{ page.url }}" rel="self" />
+	<link href="{{ site.url }}/" />
+	<id>{{ site.url }}/</id>
+	<author>
+		<name>{{ site.author | xml_escape }}</name>
+	</author>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+{% for post in site.posts limit:20 %}
+	<entry>
+		<title type="text">{{ post.title | strip_html }}</title>
+		<link href="{{ site.url }}{{ post.url }}" />
+		<id>{{ site.url }}{{ post.url }}</id>
+		<published>{{ post.date | date_to_xmlschema }}</published>
+		<updated>{% if post.updated == null %}{{ post.date | date_to_xmlschema }}{% else %}{{ post.updated | append: '@12am' | date_to_xmlschema }}{% endif %}</updated>
+		<summary type="html">{{ post.excerpt | strip_html | xml_escape }}</summary>
+		<content type="html">{{ post.content | xml_escape }}</content>
+        {% for category in post.categories %}
+          <category term="{{ category }}" />
+        {% endfor %}
+        {% for tag in post.tags %}
+          <category term="{{ tag }}" />
+        {% endfor %}
+	</entry>
+{% endfor %}
+</feed>
+

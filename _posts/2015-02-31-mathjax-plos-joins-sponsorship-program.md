@@ -5,6 +5,8 @@ date: 2015-02-25
 author: Peter Krautzberger
 categories:
 - News
+redirect_from: 
+- "/plos-becomes-a-mathjax-supporter/"
 ---
 
 MathJax today announced that [PLOS](http://www.plos.org) (Public Library of Science) is joining its sponsorship program as a [MathJax Supporter](//www.mathjax.org/#supporters).

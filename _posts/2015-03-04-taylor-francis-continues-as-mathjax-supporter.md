@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taylor & Francis continues as MathJax Supporter
+title: Taylor &amp; Francis continues as MathJax Supporter
 date: 2015-03-04
 author: Peter Krautzberger
 categories:

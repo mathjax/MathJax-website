@@ -24,7 +24,7 @@ author:
   last_name: Krautzberger
 ---
 
-[caption id="attachment_5628" align="alignleft" width="262"][![Wonseok Shin](assets/wonseok_shin-262x300.jpg)](http://www.mathjax.org/wp-content/uploads/2014/07/wonseok_shin.jpg) Wonseok Shin is the creator of jemdoc+MathJax[/caption]
+{% include image.html img="images/interview_profile-wonseok_shin.jpg" title="Wonseok Shin" caption="Wonseok Shin is the creator of jemdoc+MathJax" %}
 
 _Here is our fourth interview with interesting people in the MathJax community. This time we had the pleasure to talk to [Wonseok Shin (Stanford University)](http://web.stanford.edu/~wsshin/) about jemdoc and jemdoc+MathJax._
 

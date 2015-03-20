@@ -25,7 +25,9 @@ author:
   last_name: Krautzberger
 ---
 
-[caption id="attachment_5265" align="alignleft" width="300"][![photo of Corey Katouli](assets/photo-6-300x300.jpg)](http://www.mathjax.org/wp-content/uploads/2014/03/photo-6.jpg) Corey Katouli is the founder of Demonstranda[/caption]_Here is our third interview with interesting people within the MathJax community. This time we had the pleasure to talk to Corey Katouli from [Demonstranda](http://demonstranda.com)._
+{% include image.html img="images/interview_profile-demonstranda.jpg" title="Corey Katouli" caption="Corey Katouli is the founder of Demonstranda" %}
+
+_Here is our third interview with interesting people within the MathJax community. This time we had the pleasure to talk to Corey Katouli from [Demonstranda](http://demonstranda.com)._
 
 **_[Demonstranda](http://demonstranda.com) describes itself as a social media site for students and educators. Can you tell us a little bit about Demonstranda and how you came up with the idea?_**
 

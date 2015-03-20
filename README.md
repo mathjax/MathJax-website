@@ -9,4 +9,18 @@ We have migrated from an older Wordpress-driven site. Some lose ends still need 
 * The site is build with [Jekyll](https://github.com/jekyll/jekyll) and [GitHub
 Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 * For GitHub pages, the `gh-pages` branch is the main branch so please branch off `gh-pages`.
-* Logos etc. must be hosted on the CDN for IP reasons.
+* Logos etc. must be hosted on the CDN (for IP reasons).
+
+### Extras.
+
+#### Images with captions.
+
+To include an image with a caption, we've created `_includes/image.html`, using bootstrap's `thumbnail` class.
+
+To use it, you include a liquid tag in the page, e.g.,
+
+```
+{% include image.html img="images/cheezburgers.png" title="a lolcat" caption="I can haz cheezburgers?" %}
+```
+
+Optionally, you can also add `url="//lol.cats/are"` which will wrap the resulting `img` in an `a`.

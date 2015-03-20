@@ -94,3 +94,7 @@ a:focus, a:hover {
   color: #397F4C;
   text-decoration: none;
 }
+
+.thumbnail {
+  margin: 1em;
+}

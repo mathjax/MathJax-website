@@ -23,8 +23,6 @@ author:
 
 After a quiet summer, fall has already brought around a ton of cool new stuff and links from around the MathJax community.
 
-<iframe src="http://mathjax.dropmark.com/200117" width="100%" height="480" scrolling="yes"></iframe>
-
 ## News
 
 [HTML5 has been finalized](http://www.w3.org/blog/news/archives/4167) by the W3C!

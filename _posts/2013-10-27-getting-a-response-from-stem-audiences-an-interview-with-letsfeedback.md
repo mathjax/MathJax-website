@@ -25,7 +25,9 @@ author:
   last_name: Krautzberger
 ---
 
-[caption id="attachment_4944" align="alignleft" width="300"][![Deniz Demirsoy](assets/letsfeedback_photo-300x249.jpg)](http://www.mathjax.org/wp-content/uploads/2013/10/letsfeedback_photo.jpg) Deniz Demirsoy is managing director at letsfeedback[/caption]_Here is our second interview with interesting people within the MathJax community. This time we had the pleasure to talk to Deniz Demirsoy from [letsfeedback](http://letsfeedback.net)._
+{% include image.html img="images/interview_profile_letsfeedback.jpg" title="Deniz Demirsoy" caption="Deniz Demirsoy is managing director at letsfeedback" %}
+
+_Here is our second interview with interesting people within the MathJax community. This time we had the pleasure to talk to Deniz Demirsoy from [letsfeedback](http://letsfeedback.net)._
 
 **_You launched [letsfeedback](http://letsfeedback.net) recently. Can you tell us a little bit about letsfeedback and how you came up with the idea?_**
 

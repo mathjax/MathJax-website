@@ -24,11 +24,9 @@ author:
 
 Over the summer, we've been busy putting together version 2.1 of MathJax. Today we are entering the public beta phase of MathJax v2.1. This release includes a number of small enhancements and over 60 bug fixes. It is available at [cdn.mathjax.org/mathjax/2.1-beta/MathJax.js](http://cdn.mathjax.org/mathjax/2.1-beta/MathJax.js) which you can load in place of the version you are currently using.  Alternatively, you can get [a ZIP archive](https://github.com/mathjax/MathJax/zipball/v2.1-latest) to use locally or you can check out the v2.1-latest branch of MathJax by using the commands
 
-`git clone git://github.com/mathjax/MathJax.git MathJax-2.1
-
-cd MathJax-2.1
-
-git checkout v2.1-latest`
+    git clone git://github.com/mathjax/MathJax.git MathJax-2.1
+    cd MathJax-2.1
+    git checkout v2.1-latest`
 
 at an appropriate location on your server.
 

@@ -36,7 +36,6 @@ Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/ar
     git clone git://github.com/mathjax/MathJax.git MathJax-2.3
     cd MathJax-2.3
     git checkout v2.3-beta
-    `</pre>
 
 at an appropriate location on your server.
 
@@ -52,11 +51,11 @@ The MathJax Team.
 
 ***
 
-#  New in MathJax v2.3  <a name="new-in-v2.3"> </a> 
+##  New in MathJax v2.3  <a name="new-in-v2.3"> </a> 
 
 For the list of new features and bug fixes please check the [release milestone](https://github.com/mathjax/MathJax/issues?milestone=1&state=closed).
 
-## New webfonts
+### New webfonts
 
 The major focus of MathJax v2.3 are additional webfonts options. Due to font and browser limitations, supporting math fonts is a difficult task. Until now, MathJax only provided its own MathJax/TeX fonts, derived from Knuth's Computer Modern fonts, as web-based fonts, though it also supports STIX fonts when they are installed locally.
 
@@ -84,7 +83,7 @@ So for example, configuring the STIX-web fonts in HTML-CSS would work as follows
 
 **Please report any issues you find on [our issue tracker](https://github.com/mathjax/mathjax/issues) .** Note that there are [minor issues](https://github.com/mathjax/MathJax/issues?milestone=1&state=open) which will be fixed in the final release.
 
-## Localization improvements via TranslateWiki.net
+### Localization improvements via TranslateWiki.net
 
 MathJax has been accepted into [TranslateWiki.net](https://translatewiki.net/wiki/Main_Page). You can find the MathJax project page at [https://translatewiki.net/wiki/Translating:MathJax](https://translatewiki.net/wiki/Translating:MathJax). We are very grateful for the generous support from the TWN team and the TWN community.
 
@@ -98,7 +97,7 @@ Thanks to the contributions from [TranslateWiki.net volunteers](https://translat
 *   New test page [test/localization.html](http://beta.mathjax.org/mathjax/latest/test/localization.html) and message documentation to help localizers.
 *   Support for RTL error messages (with special thanks to [ebraminio](https://github.com/ebraminio) and [amire80](https://github.com/amire80)).
 
-## MathML-related improvements
+### MathML-related improvements
 
 MathJax's "Show Math as" menu will now expose the [MathML annotation features](http://www.w3.org/Math/draft-spec/chapter5.html#mixing.semantic.annotations) (annotation and annotation-xml). Since many MathML authoring tools provide such annotations, this allows users to access embedded representations such as TeX, CAS syntax, and other descriptions.
 
@@ -114,9 +113,9 @@ The new default (`mathml`) will improve the user experience as the original Math
 
 Finally, MathJax v2.3 implements new workarounds to improve the Native MathML output in Webkit and Gecko. We hope this enables more people to leverage the advantages of the Native MathML output.
 
-## Miscellaneous improvements
+### Miscellaneous improvements
 
-### Font related improvements
+#### Font related improvements
 
 Besides adding new webfonts for MathJax output itself, we have improved the interaction with the surrounding content. We have developed a new extension `MatchWebFonts`. This extension is designed for authors using webfonts for the content surrounding MathJax output. This works around a basic problem of webfonts -- a missing API. Webfonts are often delayed and the browser will substitute another font until the arrival; unfortunately there is no signal for when the font arrives. Since the arrival of the webfonts can significantly change ex and em sizes (and MathJax checks these to match them with its own font size), this MathJax extension will check for changes of em and ex sizes (indicating the arrival of webfonts) and rerender equations if necessary. You can configure the extension as follows:
 
@@ -145,7 +144,7 @@ We also added an option `matchFontHeight` to disable font matching directly. Thi
 
 You can deactivate font matching for each output individually.
 
-### New configuration method
+#### New configuration method
 
 We have added a new configuration method. In any Javascript code executed before loading MathJax.js, the author can create a variable
 
@@ -174,6 +173,6 @@ To allow similar functionality when setting the MathJax variable, you can use th
 
 When the AuthorInit function is called, the MathJax objects are already created and thus you can for example already use `MathJax.Callback` to synchronize your code (e.g. listening signals). As you can see in http://docs.mathjax.org/en/latest/startup.html, this happens a bit before "text/x-mathjax-config" so it will allow for finer control (e.g. your can now really add listener for the "Begin" and "Begin Config" signals before they happen, say to measure the exact time between "Begin" and "End"). In particular, you can now modify the startup sequence; for example, the upcoming version of the MediaWiki Math extension will use this to replace MathJax's resource loader with its own resource loader.
 
-## Bower package
+#### Bower package
 
 MathJax is now available as a [Bower package](http://bower.io/) -- thanks to [koodough](https://github.com/koodough) and [tarjei](https://github.com/tarjei) for their contributions!

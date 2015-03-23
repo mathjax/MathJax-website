@@ -75,7 +75,7 @@ important bug fixes.
 
 *   Experimental Content MathML support.
 
-# TeX input:
+### TeX input:
 
 *   Avoid potential infinite loops in `\mathchoice` constructs.
 
@@ -113,13 +113,13 @@ important bug fixes.
 
     (Issue #451 https://github.com/mathjax/MathJax/issues/451)
 
-# AsciiMath:
+### AsciiMath:
 
 *   Rename AsciiMath config option from `decimal` to `decimalsign`.
 
     (Issue #384 https://github.com/mathjax/MathJax/issues/384)
 
-# Fonts:
+### Fonts:
 
 *   Add Greek Delta to SVG fonts. (Issue #347 https://github.com/mathjax/MathJax/issues/347)
 
@@ -131,7 +131,7 @@ important bug fixes.
 
     values not supported by generic fonts.
 
-# MathML:
+### MathML:
 
 *   Handle empty child nodes better.
 
@@ -145,7 +145,7 @@ important bug fixes.
 
     output in Firefox using cell padding.
 
-# HTML-CSS/SVG output
+### HTML-CSS/SVG output
 
 *   Allow `\color` to override link color in SVG output.  (Issue #427
 
@@ -209,7 +209,7 @@ important bug fixes.
 
     362 https://github.com/mathjax/MathJax/issues/62 )
 
-# Interface:
+### Interface:
 
 *   Make zoom work properly with expressions that have full width (e.g.,
 
@@ -239,7 +239,7 @@ important bug fixes.
 
 *   Make tool tips appear above zoom boxes.  (Issue #351 https://github.com/mathjax/MathJax/issues/351)
 
-# Miscellaneous:
+### Miscellaneous:
 
 *   Allow preview for preprocessors to be just a plain string (rather
 

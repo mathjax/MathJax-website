@@ -27,10 +27,6 @@ author:
 
 It's been too long since the last community update -- let's jump right in!
 
-### Check out all sites at dropmark.com
-
-<iframe src="http://mathjax.dropmark.com/176927" width="100%" height="480" scrolling="yes"></iframe>
-
 ### MediaWiki Math Extension 2.0 released
 
 Moritz Schubotz announced the official release of v2.0 of the [Math extension for MediaWiki](http://math2.beta.wmflabs.org/wiki/Main_Page). New features include SVG and MathML generation, mathoid and LaTeXML integration, display style math support, id's in math, as well as experimental MathML and Asciimath input.

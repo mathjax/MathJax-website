@@ -38,4 +38,4 @@ The near future plan certainly is to enable the new rendering mode for unregiste
 
 **Are there any other projects of yours people should keep an eye on?**
 
-There is also the [MathSearch Extension](https://www.mediawiki.org/wiki/Extension:MathSearch), but this is still a research prototype. However, even today this extension indexes all formulae in your wiki, provides a search interface and tries to automatically infer identifier semantics from the surrounding text contents. For those who may be interested, have a look at demo [demo.forumulasearchengine.com](https://demo.forumulasearchengine.com).
+There is also the [MathSearch Extension](https://www.mediawiki.org/wiki/Extension:MathSearch), but this is still a research prototype. However, even today this extension indexes all formulae in your wiki, provides a search interface and tries to automatically infer identifier semantics from the surrounding text contents. For those who may be interested, have a look at demo [demo.formulasearchengine.com](https://demo.formulasearchengine.com).

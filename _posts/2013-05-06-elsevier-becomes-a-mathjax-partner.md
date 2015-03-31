@@ -22,7 +22,7 @@ author:
   last_name: Krautzberger
 ---
 
-We're happy to announce today that [Elsevier](http://www.elsevier.com), world-leading provider of scientific, technical and medical products and services, has become a [MathJax Partner](sponsors/).
+We're happy to announce today that [Elsevier](http://www.elsevier.com), world-leading provider of scientific, technical and medical products and services, has become a [MathJax Partner](/#sponsors).
 
 As one of the initial members of the MathJax sponsorship program, Elsevier has a long history of supporting MathJax's efforts towards making mathematical and scientific content a first-class citizen on the web. With the inclusion of MathJax on [ScienceDirect](http://www.sciencedirect.com/), Elsevier has enabled one of the largest publishing platforms to provide mathematical and scientific content at the highest quality, using modern, open web standards.
 

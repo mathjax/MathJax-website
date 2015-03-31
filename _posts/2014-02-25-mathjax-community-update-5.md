@@ -89,11 +89,11 @@ A couple of interesting questions came up on StackOverflow.
 ### Snippets
 
 *   AppMind's Android markdown editor [Minutes Text Notes Pro + Sync](https://play.google.com/store/apps/details?id=com.saelimbilly.genericdatabaseapppro) now offers MathJax support.
-*   The markdown editor [LightPaper for Mac](http://clockworkengine.com/lightpaper-mac/) adds MathJax support.
+*   The markdown editor LightPaper for Mac (`http://clockworkengine.com/lightpaper-mac/`) adds MathJax support.
 *   LaTeXML recently completed its move and can [now be found on GitHub](https://github.com/brucemiller/LaTeXML). Go forth and contribute!
 
 ### Content, content, content
 
-*   CarvingIT has released [ScienceProblems.org](http://www.scienceproblems.org/) ([on github](https://github.com/CarvingIT/science-problems)), an open repository for math &amp; science problems.
-*   At [SocialAlgebra](http://www.socialalgebra.com/), you'll find some school-level problems sets.
+*   CarvingIT has released ScienceProblems.org `http://www.scienceproblems.org/` ([on github](https://github.com/CarvingIT/science-problems)), an open repository for math &amp; science problems.
+*   At SocialAlgebra `http://www.socialalgebra.com/`, you'll find some school-level problems sets.
 *   [Nowhere Near Ithaca](http://www.nowherenearithaca.com/) combined MathJax, D3.js, and JStat in an [interactive visualization of the Lognormal Distribution](http://www.nowherenearithaca.com/2013/12/equationlognormalhover-border1px-solid.html), with further tips for [wrapping it as a Chrome app](http://www.nowherenearithaca.com/2013/12/using-d3-and-mathjax-in-chrome-packaged.html))

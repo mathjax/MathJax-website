@@ -27,7 +27,7 @@ The 2.5 release improves the speed of the HTML-CSS output by 30-40% (depending o
 
 In terms of MathML support, Content MathML is now fully supported via a new extension and we have improved the experimental support for elementary math elements (with special thanks to contributions from David Carlisle). The 2.5 release also includes over 70 bug fixes to increase the quality and stability of MathJax ([see below for details](#new-in-release)). 
 
-The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](///beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using. Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.5-beta.zip) or access the branch [on GitHub](https://github.com/mathjax/MathJax/tree/v2.5-beta). 
+The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](///beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using. Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.5-latest.zip) or access the branch [on GitHub](https://github.com/mathjax/MathJax/tree/v2.5-latest). 
 
 **Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
 

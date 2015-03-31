@@ -27,11 +27,11 @@ author:
 
 Today we are entering the public beta phase of MathJax v2.3. This release includes a number of new features and increased stability ([see below for details](#new-in-v2.3)).
 
-The beta is available via our CDN at [http://beta.mathjax.org/mathjax/latest/MathJax.js](http://beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using; we also provide access [via a stable https address](https://9b2b94443c2ea7d54471-be1dadccbb5a30ad91417ce626663a88.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js).
+The beta is available via our CDN at [http://beta.mathjax.org/mathjax/latest/MathJax.js](http://beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using; we also provide access [via a stable https address](https://cdn.mathjax.org/mathjax/latest/MathJax.js).
 
 **_Please note_** that the address for the beta has changed compared to previous beta releases -- the beta release now has its own subdomain.
 
-Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.3-beta.zip) to use locally or you can check out the `v2.3-beta` branch of MathJax by using the commands
+Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.3-latest.zip) to use locally or you can check out the `v2.3-beta` branch of MathJax by using the commands
 
     git clone git://github.com/mathjax/MathJax.git MathJax-2.3
     cd MathJax-2.3

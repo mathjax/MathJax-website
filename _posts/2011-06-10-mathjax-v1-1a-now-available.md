@@ -21,6 +21,6 @@ author:
 
 A minor maintenance update to MathJax was released Thursday, June 9.  The update corrects several issues in Internet Explorer and Opera, improves MathML support, and addresses a variety of other minor problems.
 
-The release was deployed to the MathJax CDN, and is available for [download](/download) or via source control at GitHub.  Version 1.1a is backward comptible with v1.1 and for CDN users, no modification of content or configuration is required.
+The release was deployed to the MathJax CDN, and is available for [download](http://docs.mathjax.org/en/v1.1-latest/installation.html) or via source control at GitHub.  Version 1.1a is backward comptible with v1.1 and for CDN users, no modification of content or configuration is required.
 
-The [change log](http://www.mathjax.org/download/mathjax-change-log/) gives a complete listing of the issues addressed in this release.
+The [change log](http://docs.mathjax.org/en/v1.1-latest/whats-new.html) gives a complete listing of the issues addressed in this release.

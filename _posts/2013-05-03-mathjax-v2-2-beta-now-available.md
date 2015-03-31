@@ -22,7 +22,7 @@ author:
   last_name: Krautzberger
 ---
 
-Today we are entering the public beta phase of MathJax v2.2. This release includes a number of new features and increased stability with over 40 bug fixes. It is available at [cdn.mathjax.org/mathjax/2.2-beta/MathJax.js](http://cdn.mathjax.org/mathjax/2.2-beta/MathJax.js) which you can load in place of the version you are currently using.  Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.2-beta.zip) to use locally or you can check out the v2.2-beta branch of MathJax by using the commands
+Today we are entering the public beta phase of MathJax v2.2. This release includes a number of new features and increased stability with over 40 bug fixes. It is available at [cdn.mathjax.org/mathjax/2.2-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js) which you can load in place of the version you are currently using.  Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.2-beta.zip) to use locally or you can check out the v2.2-beta branch of MathJax by using the commands
 
     git clone git://github.com/mathjax/MathJax.git MathJax-2.2
     cd MathJax-2.2
@@ -50,7 +50,7 @@ This release improves overall stability by fixing over 40 bugs.  For a complete 
 MathJax now offers a full localization module. Page authors can specify a locale when loading `MathJax.js`, e.g., to set French use
 
     <script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/2.2-beta/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=fr">
+        src="http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=fr">
     </script>
 
 
@@ -65,7 +65,7 @@ MathJax provides a powerful HTML-extension. However, on sites with user-generate
 To load the extension, simply add it when loading `MathJax.js`, e.g.,
 
     <script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/2.2-beta/MathJax.js?config=TeX-AMS-MML_HTMLorMML,Safe.js">
+        src="http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,Safe.js">
     </script>
 
 For the configuration, you can set the options in your configuration block. The basic configuration consists of the following block:

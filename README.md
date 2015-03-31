@@ -1,4 +1,4 @@
-# MathJax-website
+# MathJax-website ![](https://travis-ci.org/mathjax/MathJax-website.svg?branch=gh-pages)
 
 This repository hosts the source for www.mathjax.org.
 

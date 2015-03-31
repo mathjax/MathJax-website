@@ -51,7 +51,7 @@ Thanks to the very same Christian Perfect, you can grab an easy to digest [examp
 
 ### MathJax support for Ghost
 
-It's barely publicly available and already the kickstarter-funded, open-source blogging platform [Ghost](https://ghost.org/) can offer you MathJax support -- thanks to this [tutorial by Feynman Liang](http://feynmanliang.com/mathjax-integration/), improving a solution by [Patrick Edelman](http://www.patrickedelman.com/latex-ghost/).
+It's barely publicly available and already the kickstarter-funded, open-source blogging platform [Ghost](https://ghost.org/) can offer you MathJax support -- thanks to this [tutorial by Feynman Liang](http://feynmanliang.com/mathjax-integration/), improving a solution by Patrick Edelman.
 
 ### MDwiki adds MathJax support
 
@@ -59,7 +59,7 @@ The single-page, markdown-driven [MDwiki](http://dynalon.github.io/mdwiki/) now 
 
 ### OERpub textbook editor improves
 
-OERpub keeps improving its open-source, HTML5 textbook editor. You can catch up on the latest improvements by reading [Kathi Fletcher's blog post](http://kefletcher.blogspot.com/2013/09/more-about-textbook-editor.html), [watch her presentation at Books in Browsers 2013](http://www.ustream.tv/recorded/40172005) last week, or go ahead and [grab the code on github](https://github.com/oerpub/github-bookeditor).
+OERpub keeps improving its open-source, HTML5 textbook editor. You can catch up on the latest improvements by reading [Kathi Fletcher's blog post](http://kefletcher.blogspot.com/2013/09/more-about-textbook-editor.html), [watch her presentation at Books in Browsers 2013](https://www.youtube.com/watch?v=kOMBeq7H1A4) last week, or go ahead and [grab the code on github](https://github.com/oerpub/github-bookeditor).
 
 ### AAP's EPUB 3 Implementation Project -- White Paper is now online
 

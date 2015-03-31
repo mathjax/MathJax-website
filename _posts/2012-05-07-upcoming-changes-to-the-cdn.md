@@ -31,7 +31,7 @@ On Sunday, May 13, 2012, we will switch CDN providers from Cloudfront to Rackspa
 
 At the time of the switch, the CDN will stop serving the currently available beta-version of MathJax -- `v1.1-beta`, `v1.1a-beta` and `v2.0-beta`.
 
-If you're using a beta version, you should change your configuration to point to `v1.1-latest` and `v2.0-latest` which serve the same content as their respective betas. See the documentation for details on [loading MathJax from the CDN](http://www.mathjax.org/docs/2.0/configuration.html#loading-cdn).
+If you're using a beta version, you should change your configuration to point to `v1.1-latest` and `v2.0-latest` which serve the same content as their respective betas. See the documentation for details on [loading MathJax from the CDN](http://docs.mathjax.org/en/v2.0-latest/configuration.html#loading-cdn).
 
 ### Change of encrypted CDN access
 

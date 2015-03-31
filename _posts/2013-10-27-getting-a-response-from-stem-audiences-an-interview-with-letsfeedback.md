@@ -27,9 +27,9 @@ author:
 
 {% include image.html img="images/interview_profile_letsfeedback.jpg" title="Deniz Demirsoy" caption="Deniz Demirsoy is managing director at letsfeedback" %}
 
-_Here is our second interview with interesting people within the MathJax community. This time we had the pleasure to talk to Deniz Demirsoy from [letsfeedback](http://letsfeedback.net)._
+_Here is our second interview with interesting people within the MathJax community. This time we had the pleasure to talk to Deniz Demirsoy from [letsfeedback](http://letsfeedback.com)._
 
-**_You launched [letsfeedback](http://letsfeedback.net) recently. Can you tell us a little bit about letsfeedback and how you came up with the idea?_**
+**_You launched [letsfeedback](http://letsfeedback.com) recently. Can you tell us a little bit about letsfeedback and how you came up with the idea?_**
 
 Back in August 2012, I had a conversation with a professor of physics. He mentioned that he gets way too little if any feedback from students during the lectures. It was not because they don‘t have questions or are afraid to ask; it was because of the peer pressure. He told me that his students think they‘ll embarrass themselves in front of their peers by revealing lack of competence, asking “stupid“ questions, or unduly impeding the lecture.
 

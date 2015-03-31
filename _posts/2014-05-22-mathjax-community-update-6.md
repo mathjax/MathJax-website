@@ -29,7 +29,7 @@ It's been too long since the last community update -- let's jump right in!
 
 ### MediaWiki Math Extension 2.0 released
 
-Moritz Schubotz announced the official release of v2.0 of the [Math extension for MediaWiki](http://math2.beta.wmflabs.org/wiki/Main_Page). New features include SVG and MathML generation, mathoid and LaTeXML integration, display style math support, id's in math, as well as experimental MathML and Asciimath input.
+Moritz Schubotz announced the official release of v2.0 of the [Math extension for MediaWiki](https://www.mediawiki.org/wiki/Extension:Math). New features include SVG and MathML generation, mathoid and LaTeXML integration, display style math support, id's in math, as well as experimental MathML and Asciimath input.
 
 ### LaTeXML 0.8 released
 
@@ -78,7 +78,7 @@ Last but not least, here are some sweet examples of sites and apps leveraging Ma
 *   [Puzzlet](http://puzlet.com/) is a new platform for browser-based scientific computing, using their own flavor of CoffeeScript. For some MathJax examples, see this [block diagram](http://puzlet.com/m/b00b1) or the [blab about SVG integration](http://puzlet.com/m/b00b3).
 *   [praczone](http://www.praczone.com/) wants to help people learn math interactively. It provides a clean interface to organize lessons and exercises, neatly organized and easily edited.
 *   [fisicalab](http://www.fisicalab.com/) provides a wealth of physics resources in Spanish, beautifully presented.
-*   [Numerical.pk](http://www.numerical.pk/Home.aspx) offers a educational resources for Pakistani students*   [Michal Pešta](http://www.karlin.mff.cuni.cz/~pesta/) has a great example of using Knitr to write on [Survival data analysis](http://www.karlin.mff.cuni.cz/~pesta/NMFM404/survival.html).
+*   Numerical.pk `http://www.numerical.pk/Home.aspx` offers a educational resources for Pakistani students*   [Michal Pešta](http://www.karlin.mff.cuni.cz/~pesta/) has a great example of using Knitr to write on [Survival data analysis](http://www.karlin.mff.cuni.cz/~pesta/NMFM404/survival.html).
 *   [Ex Libris](http://nonagon.org/ExLibris/) provides some great content examples such as this piece on the [Fast Fourier Transform](http://nonagon.org/ExLibris/gauss-fast-fourier-transform)
 *   [The book of proof](http://www.bookofproofs.org/) collects [mathematical proofs](http://www.bookofproofs.org/branches/why-is-it-impossible-to-divide-by-0/), written, vetted, and ranked by its users.
 *   At [Mathématique du secondaire](http://xavier.hubaut.info/coursmath/), Xavier Hubaut, emeritus of Université Libre de Bruxelles, collects wonderful [short articles](http://xavier.hubaut.info/coursmath/pol/snub.htm) on mathematical concepts.

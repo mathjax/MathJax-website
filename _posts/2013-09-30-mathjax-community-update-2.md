@@ -43,7 +43,7 @@ If you haven't seen it on Hacker News already, [TexPaste](http://www.texpaste.co
 
 ### Vision Objects updates
 
-Vision Objects has updated [its awesome handwriting webdemo](http://webdemo.visionobjects.com/home.html#equation) (integrating Desmos) and released [MyScript MathPad](https://itunes.apple.com/app/myscript-mathpad/id674996719) for iOS (free with in-app purchases). Its technology is also used in another iOS app, [Math Ink](http://www.mydigitalwriting.com/2013/09/math-ink-equation-solver.html).
+Vision Objects has updated [its awesome handwriting webdemo](http://webdemo.myscript.com/#/demo/equation) (integrating Desmos) and released [MyScript MathPad](https://itunes.apple.com/app/myscript-mathpad/id674996719) for iOS (free with in-app purchases). Its technology is also used in another iOS app, [Math Ink](https://itunes.apple.com/us/app/math-ink/id596393352).
 
 ### Lectures on the web
 
@@ -67,6 +67,6 @@ Google's ChromeVox team sat down and recorded an [excellent video for Google Dev
 
 ### Meet Fred at Mozilla Summit
 
-Last but very much not least, our own Fred Wang is heading to the [Mozilla Summit](http://summit.mozilla.org/) this week. You can get a sneak peek at [his slides over on github](http://fred-wang.github.io/MozSummitMathML/) (Firefox required).
+Last but very much not least, our own Fred Wang is heading to the [Mozilla Summit](https://wiki.mozilla.org/Summit2013) this week. You can get a sneak peek at [his slides over on github](http://fred-wang.github.io/MozSummitMathML/) (Firefox required).
 
 Thanks everyone!

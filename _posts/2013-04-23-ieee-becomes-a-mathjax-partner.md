@@ -22,7 +22,7 @@ author:
   last_name: Krautzberger
 ---
 
-[IEEE](http://www.ieee.org/), the world’s largest professional association, has announced today it has become a [MathJax Partner](sponsors/), becoming one of a select group of technical publishers that play an active role in the development and support of MathJax.
+[IEEE](http://www.ieee.org/), the world’s largest professional association, has announced today it has become a [MathJax Partner](/#sponsors), becoming one of a select group of technical publishers that play an active role in the development and support of MathJax.
 
 With 425,000 members in over 160 countries, IEEE fosters technological innovation and excellence for the benefit of humanity. IEEE publishes nearly a third of the world’s technical literature in electrical engineering, computer science and electronics, including more than 160 transactions, journals and magazines. Through its [_IEEEXplore®_ digital library](https://ieeexplore.ieee.org/), IEEE provides subscribers over three million technical documents including research articles, standards, and conference publications.
 

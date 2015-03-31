@@ -22,7 +22,7 @@ author:
   last_name: Krautzberger
 ---
 
-[AIP Publishing](http://www.aip.org/pubs/), a division of the American Institute of Physics, has renewed its support as a MathJax Partner, demonstrating its commitment to being a partner to the science community.
+[AIP Publishing](https://publishing.aip.org/), a division of the American Institute of Physics, has renewed its support as a MathJax Partner, demonstrating its commitment to being a partner to the science community.
 
 [The American Institute of Physics](http://aip.org/) is an organization of 10 physical science societies, representing more than 135,000 scientists, engineers, and educators and is one of the world’s largest publishers of scientific information in physics. AIP pursues innovation in electronic publishing of scholarly journals and offers full-solution publishing services for its Member Societies. AIP publishes 16 journals; two magazines, including its flagship publication [Physics Today](http://www.physicstoday.org/); and the [AIP Conference Proceedings series](http://proceedings.aip.org/).
 

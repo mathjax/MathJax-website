@@ -19,7 +19,7 @@ author:
   last_name: Miner
 ---
 
-The MathJax project is looking for a Business Development Manager. You can [read more about the position](/community/mathjax-jobs/) on our jobs page. A major focus of the job will be promoting and facilitating the use of MathJax in the exciting and rapidly-growing ebooks market.
+The MathJax project is looking for a Business Development Manager. You can [read more about the position](/) on our jobs page. A major focus of the job will be promoting and facilitating the use of MathJax in the exciting and rapidly-growing ebooks market.
 
 Our first Business Development Manager, Hylke Koers, moved to a full-time position with Elsevier at the end of the summer.  He began shortly after MathJax 1.0 was released, and helped the project broaden its base of sponsors,  establish the CDN, foster integration with leading web platforms, and build adoption to the point where more than half a million pages access the CDN a week today.
 

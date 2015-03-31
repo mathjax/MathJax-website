@@ -59,7 +59,7 @@ Steven Waldrip let us know that he published two new, free Truss apps, [Auto Tru
 
 Wonseok Shin has [integrated MathJax](http://www.stanford.edu/~wsshin/jemdoc+mathjax.html) into [jemdoc](http://jemdoc.jaboc.net/), the lightweight markup language / Python static-site generater developed by Jacob Mattingley.
 
-The lightweight markup language developed by [KARAS](http://lightweightmarkuplanguage.com/index.html) ([translation](http://translate.google.com/translate?u=http%3A%2F%2Flightweightmarkuplanguage.com%2Findex.html&amp;hl=en&amp;langpair=auto|en&amp;tbb=1&amp;ie=UTF-8)) adds some interesting ideas to the markup mix -- and its JavaScript implemention comes with a [MathJax plugin](https://github.com/KARAS-LightweightMarkupLanguage/KARAS_Javascript/blob/master/plugins/MathJax.js).
+The lightweight markup language developed by [KARAS](http://lightweightmarkuplanguage.com/index.html) ([translation](http://translate.google.com/translate?u=http%3A%2F%2Flightweightmarkuplanguage.com%2Findex.html&amp;hl=en&amp;langpair=auto|en&amp;tbb=1&amp;ie=UTF-8)) adds some interesting ideas to the markup mix -- and its JavaScript implemention comes with a [MathJax plugin](https://github.com/KARAS-LightweightMarkupLanguage/KARAS_MathJaxPlugin).
 
 WYSIWYG form builder [JotForm](http://www.jotform.com/) now provides a [MathJax plugin](http://widgets.jotform.com/widget/mathjax) so that you can include mathematical content in a form.
 

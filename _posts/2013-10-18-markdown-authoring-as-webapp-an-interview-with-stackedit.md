@@ -27,7 +27,7 @@ author:
 
 {% include image.html img="images/interview_profile_stackedit.jpg" title="Benoit Schweblin" caption="Benoit Schweblin is the creator of StackEdit" %}
 
-_It's fun [to be interviewed](http://www.mathjax.org/introducing-comm-interview-at-fidus-writer/) but even more to turn the tables. As part of our still fresh [COMM category](http://www.mathjax.org/category/comm/), we had the pleasure to talk with Benoit Schweblin, the creator of [StackEdit](http://benweet.github.io/stackedit/)._
+_It's fun [to be interviewed](http://www.mathjax.org/introducing-comm-interview-at-fidus-writer/) but even more to turn the tables. As part of our still fresh COMM category, we had the pleasure to talk with Benoit Schweblin, the creator of [StackEdit](http://benweet.github.io/stackedit/)._
 
 **_You recently started [StackEdit](http://benweet.github.io/stackedit/), a markdown editor web app. How did you come up with the idea?_**
 

@@ -77,4 +77,4 @@ Tell us what you think. We are interested in your feedback on:
 
 *   At what level would you or your organization tentatively be willing to sponsor MathJax for a year?
 
-Please note that we are not asking for a commitment yet, we just want to see what you think. Feel free to add your comments to this blog post. However, if you would feel more comfortable replying in confidence, please send your feedback to Hylke Koers at [hylkek@mathjax.org](mailto://hylkek@mathjax.org). We are very interested in anything you have to say on this topic. Thank you in advance for sharing your thoughts.
+Please note that we are not asking for a commitment yet, we just want to see what you think. Feel free to add your comments to this blog post. However, if you would feel more comfortable replying in confidence, please send your feedback to Hylke Koers at hylkek@mathjax.org. We are very interested in anything you have to say on this topic. Thank you in advance for sharing your thoughts.

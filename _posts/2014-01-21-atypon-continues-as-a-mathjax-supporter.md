@@ -24,7 +24,7 @@ author:
 
 [Atypon](http://atypon.com) continues to support the MathJax project as a MathJax Supporter.
 
-Atypon leverages MathJax to deliver clear and accessible mathematics on its flagship ePublishing platform [Literatum](http://atypon.com/literatum/overview.php), hosting more than 17 million journal articles, 100,000 eBooks, and many other types of scientific and scholarly content for leading publishers worldwide.
+Atypon leverages MathJax to deliver clear and accessible mathematics on its flagship ePublishing platform [Literatum](https://www.atypon.com/products/literatum/), hosting more than 17 million journal articles, 100,000 eBooks, and many other types of scientific and scholarly content for leading publishers worldwide.
 
 “Atypon is pleased to support MathJax through our leading digital publishing platform Literatum,” said Georgios Papadopoulos, founder and CEO of Atypon. “MathJax is the gold standard for high quality display of mathematics notation and we are excited to continue sponsoring the initiative for a second year.”
 

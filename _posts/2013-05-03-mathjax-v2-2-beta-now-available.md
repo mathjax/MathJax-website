@@ -22,7 +22,7 @@ author:
   last_name: Krautzberger
 ---
 
-Today we are entering the public beta phase of MathJax v2.2. This release includes a number of new features and increased stability with over 40 bug fixes. It is available at [cdn.mathjax.org/mathjax/2.2-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js) which you can load in place of the version you are currently using.  Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.2-beta.zip) to use locally or you can check out the v2.2-beta branch of MathJax by using the commands
+Today we are entering the public beta phase of MathJax v2.2. This release includes a number of new features and increased stability with over 40 bug fixes. It is available at [cdn.mathjax.org/mathjax/2.2-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js) which you can load in place of the version you are currently using.  Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.2-latest.zip) to use locally or you can check out the v2.2-beta branch of MathJax by using the commands
 
     git clone git://github.com/mathjax/MathJax.git MathJax-2.2
     cd MathJax-2.2
@@ -85,7 +85,7 @@ For the configuration, you can set the options in your configuration block. The 
 
 Values can be "all", "safe", or "none", where "all" enables the standard MathJax behavior, "safe" imposes solid restrictions while leaving basic functionality intact and "none" blocks the feature completely.
 
-For full details on all configuration options, check [the source](https://github.com/mathjax/MathJax/blob/v2.2-beta/unpacked/extensions/Safe.js).
+For full details on all configuration options, check [the source](https://github.com/mathjax/MathJax/blob/v2.2-latest/unpacked/extensions/Safe.js).
 
 ## Commutative diagrams via the AMScd extension.
 

@@ -27,9 +27,9 @@ author:
 
 Today we are entering the public beta phase of MathJax v2.4. This bug fix release includes over 70 improvements to increase the quality and stability of MathJax ([see below for details](#new-in-mathjax-v24)).
 
-The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](///beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using; **note** this address can be accessed as via both _http_ and _https_.
+The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](http://beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using; **note** this address can be accessed as via both _http_ and _https_.
 
-Alternatively, you can get a [ZIP archive](https://github.com/dpvc/MathJax/archive/v2.4-latest.zip) to use locally or you can check out the `v2.4-beta` branch of MathJax by using the commands
+Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.4-latest.zip) to use locally or you can check out the `v2.4-beta` branch of MathJax by using the commands
 
     git clone git://github.com/mathjax/MathJax.git MathJax-2.4-beta
     cd MathJax-2.4-beta

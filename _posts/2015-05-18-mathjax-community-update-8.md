@@ -26,7 +26,7 @@ Adobe Digital Editions added [MathML support on Windows](http://www.adobe.com/so
 
 Check out [mathjax-server](https://www.npmjs.com/package/mathjax-server) for a small nodejs server built on MathJax-node.
 
-You're using GitHub's Atom editor? There's a [Markdown+MathJax previewer](https://atom.io/packages/mathjax-wrapper) for that.
+You're using GitHub's Atom editor? There's a [Markdown+MathJax previewer](https://atom.io/packages/markdown-preview-plus) for that.
 
 The markdown editor [Remarkable](http://remarkableapp.net/) comes with out-of-the-box [MathJax support](http://remarkableapp.net/screenshots.html).
 

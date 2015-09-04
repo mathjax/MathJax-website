@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron p {
-  font-size: 16px;  
+  font-size: 16px;
 }
 
 .hero{
@@ -25,7 +25,7 @@ body {
 }
 
 .jumbotron:nth-child(even) {
-  background-color: white; 
+  background-color: white;
 }
 .jumbotron:nth-child(odd) {
 }
@@ -75,7 +75,7 @@ footer {
 }
 .popover{
   width: 768px;
-  max-width: 100%; 
+  max-width: 100%;
 }
 .MathJax_Display{
  /*leads to vertical scrollbars*/
@@ -97,4 +97,13 @@ a:focus, a:hover {
 
 .thumbnail {
   margin: 1em;
+}
+.supporter-logos{
+  display: table;
+  width: 100%;
+}
+
+.supporter-logo {
+  padding!important: 20pt;
+  height:100px;
 }

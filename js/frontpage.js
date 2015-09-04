@@ -49,11 +49,11 @@ $('#modal-zoom').on('hidden.bs.modal', function () {
     var MENU = MathJax.Menu,
         original = MENU.cookie.renderer;           // the original renderer
     //
-    //  Wait for the menu to update before posting the dialog for 
+    //  Wait for the menu to update before posting the dialog for
     //  switching to MathML
     //
     setTimeout(function () {
-      MENU.config.settings.renderer = renderer;    // Set the new renderer 
+      MENU.config.settings.renderer = renderer;    // Set the new renderer
       MENU.Renderer.call(this);                    // Change it using the menu action
       if (MENU.cookie.renderer != original) {      // If the cookie changed,
         if (original == null) {delete MENU.cookie.renderer}
@@ -96,7 +96,7 @@ var Preview = {
     //  This gets called when a key is pressed in the textarea.
     //  We check if there is already a pending update and clear it if so.
     //  Then set up an update to occur after a small delay (so if more keys
-    //    are pressed, the update won't occur until after there has been 
+    //    are pressed, the update won't occur until after there has been
     //    a pause in the typing).
     //  The callback function is set up below, after the Preview object is set up.
     Update: function() {
@@ -133,17 +133,23 @@ Preview.callback = MathJax.Callback(["CreatePreview", Preview]);
 Preview.callback.autoReset = true; // make sure it can run more than once
 Preview.Init();
 
-// ***Modal*** Zoom demo (Christian's script)
+// ***Modal*** Zoom demo (modified from Christian's script)
 function display() {
     var tex = $('#input #tex').val();
-    $('#output').html('\\[' + tex + '\\]');
-    MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
-    if (!window.location.origin) window.location.origin = window.location.protocol + "//" + window.location.host;
-    var url = window.location.origin + window.location.pathname + (tex.length ? '?' + encodeURIComponent(tex) : '');
-    $('#link').text(url).attr('href', url);
+    $('#output script').text(tex);
+    MathJax.Hub.Queue(['Reprocess', MathJax.Hub, document.getElementById('output')]);
+    MathJax.Hub.Queue(function(){
+       // hack for less jitter
+      $("#output").css("height", $("#output .MathJax_Display").height() + 10);
+    });
 }
 $(function() {
-    $('#input #tex').on('change keyup', display);
+    // $('#input #tex').on('change keyup', display);
+    $('#input #tex').on('input',function() {
+    clearTimeout($.data(this, 'timer'));
+    var wait = setTimeout(display, 500);
+    $(this).data('timer', wait);
+    });
     $('#input #size').on('change', function() {
         var size = parseFloat($(this).val()) / 5;
         $('#output').css('font-size', size + 'em');

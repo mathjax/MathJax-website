@@ -10,6 +10,7 @@ We have migrated from an older Wordpress-driven site. Some lose ends still need 
 Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 * For GitHub pages, the `gh-pages` branch is the main branch so please branch off `gh-pages`.
 * Logos etc. must be hosted on the CDN (for IP reasons).
+* `style.css` is generated from `bootstrap.js` and `main.css` using [purifycss](https://github.com/purifycss/purifycss)
 
 ### Extras.
 

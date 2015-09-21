@@ -1,0 +1,203 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+.navbar-fixed-top {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  z-index: 1030;
+  top: 0px;
+  border-width: 0px 0px 1px;
+  border-radius: 0px;
+}
+.navbar-inverse {
+  border-color: rgb(8, 8, 8);
+  background-color: rgb(34, 34, 34);
+}
+.container, .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.popover, button, select {
+  text-transform: none;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0px 0px 0px 0px);
+  border: 0px;
+}
+a {
+  color: rgb(22, 149, 56);
+  text-decoration: none;
+  background-color: transparent;
+}
+a, a:focus, a:hover {
+  text-decoration: none;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.collapse {
+  display: none;
+}
+.navbar-collapse.collapse {
+  padding-bottom: 0px;
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+.nav {
+  padding-left: 0px;
+  list-style: none;
+}
+.navbar-nav {
+  margin: 0px;
+  float: left;
+}
+.navbar-right {
+  margin-right: -15px;
+  float: right !important;
+}
+.nav > li, .nav > li > a {
+  position: relative;
+}
+.nav > li, .nav > li > a, .navbar-brand > img {
+  display: block;
+}
+.navbar-nav > li {
+  float: left;
+}
+.nav > li > a {
+  padding: 10px 15px;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: rgb(157, 157, 157);
+}
+.alert h4, .jumbotron, .jumbotron .h1, .jumbotron h1 {
+  color: inherit;
+}
+.jumbotron {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 30px;
+  background-color: rgb(238, 238, 238);
+  padding: 0px;
+}
+.hero {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: url(https://www.mathjax.org/img/MJ-hero.jpg) no-repeat center center rgb(51, 47, 48);
+  background-size: cover;
+}
+.container {
+  width: 970px;
+  padding: 5em;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+h1 {
+  margin: 0.67em 0px;
+}
+.h1, .h2, .h3, .h5, h1, h2, h3, h5 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.h1, h1 {
+  font-size: 36px;
+}
+.badge, .btn, .text-center {
+  text-align: center;
+}
+.jumbotron .h1, .jumbotron h1 {
+  font-size: 63px;
+}
+#mj-logo {
+  padding: 3%;
+  background-image: url(https://cdn.mathjax.org/mathjax/badge/mj-logo.svg);
+  background-size: 66%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+#mj-logo .mj-logo-text {
+  visibility: hidden;
+}
+.hero .hero-math {
+  font-size: 2.5em;
+  padding: 1em;
+  overflow-x: auto;
+}
+.h3, h3 {
+  font-size: 24px;
+}
+p {
+  margin: 0px 0px 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.text-muted {
+  color: rgb(180, 173, 175);
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.hidden, .visible-xs-block {
+  display: none !important;
+}
+.h2, h2 {
+  font-size: 30px;
+}

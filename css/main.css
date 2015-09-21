@@ -1,41 +1,34 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
-.jumbotron{
+.jumbotron {
   padding: 0;
 }
-
 .jumbotron p {
   font-size: 16px;
 }
-
-.hero{
+.hero {
   background: #332f30 url(../img/MJ-hero.jpg) 0 0 no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
-/*  padding: 15% 0; */
+  /*  padding: 15% 0; */
 }
-
 .container {
   padding: 5em;
 }
-
 .jumbotron:nth-child(even) {
   background-color: white;
 }
-.jumbotron:nth-child(odd) {
-}
-
+.jumbotron:nth-child(odd) {}
 .hero .hero-math {
   font-size: 2.5em;
   padding: 1em;
   overflow-x: auto;
 }
-
 #mj-logo {
   background-size: 66%;
   padding: 3%;
@@ -43,19 +36,15 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 #mj-logo .mj-logo-text {
   visibility: hidden;
 }
-
 #sponsors h3 {
   font-size: 30px;
 }
-
 .text-muted {
   color: #b4adaf;
 }
-
 #about p {
   font-size: 14px;
   text-align: left;
@@ -63,28 +52,25 @@ body {
 #about ul {
   text-align: left;
 }
-
 footer {
   float: right;
 }
-
-
 .vcenter {
-   min-height: 130px;
-   padding: 2.5em;
+  min-height: 130px;
+  padding: 2.5em;
 }
-.popover{
+.popover {
   width: 768px;
   max-width: 100%;
 }
-.MathJax_Display{
- /*leads to vertical scrollbars*/
-/*    overflow-x: auto;  */
+.MathJax_Display {
+  /*leads to vertical scrollbars*/
+  /*    overflow-x: auto;  */
 }
 .date {
   padding-bottom: 1em;
-/*  padding-top: .5em;*/
-  color:gray;
+  /*  padding-top: .5em;*/
+  color: gray;
 }
 a {
   color: #169538;
@@ -94,16 +80,13 @@ a:focus, a:hover {
   color: #397F4C;
   text-decoration: none;
 }
-
 .thumbnail {
   margin: 1em;
 }
-.supporter-logos{
+.supporter-logos {
   display: table;
   width: 100%;
 }
-
 .supporter-logo {
-  padding!important: 20pt;
-  height:100px;
+  height: 10em;
 }

@@ -1,3 +1,4 @@
+
 *, ::after, ::before {
   box-sizing: border-box;
 }
@@ -46,9 +47,6 @@ footer, header, main, menu, nav, section, summary {
   text-transform: none;
 }
 
-.navbar-toggle {
-  display: none;
-}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -73,15 +71,6 @@ a, a:focus, a:hover {
   padding: 15px;
   font-size: 18px;
   line-height: 20px;
-}
-.collapse {
-  display: none;
-}
-.navbar-collapse.collapse {
-  padding-bottom: 0px;
-  display: block !important;
-  height: auto !important;
-  overflow: visible !important;
 }
 .nav {
   padding-left: 0px;

@@ -165,7 +165,8 @@ h1 {
 .hero .hero-math {
   font-size: 2em;
 }
-.hero-math > .MathJax_Preview {
+.hero-svg{
+  display: block;
   margin: 1em;
   overflow-x: auto;
 }

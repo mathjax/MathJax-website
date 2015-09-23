@@ -1,4 +1,3 @@
-
 *, ::after, ::before {
   box-sizing: border-box;
 }
@@ -46,7 +45,6 @@ footer, header, main, menu, nav, section, summary {
 .popover, button, select {
   text-transform: none;
 }
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -152,17 +150,24 @@ h1 {
 #mj-logo {
   padding: 3%;
   background-image: url(https://cdn.mathjax.org/mathjax/badge/mj-logo.svg);
-  background-size: 66%;
+  background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+@media(min-device-width:768px) {
+  #mj-logo {
+    background-size: 66%;
+  }
 }
 #mj-logo .mj-logo-text {
   visibility: hidden;
 }
 .hero .hero-math {
-  font-size: 2.5em;
-  padding: 1em;
-  overflow-x: auto;
+  font-size: 2em;
+}
+.hero-math > .MathJax_Preview {
+  margin: 1em;
+  overflow-x: scroll;
 }
 .h3, h3 {
   font-size: 24px;

@@ -25,16 +25,23 @@ body {
 }
 .jumbotron:nth-child(odd) {}
 .hero .hero-math {
-  font-size: 2.5em;
-  padding: 1em;
-  overflow-x: auto;
+  font-size: 2em;
+}
+.hero-math > .MathJax_Preview {
+  margin: 1em;
+  overflow-x: scroll;
 }
 #mj-logo {
-  background-size: 66%;
+  background-size: 100%;
   padding: 3%;
   background-image: url(//cdn.mathjax.org/mathjax/badge/mj-logo.svg);
   background-repeat: no-repeat;
   background-position: center center;
+}
+@media(min-device-width:768px) {
+  #mj-logo {
+    background-size: 66%;
+  }
 }
 #mj-logo .mj-logo-text {
   visibility: hidden;

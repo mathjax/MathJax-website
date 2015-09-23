@@ -29,7 +29,7 @@ body {
 }
 .hero-math > .MathJax_Preview {
   margin: 1em;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 #mj-logo {
   background-size: 100%;

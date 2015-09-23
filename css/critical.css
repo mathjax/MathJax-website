@@ -167,7 +167,7 @@ h1 {
 }
 .hero-math > .MathJax_Preview {
   margin: 1em;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .h3, h3 {
   font-size: 24px;

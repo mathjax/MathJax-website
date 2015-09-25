@@ -159,6 +159,10 @@ $(function() {
     if (location.search.length) $('#input #tex').val(unescape(location.search.slice(1))).change();
 });
 
+function simulateTabKey() {
+  jQuery.event.trigger({ type : 'keypress', which : 9});
+}
+
 // Fixes interaction of modal key events and menu.
 $(function () {
   $('#modal-samples').on('hide.bs.modal', function () {
@@ -178,6 +182,9 @@ $(function () {
       contextMenu.style.left = (offsetX + rect.left) + "px";
       contextMenu.style.top = (offsetY + rect.top) + "px";
       contextMenu.focus();
+      if (document.activeElement !== contextMenu) {
+        setTimeout(function() {contextMenu.focus();}, 100);
+      }
       e.stopPropagation();
     }
   });

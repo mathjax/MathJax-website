@@ -170,8 +170,6 @@ $(function () {
     if (menu) {
       var contextMenu = menu.childNodes[1];
       if (!contextMenu) return;
-      var offsetX = window.pageXOffset || document.documentElement.scrollLeft;
-      var offsetY = window.pageYOffset || document.documentElement.scrollTop;
       var rect = contextMenu.getBoundingClientRect();
       e.target.appendChild(menu);
       contextMenu.style.left = rect.left+"px"; contextMenu.style.top = rect.top+"px";

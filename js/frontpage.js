@@ -16,10 +16,6 @@ $('#modal-zoom').on('hidden.bs.modal', function () {
 //  video.pause(); // for <video> elements
   video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 });
-  $('#modal-samples').on('hide.bs.modal', function () {
-    var menu = document.getElementById("MathJax_MenuFrame");
-    if (menu) {menu.parentNode.removeChild(menu);}
-  });
 });
 
 // ***Modal*** "Samples" -- switch renderer button
@@ -161,4 +157,26 @@ $(function() {
     });
     display();
     if (location.search.length) $('#input #tex').val(unescape(location.search.slice(1))).change();
+});
+
+// Fixes interaction of modal key events and menu.
+$(function () {
+  $('#modal-samples').on('hide.bs.modal', function () {
+    var menu = document.getElementById("MathJax_MenuFrame");
+    if (menu) {menu.parentNode.removeChild(menu);}
+  });
+  $('#modal-samples').on('focus', function (e) {
+    var menu = document.getElementById("MathJax_MenuFrame");
+    if (menu) {
+      var contextMenu = menu.childNodes[1];
+      if (!contextMenu) return;
+      var offsetX = window.pageXOffset || document.documentElement.scrollLeft;
+      var offsetY = window.pageYOffset || document.documentElement.scrollTop;
+      var rect = contextMenu.getBoundingClientRect();
+      e.target.appendChild(menu);
+      contextMenu.style.left = rect.left+"px"; contextMenu.style.top = rect.top+"px";
+      contextMenu.focus();
+      e.stopPropagation();
+    }
+  });
 });

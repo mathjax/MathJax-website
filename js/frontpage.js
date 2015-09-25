@@ -168,11 +168,15 @@ $(function () {
   $('#modal-samples').on('focus', function (e) {
     var menu = document.getElementById("MathJax_MenuFrame");
     if (menu) {
+      var mod = e.target;
       var contextMenu = menu.childNodes[1];
       if (!contextMenu) return;
+      var offsetX = mod.scrollLeft;
+      var offsetY = mod.scrollTop;
       var rect = contextMenu.getBoundingClientRect();
       e.target.appendChild(menu);
-      contextMenu.style.left = rect.left+"px"; contextMenu.style.top = rect.top+"px";
+      contextMenu.style.left = (offsetX + rect.left) + "px";
+      contextMenu.style.top = (offsetY + rect.top) + "px";
       contextMenu.focus();
       e.stopPropagation();
     }

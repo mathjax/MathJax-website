@@ -16,6 +16,10 @@ $('#modal-zoom').on('hidden.bs.modal', function () {
 //  video.pause(); // for <video> elements
   video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 });
+  $('#modal-samples').on('hide.bs.modal', function () {
+    var menu = document.getElementById("MathJax_MenuFrame");
+    if (menu) {menu.parentNode.removeChild(menu);}
+  });
 });
 
 // ***Modal*** "Samples" -- switch renderer button

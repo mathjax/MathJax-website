@@ -7,10 +7,21 @@ $(function() {
 // open modals when linked directly (for redirects from old site)
 $(window).load(function(){
 var hash = window.location.hash;
-var modals = ['modal-samples','modal-livedemo','modal-zoom','modal-sponsorship'];
-if (modals.indexOf(hash.substring(1,hash.length)) > -1) {
+var modals = ['#modal-samples','#modal-livedemo','#modal-zoom','#modal-sponsorship'];
+if (modals.indexOf(hash) > -1) {
    $(hash).modal('show');
 } else {}
+for (var m = 0; m < modals.length; m++){
+  var modal = modals[m];
+  console.log(modal);
+  $(modal).on('shown.bs.modal', function (modal) {
+    $(this).attr('aria-hidden', false);
+  });
+  $(modal).on('hidden.bs.modal', function (modal) {
+    $(this).attr('aria-hidden', true);
+  });
+}
+
 var video = document.getElementsByTagName('iframe')[0];
 $('#modal-zoom').on('hidden.bs.modal', function () {
 //  video.pause(); // for <video> elements

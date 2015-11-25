@@ -34,4 +34,4 @@ There are no further requirements for authors, editors and reviewers to benefit 
 
 The initiative to develop MathJax as a feature was launched in 2009 by the American Mathematical Society, Design Science, Inc., and the Society for Industrial and Applied Mathematics. Elsevier was one of its first supporters making a commitment to support researchers who want to display and read mathematics on the web. Employing MathJax into research papers published online on ScienceDirect further extends this commitment by enhancing the usability and readability of Elsevier’s content to benefit researchers for the long-term.
 
-For more information about MathJax on ScienceDirect go to: [www.elsevier.com/physical-sciences/mathematics/mathjax](http://www.elsevier.com/physical-sciences/mathematics/mathjax).
+For more information about MathJax on ScienceDirect go to: [www.elsevier.com/physical-sciences/mathematics/mathjax-on-sciencedirect](https://www.elsevier.com/physical-sciences/mathematics/mathjax-on-sciencedirect).

@@ -63,7 +63,7 @@ OERpub keeps improving its open-source, HTML5 textbook editor. You can catch up 
 
 ### AAP's EPUB 3 Implementation Project -- White Paper is now online
 
-Over the summer we contributed our expertise on math on the web and in ebooks to the [AAP's intiative](http://publishers.org/epub3implementationproject/) to move the implementation of EPUB3 forward. The [white paper has now been published](http://publishers.org/press/117/). The project is an important step towards better digital books and reading systems by bridging the gap between publishers, reading systems and standards groups.
+Over the summer we contributed our expertise on math on the web and in ebooks to the [AAP's intiative](https://web.archive.org/web/20150329081435/http://publishers.org/epub3implementationproject/) to move the implementation of EPUB3 forward. The [white paper has now been published](https://web.archive.org/web/20150330160835/http://www.publishers.org/press/117/). The project is an important step towards better digital books and reading systems by bridging the gap between publishers, reading systems and standards groups.
 
 ### NAG Toolbox for MATLAB documentation adds MathJax support
 

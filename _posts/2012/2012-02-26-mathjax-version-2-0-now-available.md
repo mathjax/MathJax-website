@@ -20,7 +20,7 @@ author:
   last_name: Krautzberger
 ---
 
-MathJax v2.0 is now available on the CDN, and for download from GitHub or the download page at [http://www.mathjax.org/download/](http://www.mathjax.org/download/).
+MathJax v2.0 is now available on the CDN, and for download from GitHub or the download page at [docs.mathjax.org](http://docs.mathjax.org/en/latest/installation.html).
 
 Version 2.0 is available on the CDN at
 

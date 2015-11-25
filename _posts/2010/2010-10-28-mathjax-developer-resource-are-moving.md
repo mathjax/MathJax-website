@@ -24,6 +24,6 @@ author:
 
 MathJax developer resources  have been expanded and moved from SourceForge to a mix of services hosted at GitHub and Google.  The new services will provide a better user experience, greater convenience and more functionality to those in the MathJax community wishing to follow along or get involved with MathJax development.
 
-The new resources include two Google groups for threaded discussion: [MathJax Users](http://groups.google.com/group/mathjax-users) for questions, comments and announcements about using MathJax, and [MathJax Dev](http://groups.google.com/group/mathjax-dev) for design and development discussions. For design and process documents, there is also a new [developer wiki](https://sites.google.com/site/mathjaxproject).
+The new resources include two Google groups for threaded discussion: [MathJax Users](http://groups.google.com/group/mathjax-users) for questions, comments and announcements about using MathJax, and [MathJax Dev](http://groups.google.com/group/mathjax-dev) for design and development discussions. For design and process documents, there is also a new developer wiki (sites.google.com/site/mathjaxproject).
 
 The primary [source control repository](http://github.com/mathjax) for MathJax and [bug/issue tracker](http://github.com/mathjax/MathJax/issues) have been moved to GitHub, though we will continue mirroring MathJax to the svn source control repository at SourceForge for the convenience.  File downloads of MathJax releases will remain at SourceForge for now.

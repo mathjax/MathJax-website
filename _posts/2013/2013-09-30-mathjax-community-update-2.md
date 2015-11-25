@@ -59,7 +59,7 @@ Publishing startup [Inkling](http://www.inkling.com) added MathJax support (both
 
 ### Writing Kit with MathJax keyboard
 
-The iOS app [Writing Kit](http://getwritingkit.com/) now comes with a [dedicated MathJax keyboard](https://twitter.com/writingkit/status/380505820263227394) for easier input.
+The iOS app [Writing Kit](https://itunes.apple.com/us/app/writing-kit-research-write/id426208994?mt=8) now comes with a [dedicated MathJax keyboard](https://twitter.com/writingkit/status/380505820263227394) for easier input.
 
 ### ChromeVox team at GD
 

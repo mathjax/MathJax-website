@@ -88,7 +88,7 @@ A couple of interesting questions came up on StackOverflow.
 
 ### Snippets
 
-*   AppMind's Android markdown editor [Minutes Text Notes Pro + Sync](https://play.google.com/store/apps/details?id=com.saelimbilly.genericdatabaseapppro) now offers MathJax support.
+*   AppMind's Android markdown editor [Minutes Text Notes Pro + Sync](https://web.archive.org/web/20150322055759/https://play.google.com/store/apps/details?id=com.saelimbilly.genericdatabaseapppro) now offers MathJax support.
 *   The markdown editor LightPaper for Mac (`http://clockworkengine.com/lightpaper-mac/`) adds MathJax support.
 *   LaTeXML recently completed its move and can [now be found on GitHub](https://github.com/brucemiller/LaTeXML). Go forth and contribute!
 

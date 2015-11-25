@@ -21,13 +21,13 @@ author:
   first_name: Peter
   last_name: Krautzberger
 ---
-Today we are entering the public beta phase of MathJax v2.5. This release focused on improving rendering speed and MathML support. 
+Today we are entering the public beta phase of MathJax v2.5. This release focused on improving rendering speed and MathML support.
 
-The 2.5 release improves the speed of the HTML-CSS output by 30-40% (depending on content complexity, with higher gains in more complex situations) and introduces a new preview output (CommonHTML) which currently provides a rougher layout but is ~10x faster than the HTML-CSS output; in the long run, the CommomHTML output will reach the quality of the HTML-CSS and SVG outputs. 
+The 2.5 release improves the speed of the HTML-CSS output by 30-40% (depending on content complexity, with higher gains in more complex situations) and introduces a new preview output (CommonHTML) which currently provides a rougher layout but is ~10x faster than the HTML-CSS output; in the long run, the CommomHTML output will reach the quality of the HTML-CSS and SVG outputs.
 
-In terms of MathML support, Content MathML is now fully supported via a new extension and we have improved the experimental support for elementary math elements (with special thanks to contributions from David Carlisle). The 2.5 release also includes over 70 bug fixes to increase the quality and stability of MathJax ([see below for details](#new-in-release)). 
+In terms of MathML support, Content MathML is now fully supported via a new extension and we have improved the experimental support for elementary math elements (with special thanks to contributions from David Carlisle). The 2.5 release also includes over 70 bug fixes to increase the quality and stability of MathJax ([see below for details](#new-in-release)).
 
-The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](///beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using. Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.5-latest.zip) or access the branch [on GitHub](https://github.com/mathjax/MathJax/tree/v2.5-latest). 
+The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](https://beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using. Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.5-latest.zip) or access the branch [on GitHub](https://github.com/mathjax/MathJax/tree/v2.5-latest). 
 
 **Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
 
@@ -40,13 +40,13 @@ The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js
 <br>
 As a user, you can deactivate the Fast Preview via the MathJax menu. Righ/Cmd-click any equation and go to `Math Settings -> Math Renderer -> Fast Preview`.
 
-**Remember that this is still beta software**, so if you are not an experienced user, you may want to wait for the official 2.5 release. We do not recommend that you use the 2.5-beta version for production environments, but do encourage you to test your content with it. 
+**Remember that this is still beta software**, so if you are not an experienced user, you may want to wait for the official 2.5 release. We do not recommend that you use the 2.5-beta version for production environments, but do encourage you to test your content with it.
 
-If you are linking to <http://cdn.mathjax.org/mathjax/latest/MathJax.js>, note that at the point of the official release of v2.5, the address will begin to serve MathJax v2.5. You can also continue to use v2.4 by linking to <http://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js> instead — and you can change to that version at any point (it is available now). Once the official v2.5 release is made, the v2.5-beta address will be removed from the CDN. 
+If you are linking to <http://cdn.mathjax.org/mathjax/latest/MathJax.js>, note that at the point of the official release of v2.5, the address will begin to serve MathJax v2.5. You can also continue to use v2.4 by linking to <http://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js> instead — and you can change to that version at any point (it is available now). Once the official v2.5 release is made, the v2.5-beta address will be removed from the CDN.
 
-The official release of v2.5 should occur within the next three weeks, but we want you to be able to start to test out the v2.5 features now. Please report any bugs you find to the issue tracker at <https://github.com/mathjax/MathJax/issues>. 
+The official release of v2.5 should occur within the next three weeks, but we want you to be able to start to test out the v2.5 features now. Please report any bugs you find to the issue tracker at <https://github.com/mathjax/MathJax/issues>.
 
-Thanks for your continuing interest in MathJax. We hope that this release makes your MathJax experience even better. 
+Thanks for your continuing interest in MathJax. We hope that this release makes your MathJax experience even better.
 
 The MathJax Team.
 

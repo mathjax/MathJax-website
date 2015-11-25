@@ -27,7 +27,7 @@ author:
   last_name: Krautzberger
 ---
 
-As part of our [still very much fresh _COMM_ section](http://www.mathjax.org/category/comm/), we plan to semi-regularly update you on news from around the MathJax community. If you have some MathJax related news to share, be sure to [get in touch](http://www.mathjax.org/contact/)!
+As part of our still very much fresh _COMM_ section, we plan to semi-regularly update you on news from around the MathJax community. If you have some MathJax related news to share, be sure to [get in touch](https://www.mathjax.org/#contact)!
 
 ### Drupal plugin updated
 

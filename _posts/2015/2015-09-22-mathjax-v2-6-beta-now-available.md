@@ -88,7 +88,7 @@ Numerous bugs and issues have also been resolved; for a detailed listing please 
 
 ## Interface
 
-*   [#938](https://github.com/mathjax/MathJax/issues/938) Expose MathML for accessibility; cf. [screenreader support](http://docs.mathjax.org/en/v2.6-latest/misc/assistive-technology-support.html#screenreader-support).
+*   [#938](https://github.com/mathjax/MathJax/issues/938) Expose MathML for accessibility; cf. [screenreader support](http://docs.mathjax.org/en/v2.6-latest/misc/accessibility-features.html#screenreader-support).
 *   [#939](https://github.com/mathjax/MathJax/issues/939) Make MathJax contextual menu properly accessible.
 *   [#1088](https://github.com/mathjax/MathJax/issues/1088) MathJax Menu: drop PNG images in menu.
 *   [#1210](https://github.com/mathjax/MathJax/issues/1210) Update `MathZoom.js`: global border-box support. **Special thanks** to [@CalebKester](https://github.com/CalebKester)

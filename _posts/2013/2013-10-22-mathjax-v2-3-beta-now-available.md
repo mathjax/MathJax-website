@@ -51,7 +51,7 @@ The MathJax Team.
 
 ***
 
-##  New in MathJax v2.3  <a name="new-in-v2.3"> </a> 
+##  New in MathJax v2.3  <a name="new-in-v2.3"> </a>
 
 For the list of new features and bug fixes please check the [release milestone](https://github.com/mathjax/MathJax/issues?milestone=1&state=closed).
 
@@ -87,9 +87,9 @@ So for example, configuring the STIX-web fonts in HTML-CSS would work as follows
 
 MathJax has been accepted into [TranslateWiki.net](https://translatewiki.net/wiki/Main_Page). You can find the MathJax project page at [https://translatewiki.net/wiki/Translating:MathJax](https://translatewiki.net/wiki/Translating:MathJax). We are very grateful for the generous support from the TWN team and the TWN community.
 
-If you would like to help translate MathJax, simply [join TranslateWiki.net](https://translatewiki.net/w/i.php?title=Special:UserLogin&returnto=Translating%3AMathJax&type=signup "Special:UserLogin&returnto=Translating%3AMathJax&type=signup") and get started using its intuitive user interface. (And while you're there, check out if you can't help other projects as well!)
+If you would like to help translate MathJax, simply [join TranslateWiki.net](https://translatewiki.net) and get started using its intuitive user interface. (And while you're there, check out if you can't help other projects as well!)
 
-Thanks to the contributions from [TranslateWiki.net volunteers](https://translatewiki.net/w/i.php?title=Special:RecentChanges&namespace=1258&translations=only "Special:RecentChanges&namespace=1258&translations=only") (**you are all awesome!**) MathJax v2.3-beta includes:
+Thanks to the contributions from [TranslateWiki.net volunteers](https://translatewiki.net/wiki/Translating:MathJax) (**you are all awesome!**) MathJax v2.3-beta includes:
 
 *   Improvements to the French and German translations.
 *   New languages are available: Persian, Hebrew, Italian, Japanese, Macedonian, Polish, Brazilian Portuguese, Slovenian, Ukrainian.
@@ -131,7 +131,7 @@ Besides adding new webfonts for MathJax output itself, we have improved the inte
         fontCheckTimeout: 15 * 1000  // how long to keep looking for fonts (15 seconds)
       }
      });
-    
+
 
 We also added an option `matchFontHeight` to disable font matching directly. This can be useful if you are certain that matching is not needed, e.g., if you are using the same font for MathJax and the surrounding text. The default setting is
 
@@ -140,7 +140,7 @@ We also added an option `matchFontHeight` to disable font matching directly. Thi
       NativeMML: {matchFontHeight: true},
       SVG: {matchFontHeight: true}
     });
-    
+
 
 You can deactivate font matching for each output individually.
 
@@ -159,7 +159,7 @@ and this will be used to configure MathJax at startup. This will essentially pro
       author config
     });
     </script>
-    
+
 
 Note, however, that a `text/x-mathjax-config` block can include more than just a `MathJax.Hub.Config()` call. Since it allows executation of arbitrary code, you can register message hooks, for example, or perform other synchronization functions with MathJax.
 

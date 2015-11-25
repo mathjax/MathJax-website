@@ -21,7 +21,7 @@ author:
   last_name: Krautzberger
 ---
 
-The [London Mathematical Society](http://lms.ac.uk/) continues to support MathJax as a MathJax Supporter.
+The [London Mathematical Society](https://lms.ac.uk/) continues to support MathJax as a MathJax Supporter.
 
 The London Mathematical Society (LMS) is the major UK learned society for mathematics with a nationwide and international membership. The LMS offers a rich publishing program, provides a diverse grant program, and organizes scientific meetings and lectures. Beyond that, the LMS  contributes to public debate on matters affecting mathematics and mathematics education.
 

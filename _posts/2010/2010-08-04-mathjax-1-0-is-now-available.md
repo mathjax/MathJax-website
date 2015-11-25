@@ -21,7 +21,7 @@ author:
   last_name: Miner
 ---
 
-The MathJax project reached a major milestone today with the release of MathJax 1.0. To get the new distribution, visit the [download page](http://www.mathjax.org/download/).
+The MathJax project reached a major milestone today with the release of MathJax 1.0. To get the new distribution, visit the [download page](http://docs.mathjax.org/en/latest/installation.html).
 
 MathJax 1.0 contains a number of improvements over earlier beta versions of the software:
 

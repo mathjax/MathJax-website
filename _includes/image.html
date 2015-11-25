@@ -3,10 +3,10 @@
   {% if include.url %}
   <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
   {% endif %}
-      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
+      <img class="img-responsive" src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
   {% if include.url %}
     </a>
-  {% endif %} 
+  {% endif %}
   {% if include.caption %}
   <div class="caption">
     {{ include.caption }}

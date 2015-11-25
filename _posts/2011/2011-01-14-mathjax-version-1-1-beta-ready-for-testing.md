@@ -24,4 +24,4 @@ MathJax version 1.1 beta was released today, and MathJax users interested in bet
 
 Version 1.1 is backward compatible with earlier versions, and new features focus primarily on performance enhancements, support for recent browser updates, and bug fixes. A detailed list of changes will be made available shortly, along with other resources for testers.
 
-The beta distribution is available from the [download](http://www.mathjax.org/download/) page.  Bugs should be reported via the [MathJax Issue Tracker](https://github.com/mathjax/MathJax/issues).  Questions and comments should be address to the [MathJax Users](http://groups.google.com/group/mathjax-users) group mailing list.
+The beta distribution is available from the [download](http://docs.mathjax.org/en/latest/installation.html) page.  Bugs should be reported via the [MathJax Issue Tracker](https://github.com/mathjax/MathJax/issues).  Questions and comments should be address to the [MathJax Users](http://groups.google.com/group/mathjax-users) group mailing list.

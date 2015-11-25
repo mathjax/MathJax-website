@@ -28,7 +28,7 @@ Check out [mathjax-server](https://www.npmjs.com/package/mathjax-server) for a s
 
 You're using GitHub's Atom editor? There's a [Markdown+MathJax previewer](https://atom.io/packages/markdown-preview-plus) for that.
 
-The markdown editor [Remarkable](http://remarkableapp.net/) comes with out-of-the-box [MathJax support](http://remarkableapp.net/screenshots.html).
+The markdown editor [Remarkable](https://web.archive.org/web/20150516041039/http://remarkableapp.net/) comes with out-of-the-box [MathJax support](https://web.archive.org/web/20150524154408/http://remarkableapp.net/screenshots.html).
 
 The Chrome extension / markdown editor [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl) added MathJax support.
 

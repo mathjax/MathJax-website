@@ -25,7 +25,7 @@ author:
 
 After a successful [beta run](http://www.mathjax.org/mathjax-v2-2-beta-now-available/), we're happy to officially release MathJax v2.2.
 
-MathJax v2.2 is available on the CDN, and for download from GitHub or via the download page at [http://www.mathjax.org/<wbr>download/</wbr>](http://www.mathjax.org/download/).
+MathJax v2.2 is available on the CDN, and for download from GitHub or via the download page at [docs.mathjax.org](http://docs.mathjax.org/en/latest/installation.html).
 
 Version 2.2 is available on the CDN at
 

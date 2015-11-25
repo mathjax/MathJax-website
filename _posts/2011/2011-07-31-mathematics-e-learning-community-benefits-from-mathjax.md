@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mathematics E-learning Community Benefits from MathJax
-date: 2011-09-25
+date: 2011-07-31
 categories:
 - News
 tags: []

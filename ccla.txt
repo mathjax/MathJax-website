@@ -1,5 +1,4 @@
 ---
-layout: none
 title: CCLA
 ---
 
@@ -9,28 +8,28 @@ title: CCLA
                               (v1.0)
 
 
-   Thank you for your interest in the MathJax open source project of the 
-   MathJax Consortium (the "Consortium"), a joint venture of the American 
+   Thank you for your interest in the MathJax open source project of the
+   MathJax Consortium (the "Consortium"), a joint venture of the American
    Mathematical Society and the Society for Industrial and Applied Mathematics.
-   In order to clarify the intellectual property license granted with 
-   Contributions from any person or entity, the Consortium  must have a 
-   Contributor License Agreement (CLA) on file that has been signed by each 
-   Contributor, indicating agreement to the license terms below. This license 
-   is for your protection as a Contributor as well as the protection of the 
-   Consortium and its users; it does not change your rights to use your own 
+   In order to clarify the intellectual property license granted with
+   Contributions from any person or entity, the Consortium  must have a
+   Contributor License Agreement (CLA) on file that has been signed by each
+   Contributor, indicating agreement to the license terms below. This license
+   is for your protection as a Contributor as well as the protection of the
+   Consortium and its users; it does not change your rights to use your own
    Contributions for any other purpose.
 
    This version of the Agreement allows an entity (the "Corporation") to
-   submit Contributions to the Consortium, to authorize Contributions 
-   submitted by its designated employees to the Consortium, and to grant 
+   submit Contributions to the Consortium, to authorize Contributions
+   submitted by its designated employees to the Consortium, and to grant
    copyright and patent licenses thereto.
 
    If you have not already done so, please complete and sign, then scan and
    email a pdf file of this Agreement to manager@mathjax.org. If
-   necessary, send an original signed Agreement to MathJax Consortium c/o 
-   American Mathematical Society, 201 Charles Street Providence, RI 02904-2294 
+   necessary, send an original signed Agreement to MathJax Consortium c/o
+   American Mathematical Society, 201 Charles Street Providence, RI 02904-2294
    U.S.A. You should also keep a copy for your own records.
-   
+
    Please read this document carefully before signing and keep a copy for
    your records.
 

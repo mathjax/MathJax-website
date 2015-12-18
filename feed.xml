@@ -1,5 +1,4 @@
 ---
-layout: none
 redirect_from: 
   - "/feed/"
 ---
@@ -31,4 +30,3 @@ redirect_from:
 	</entry>
 {% endfor %}
 </feed>
-

@@ -13,7 +13,6 @@ if (modals.indexOf(hash) > -1) {
 } else {}
 for (var m = 0; m < modals.length; m++){
   var modal = modals[m];
-  console.log(modal);
   $(modal).on('shown.bs.modal', function (modal) {
     $(this).attr('aria-hidden', false);
   });
@@ -147,27 +146,33 @@ Preview.Init();
 // ***Modal*** Zoom demo (modified from Christian's script)
 function display() {
     var tex = $('#input #tex').val();
+    $('#output').css("overflow-x", "auto")
     $('#output script').text(tex);
-    MathJax.Hub.Queue(['Reprocess', MathJax.Hub, document.getElementById('output')]);
+    MathJax.Hub.Queue(['Reprocess', MathJax.Hub, 'output']);
     MathJax.Hub.Queue(function(){
        // hack for less jitter
-      $("#output").css("height", $("#output .MathJax_Display").height() + 10);
+      $("#output").css("min-height", $("#output").children().first().height());
     });
 }
 $(function() {
     // $('#input #tex').on('change keyup', display);
+    var timeout = false; // holder for timeout id
     $('#input #tex').on('input',function() {
     clearTimeout($.data(this, 'timer'));
     var wait = setTimeout(display, 500);
     $(this).data('timer', wait);
     });
     $('#input #size').on('change', function() {
-        var size = parseFloat($(this).val()) / 5;
-        $('#output').css('font-size', size + 'em');
-        display();
+        clearTimeout(timeout);
+        var that = this;
+          // start timing for event "completion"
+        timeout = setTimeout(function(){
+          var size = parseFloat($(that).val()) / 5;
+          $('#output').css('font-size', size + 'em');
+          display();
+        }, 250);
     });
     display();
-    if (location.search.length) $('#input #tex').val(unescape(location.search.slice(1))).change();
 });
 
 function simulateTabKey() {

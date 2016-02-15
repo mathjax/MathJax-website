@@ -144,36 +144,78 @@ Preview.callback.autoReset = true; // make sure it can run more than once
 Preview.Init();
 
 // ***Modal*** Zoom demo (modified from Christian's script)
-function display() {
-    var tex = $('#input #tex').val();
-    $('#output').css("overflow-x", "auto")
-    $('#output script').text(tex);
-    MathJax.Hub.Queue(['Reprocess', MathJax.Hub, 'output']);
-    MathJax.Hub.Queue(function(){
-       // hack for less jitter
-      $("#output").css("min-height", $("#output").children().first().height());
-    });
-}
-$(function() {
-    // $('#input #tex').on('change keyup', display);
-    var timeout = false; // holder for timeout id
-    $('#input #tex').on('input',function() {
-    clearTimeout($.data(this, 'timer'));
-    var wait = setTimeout(display, 500);
-    $(this).data('timer', wait);
-    });
-    $('#input #size').on('change', function() {
-        clearTimeout(timeout);
-        var that = this;
-          // start timing for event "completion"
-        timeout = setTimeout(function(){
-          var size = parseFloat($(that).val()) / 5;
-          $('#output').css('font-size', size + 'em');
-          display();
-        }, 250);
-    });
-    display();
+MathJax.Hub.Register.StartupHook("onLoad", function () {
+  var running = true;    //  MathJax is typesetting (true for initial typeset)
+  var pending = false;   //  A size change has occurring while running
+  var math;              //  The jax to be modified (filled in later)
+  var size;              //  Used to cache previous size
+      
+  //
+  //  Look up the elements we will need.
+  //
+  var STYLE = document.getElementById('output').style;
+  var TEX = document.getElementById('tex');
+  var SIZE = document.getElementById('size');
+
+  //
+  //  Look up the math element after it has been typeset.
+  //  Make sure the initial math in the text box is displayed,
+  //  And see if there has been a size change during the
+  //    initial typesetting pass (unlikely).
+  //
+  MathJax.Hub.Queue(function () {
+    math = MathJax.Hub.getAllJax('output')[0];
+    if (TEX.value !== "") MathJax.Hub.Queue(["Text",math,TEX.value]);
+    checkPending();
+  });
+
+  //
+  //  Set the font size for the output container.
+  //
+  var setSize = function () {STYLE.fontSize = (parseFloat(SIZE.value)/5) + "em"};
+  //
+  //  Check if a size change is pending:
+  //    If so, display the math at the new size
+  //    Otherwise, indicate that Mathjax is no longer running.
+  //
+  var checkPending = function () {if (pending) display(); else running = false};
+  //
+  //  If the size actually changed:
+  //    Record the size to check against the next change.
+  //    Mark that we are typesetting, and no size change is pending.
+  //    Queue the size change, rerender the math at that size, and
+  //      check if a size change occurred during the rendering.
+  //
+  var display = function () {
+    if (SIZE.value !== size) {
+      size = SIZE.value;
+      running = true; pending = false;
+      MathJax.Hub.Queue(setSize,["Rerender",math],checkPending);
+    }
+  };
+
+  //
+  //  When the TeX changes, queue a change to the jax content.
+  //  When the slider changes:
+  //    If typesetting is already underway,
+  //      indicate there is a pending size change,
+  //      otherwise update the math to the new size.
+  //
+  TEX.onkeyup = function (event) {
+    if (!event) event = window.event;
+    var code = event.which || event.keyCode;
+    if (code === 13 || code === 10) MathJax.Hub.Queue(["Text",math,TEX.value]);
+  };
+  SIZE.oninput = SIZE.onchange = function () {if (running) pending = true; else display()};
+
+  //
+  //  Make sure the initial size corresponds to the
+  //    initial slider position.
+  //
+  setSize();
+  STYLE.overflowX = "auto";
 });
+
 
 function simulateTabKey() {
   jQuery.event.trigger({ type : 'keypress', which : 9});

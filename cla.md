@@ -1,7 +1,6 @@
 ---
 layout: page
 title: CLA
-redirect_from: "/cla/"
 ---
 
 # MathJax Individual Contributor License Agreement (v1.0)
@@ -83,4 +82,3 @@ Scanned agreements may also be emailed in PDF format to manager@mathjax.org. You
     Please sign: _______________________________________________
 
     Date: ______________________________________________________
-    

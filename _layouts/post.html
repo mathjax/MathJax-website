@@ -12,6 +12,6 @@ layout: default
   {{ content }}
   </article>
   <footer>
-      <p>MathJax &copy;2016</p>
+      <p>&copy; {{ page.date | date: "%Y" }}-{{ site.time | date: '%Y' }} MathJax</p>
   </footer>
 </div>

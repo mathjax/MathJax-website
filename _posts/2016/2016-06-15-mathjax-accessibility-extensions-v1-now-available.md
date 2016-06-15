@@ -143,6 +143,19 @@ Let us quickly describe their function:
 * "Generation" determines if the speech output on the outer element provides a short summary, a longer summary or a speech string for the entire expression
 * "MathSpeak/ChromeVox Rules": allows you to choose between the different rule sets for speech-text generation.
 
+#### Bookmarklet
+
+If you encounter a page without the Accessibility extension, you can sideload the extensions via a bookmarklet, e.g., the following would load the Accessibility Menu:
+
+```javascript
+if(window.MathJax){
+  MathJax.Ajax.config.path["a11y"] = "https://cdn.mathjax.org/mathjax/contrib/a11y";
+  MathJax.Ajax.Require("[a11y]/accessibility-menu.js");
+}
+```
+
+Or simply <a href='javascript:if(window.MathJax){ MathJax.Ajax.config.path["a11y"] = "https://cdn.mathjax.org/mathjax/contrib/a11y"; MathJax.Ajax.Require("[a11y]/accessibility-menu.js"); }'> drag this link to your bookmarks</a>.
+
 ### A quick introduction to the new responsive rendering
 
 The `auto-collapse.js` and `collapsible.js` Extensions provide a fundamentally new way of rendering mathematics responsively. While MathJax has supported automatic line-breaking since v2.0, we have often seen its limitations, in particular due to authoring practices such as the use of tabular layout or optimization for print media. We felt completely different approaches might be a better fit for [the web's grain](http://frankchimero.com/writing/the-webs-grain/) and this extension is our first attempt at doing so. You can find more thoughts on this problem in [a previous post](https://www.mathjax.org/responsive-equations/).

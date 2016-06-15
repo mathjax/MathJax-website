@@ -9,6 +9,7 @@ TimeZone: America/New_York
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: /:title/
 
 gems:

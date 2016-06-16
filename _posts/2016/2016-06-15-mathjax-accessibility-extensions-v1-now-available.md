@@ -57,7 +57,7 @@ Of course, you can activate the sub-extensions by loading them directly in the e
 MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
 MathJax.Hub.Config({
   // ...your other configuration options...
-  extensions: ["[Contrib]/accessibility-menu.js"]
+  extensions: ["[Contrib]/a11y/accessibility-menu.js"]
   menuSettings: {
     collapsible: true,
     autocollapse: true,

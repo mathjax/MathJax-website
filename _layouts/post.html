@@ -12,6 +12,12 @@ layout: default
   {{ content }}
   </article>
   <footer>
-      <p>&copy; {{ page.date | date: "%Y" }}-{{ site.time | date: '%Y' }} MathJax</p>
+    {% capture currentyear %}{{site.time | date: '%Y'}}{% endcapture %}
+    {% capture pageyear %}{{page.date | date: "%Y"}}{% endcapture %}
+    {% if pageyear == currentyear %}
+    <p>&copy; {{ pageyear }} MathJax</p>
+    {% else %}
+    <p>&copy; {{ pageyear}}-{{ siteyear }} MathJax</p>
+    {% endif %}
   </footer>
 </div>

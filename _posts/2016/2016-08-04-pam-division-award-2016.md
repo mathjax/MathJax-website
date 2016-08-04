@@ -10,7 +10,7 @@ author:
   last_name: Krautzberger
 ---
 
-At this years SLA Annual Conference, MathJax was awarded the PAM Division Award 2016.
+At this year's SLA Annual Conference, MathJax was awarded the PAM Division Award 2016.
 
 The [Physics-Astronomy-Mathematics Division of the Special Libraries Association (PAM)](http://pam.sla.org/) was founded in 1972. Its focus lies on all aspects of librarianship in the fields of physics, astronomy, and mathematics, with particular emphasis on the control, dissemination, and retrieval of knowledge and information in those areas.
 

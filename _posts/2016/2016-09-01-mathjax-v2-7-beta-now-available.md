@@ -14,7 +14,7 @@ author:
   last_name: Krautzberger
 ---
 
-Today we are entering the public beta phase of MathJax v2.7. MathJax v2.7 is primarily a bug-fix release with over 60 important bug fixe. In addition, this release adds several new features as an opt-in. The following are some of the highlights:
+Today we are entering the public beta phase of MathJax v2.7. MathJax v2.7 is primarily a bug-fix release with over 60 important bug fixes. In addition, this release adds several new features as an opt-in. The following are some of the highlights:
 
 1. *CommonHTML output improvements* Several important bugs in the layout model have been fixed, in particular tabular layout is now much more robust.
 2. *Accessibility extensions.* After the completion of the [MathJax Accessibility Extensions](https://www.mathjax.org/mathjax-accessibility-extensions-v1-now-available/), we are integrating the lightweight opt-in into the MathJax core. This allows readers to opt into the following features via the MathJax Menu:

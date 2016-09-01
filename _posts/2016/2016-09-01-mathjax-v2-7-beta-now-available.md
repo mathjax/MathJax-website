@@ -28,7 +28,7 @@ Today we are entering the public beta phase of MathJax v2.7. MathJax v2.7 is pri
   * [arabic.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/arabic): Omar Al-Ithawi ([@omarithawi](https://github.com/omarithawi)) from Edraak.org contributed this extension for basic Arabic support in the TeX input.  
   * [physics.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/physics) An extension by [@ickc](https://github.com/ickc) providing basic support for the [physics package](http://ctan.org/pkg/physics) for $\rm \LaTeX$.
   * [siunitx.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/siunitx): Yves Delley ([@burnpanck](https://github.com/burnpanck)) contributed a basic implementation of the [siunitx package](http://www.ctan.org/pkg/siunitx) for $\rm \LaTeX$ .
-  * [mhchem.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/mhchem): As already mentioned, Martin Hensel ([@mhchem]https://github.com/mhchem)) re-wrote the mhchem extension to better match his well-known [mhchem package](ctan.org/pkg/mhchem) for $\rm \LaTeX$.
+  * [mhchem.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/mhchem): As already mentioned, Martin Hensel ([@mhchem](https://github.com/mhchem)) re-wrote the mhchem extension to better match his well-known [mhchem package](ctan.org/pkg/mhchem) for $\rm \LaTeX$.
 
 For details on all bug fixes, please [see below](#new-in-release). 
 

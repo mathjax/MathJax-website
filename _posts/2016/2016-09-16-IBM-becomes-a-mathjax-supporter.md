@@ -7,8 +7,6 @@ categories:
 - News
 ---
 
-# IBM becomes a MathJax Supporter
-
 [IBM](http://www.ibm.com) is giving the MathJax project a boost by joining our sponsorship program as [MathJax Supporter](http://www.mathjax.org/#supporters).
 
 “Becoming a MathJax Supporter is a great example for IBM's commitment to providing the science community with reliable, flexible, and open technology," comments Peter Krautzberger, MathJax manager. "It helps ensure the continuous development of MathJax and enables IBM to make optimal use of MathJax.”

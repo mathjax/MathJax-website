@@ -11,7 +11,7 @@ author:
 ---
 
 
-[Atypon](https://atypon.com) c will continue to sponsor the MathJax project as a MathJax Supporter.
+[Atypon](https://atypon.com) will continue to sponsor the MathJax project as a MathJax Supporter.
 
 Atypon is the largest and fastest-growing technology company in scholarly publishing, and its SaaS, [Literatum](https://atypon.com/products/literatum/), is the industry’s most widely used online publishing platform. Literatum hosts more than 24 million articles and 130,00 eBooks, as well as many other types of scientific and scholarly content, for more than 200 publishers. 
 

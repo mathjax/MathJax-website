@@ -149,7 +149,7 @@ h1 {
 }
 #mj-logo {
   padding: 3%;
-  background-image: url(https://cdn.mathjax.org/mathjax/badge/mj-logo.svg);
+  background-image: url(../badge/mj-logo.svg);
   background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;

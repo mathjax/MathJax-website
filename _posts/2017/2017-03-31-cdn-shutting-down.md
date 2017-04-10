@@ -1,15 +1,17 @@
 ---
 layout: post
-title: MathJax CDN shutting down on April 30, 2017
+title: MathJax CDN shutting down on April 30, 2017. <br> Alternatives available.
 date: 2017-03-31
 author: Peter Krautzberger
 categories:
   - News
 ---
 
-<!--# MathJax CDN shutting down on April 30, 2017-->
 
-**The MathJax CDN hosted at [cdn.mathjax.org](cdn.mathjax.org) will be shutting down on April 30, 2017.**
+**The MathJax CDN hosted at [cdn.mathjax.org](cdn.mathjax.org) will be shutting down on April 30, 2017. <br> Current and future releases available on other CDN providers.**
+
+**Last Update: 2017/04/10** Please check for updates marked *[Updated 2017/04/10]*.
+
 
 ## Background
 
@@ -19,15 +21,18 @@ Over the past 6 years, the CDN has grown steadily each year. From 22 Million mon
 
 Recently, CloudFlare informed us that we need to upgrade our CloudFlare plan at a significantly increased rate. We greatly appreciate how CloudFlare has worked with us to find a suitable solution. Unfortunately, we do not see an affordable way to keep the CDN.
 
-The MathJax Consortium and its team have come to the decision that our resources are best spent by focusing them on development and so we will retire our self-hosted CDN service on April 30, 2017. 
+The MathJax Consortium and its team have come to the decision that our resources are best spent by focusing them on development and so we will retire our self-hosted CDN services at `cdn.mathjax.org` and `beta.mathjax.org` **on April 30, 2017**. 
 
 We are proud of what the MathJax CDN has accomplished for mathematics on the web and we are grateful for everyone who has made use of it. We hope we can help everyone migrate to a new setup quickly and efficiently over the coming weeks.
 
 We believe there will be no loss to the community thanks to the many good alternatives that exist - we outline several options below.
 
+
 ## Alternative CDN providers
 
-The easiest way for most site owners will be to simply switch to another CDN provider. We recommend [cdnjs](https://cdnjs.com) which uses CloudFlare for delivery and thus provides the same level of quality as our own CDN. We have been in touch with cdnjs's maintainers and will help push future MathJax releases to cdnjs.
+The easiest way for most site owners will be to simply switch to another CDN provider. 
+
+**We recommend** [cdnjs](https://cdnjs.com) which also uses CloudFlare for delivery (and on the higher "enterprise" level!). We have been in touch with cdnjs's maintainers and will help push future MathJax releases to cdnjs.
 
 For example, if you have been using the latest MathJax version (v2.7.0) change
 
@@ -45,7 +50,29 @@ to
 </script>
 ```
 
-**Note** If you have been using `https://cdn.mathjax.org/mathjax/latest/`, you have to switch to a dedicated version going forward.  That is, you will have to change the address manually to a higher number when new versions become available; the automatic switching provided by `/mathjax/latest/` is not available on the cdnjs server.
+<!--
+**[Updated 2017/04/10]** Other free CDN providers include
+  * [rawgit](https://rawgit.com), e.g., `https://cdn.rawgit.com/mathjax/MathJax/2.7.0/MathJax.js`.
+  * [jsdelivr](https://jsdelivr.com), e.g., `https://cdn.jsdelivr.net/mathjax/2.1/MathJax.js`.
+-->
+
+**Note** If you have been using `https://cdn.mathjax.org/mathjax/latest/`, we suggest to switch to a fixed version going forward as this represents best practices to avoid unexpected changes.  That is, you will have to change the address manually to a higher number when new versions become available.
+
+**[Updated 2017/04/10]** 
+
+**Note** Many CDN providers offer APIs that can query which versions of a library are available. This can be used to dynamically load the latest version of MathJax; [this example](https://codepen.io/pkra/pen/GWePxW) shows a very basic example.
+
+**Note** The shutdown includes `beta.mathjax.org`.
+
+## Temporary redirect starting May 1, 2017
+
+**[Updated 2017/04/10]**
+
+We will implement a temporary redirect on `cdn.mathjax.org` to redirect users to cdnjs.
+
+**Note** This is a temporary stopgap. While most sites should continue to work as usual, this will not work in all edge cases, e.g., custom configurations with hard-coded references to `cdn.mathjax.org`, sites with security policies that whitelist only `cdn.mathjax.org`. 
+
+We recommend switching to another CDN provider or your own copy of MathJax as soon as possible.
 
 
 ## Install a local copy

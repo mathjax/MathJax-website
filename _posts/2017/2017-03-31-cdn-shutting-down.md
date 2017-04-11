@@ -17,9 +17,9 @@ categories:
 
 Our CDN has been an important part of MathJax's history. When MathJax made its [first public release in 2010](https://www.mathjax.org/mathjax-beta-released/), hosting a library like MathJax was a complex challenge. The CDN [launched a year later](https://www.mathjax.org/mathjax-launches-cdn-service-with-1-1-release/) and helped resolve this difficulty, enabling MathJax to quickly become the gold standard for rendering mathematics on the web.
 
-Over the past 6 years, the CDN has grown steadily each year. From 22 Million monthly users and 1.3TB traffic in late 2011 to 179 Million monthly users and 70TB traffic last month. We switched CDN providers several times to improve performance and reduce costs. In the last three years we could keep up with this growth thanks to support from Google (providing free storage on Google Cloud Storage) which we combined with CloudFlare. 
+Over the past 6 years, the CDN has grown steadily each year. From 22 Million monthly users (creating 100 Million request and 1.3TB traffic) in late 2011 to 179 Million monthly users (creating 3.3 Billion requests and 70TB traffic) last month. We switched CDN providers several times to improve performance and reduce costs. In the last three years we could keep up with this growth thanks to support from Google (providing free storage on Google Cloud Storage) which we combined with CloudFlare.
 
-Recently, CloudFlare informed us that we need to upgrade our CloudFlare plan at a significantly increased rate. We greatly appreciate how CloudFlare has worked with us to find a suitable solution. Unfortunately, we do not see an affordable way to keep the CDN.
+Recently, CloudFlare informed us that we need to upgrade our CloudFlare plan at a significantly increased rate. We greatly appreciate how CloudFlare has worked with us to find a suitable solution. Unfortunately, we do not see an affordable way to keep the CDN. This gave us the opportunity to reevaluate our need for hosting our own CDN, especially in the light of existing and well-known CDNs for open source software.
 
 The MathJax Consortium and its team have come to the decision that our resources are best spent by focusing them on development and so we will retire our self-hosted CDN services at `cdn.mathjax.org` and `beta.mathjax.org` **on April 30, 2017**. 
 

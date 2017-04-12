@@ -5,9 +5,7 @@ date: 2017-03-16
 categories:
   - News
 tags: []
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 

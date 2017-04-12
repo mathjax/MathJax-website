@@ -5,9 +5,7 @@ date: 2016-07-12
 categories:
 - News
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Springer Nature](http://www.springernature.com/) continues to support the MathJax project as a MathJax Supporter.

@@ -5,9 +5,7 @@ date: 2016-12-19
 categories:
 - News
 status: publish
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [IOP Publishing](http://ioppublishing.org/) continues to support MathJax as a MathJax Supporter.

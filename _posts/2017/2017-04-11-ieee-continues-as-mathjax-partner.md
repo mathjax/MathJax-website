@@ -3,7 +3,7 @@ layout: post
 title: IEEE continues as MathJax Partner
 date: 2017-04-11
 categories: News
-author: PeterKrautzberger
+author: Peter Krautzberger
 ---
 
 [IEEE](http://www.ieee.org/) continues to support MathJax as a MathJax Partner.

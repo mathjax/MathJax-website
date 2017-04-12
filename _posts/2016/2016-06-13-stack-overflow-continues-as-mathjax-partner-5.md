@@ -5,9 +5,7 @@ date: 2016-06-13
 categories:
 - News
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Stack Overflow](http://stackoverflow.com) continues to support the MathJax project as a MathJax Partner.

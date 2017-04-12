@@ -6,9 +6,7 @@ categories:
 - News
 tags: []
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [OSA Publishing](https://www.osapublishing.org/) continues to support MathJax as a MathJax Supporter.

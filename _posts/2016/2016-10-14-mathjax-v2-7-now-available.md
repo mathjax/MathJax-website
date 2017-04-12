@@ -9,9 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 After a very smooth [beta run](http://www.mathjax.org/mathjax-v2-7-beta-now-available/), we're happy to officially release MathJax v2.7.

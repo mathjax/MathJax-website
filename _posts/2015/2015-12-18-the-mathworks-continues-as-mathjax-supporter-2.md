@@ -5,9 +5,7 @@ date: 2015-12-18
 categories:
 - News
 status: publish
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The MathWorks](http://www.mathworks.com) continues to support MathJax as a MathJax Supporter.

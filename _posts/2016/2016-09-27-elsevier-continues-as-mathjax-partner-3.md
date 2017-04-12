@@ -5,9 +5,7 @@ date: 2016-09-27
 categories:
 - News
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Elsevier](http://www.elsevier.com) continues to support the MathJax project as a MathJax Sponsor.

@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 Over the upcoming weekend of September 11-12, we will be making a modification to the MathJax CDN.  Web sites using the CDN won't be affected, and the CDN service will remain continuously available.  The change is aimed at resolving a problem affecting some users of Internet Explorer.  Technical details are given below.

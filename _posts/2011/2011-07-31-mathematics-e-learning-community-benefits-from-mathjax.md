@@ -7,9 +7,7 @@ categories:
 tags: []
 status: publish
 type: post
-author:
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 ## Introduction

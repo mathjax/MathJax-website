@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340508'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Last Thursday, Frédéric Wang, MathML contributor to Mozilla and Software Test Engineer here at MathJax, wrote a post on his personal blog entitled [MathJax 2.0 no longer uses Firefox MathML support by default :-(](http://www.maths-informatique-jeux.com/blog/frederic/?post/2012/03/01/MathJax-2.0-no-longer-uses-Firefox-MathML-support-by-default-%3A-%28). We thought it would be good to explain the situation here, too.

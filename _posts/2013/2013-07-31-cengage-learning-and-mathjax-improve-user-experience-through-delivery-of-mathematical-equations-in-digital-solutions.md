@@ -9,18 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-07-31 16:23:44'
-  dsq_thread_id: '1551896689'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Cengage Learning](http://www.cengage.com/us/), a leading educational content, software and services company for the academic, professional and library markets, and MathJax today announced a partnership to improve the display of mathematical equations in Cengage Learning digital products. MathJax will deliver integrated content for math and chemistry in Cengage Learning’s MindTap solutions, providing improved rendering of math and scientific notation within all MindTap supported browser and operating system combinations.

@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '7'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339406'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 A MathJax web font update is now available to address an issue with Firefox 3.6.13 and higher.  The lastest Firefox version, released last week, is more strict about the format of web-based fonts than it was in the past.  The MathJax fonts have been updated correct a number of problems with the internal tables that were causing Firefox to reject them.

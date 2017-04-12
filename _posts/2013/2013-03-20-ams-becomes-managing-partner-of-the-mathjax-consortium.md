@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-03-20 18:11:11'
-  dsq_thread_id: '1152384816'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 As of March 2013, the [MathJax Consortium](http://www.mathjax.org) has appointed the American Mathematical Society as its managing partner. This organizational change means that the AMS will be handling the administrative affairs of the MathJax project.

@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown_gmt: '2013-11-26 22:22:25'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '2002471886'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Project Euclid](http://projecteuclid.org) continues to support the MathJax project as a MathJax Supporter.

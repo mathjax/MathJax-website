@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '8'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 MathJax is experiencing a rapid growth in the domain of online learning resources. The MathJax CDN usage figures (see also [this News post](/mathjax-cdn-service-very-successful-2/) from June 2011)  indicate that the MathJax user base is growing and diversifying, particularly in the domain of online learning resources. These range from online math encyclopedias to integrated course material, and from online math quizzes to test preparation services.

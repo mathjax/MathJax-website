@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '8'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340112'
-  _wp_old_slug: video-tutorial-%e2%80%9cusing-mathjax-in-blackboard%e2%80%9d-released
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 A new four-minute video tutorial [“How to use MathJax in Blackboard”](https://www.youtube.com/watch?v=Em2QvS9rdt0) gives step-by-step instructions explaining how to use MathJax to display mathematics within the popular learning management system.  MathJax formulas can be used in Blackboard learning modules, tests, assignments, and other content elements.  

@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  aktt_notify_twitter: 'no'
-  _edit_last: '3'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 MathJax Beta 2, adding support for MathML equations, is now available for [download](http://docs.mathjax.org/en/v1.0/installation.html).  MathJax can now display MathML or TeX code or even a mix of both in the same page!  MathJax also works with both HTML and XHTML pages, eliminating a long-standing problem with native browser support for MathML, which in most cases was limited to one format or the other.

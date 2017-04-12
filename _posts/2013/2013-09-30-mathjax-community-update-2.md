@@ -17,18 +17,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown_gmt: '2013-10-01 14:58:40'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '1813141003'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 We've been a bit quiet, working hard on the v2.3 release. But thankfully there's plenty of great stuff coming from our community so here are a few cool things we've come across in the past few weeks.

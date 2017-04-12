@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '910301468'
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Project Euclid](http://projecteuclid.org) continues to support the MathJax project as a MathJax Supporter. Jointly managed by Cornell and the Duke University Press, Project Euclid addresses the unique needs of independent and society journals. Through a collaborative partnership arrangement, these publishers join forces and participate in an online presence with advanced functionality. Project Euclid has been an early supporter and large-scale adopter of MathJax, and its continued support for the project is a welcome vote of confidence.

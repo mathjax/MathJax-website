@@ -11,18 +11,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown_gmt: '2014-06-16 10:29:29'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '2768853326'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The Optical Society](http://www.osa.org) (OSA) continues to support MathJax as a [MathJax Supporter](http://www.mathjax.org/sponsors/#supporters).

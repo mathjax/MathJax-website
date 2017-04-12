@@ -22,18 +22,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '13'
-  _cws_is_markdown_gmt: '2014-03-04 08:45:59'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '2321092002'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 2014 is well on its way and there's already a slew of new cool things happening around the MathJax community -- it's about time for another community update!

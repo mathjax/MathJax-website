@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-05-06 16:21:09'
-  dsq_thread_id: '1266869478'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 We're happy to announce today that [Elsevier](http://www.elsevier.com), world-leading provider of scientific, technical and medical products and services, has become a [MathJax Partner](/#sponsors).

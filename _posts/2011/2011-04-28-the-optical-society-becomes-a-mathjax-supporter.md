@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '8'
-  _wp_old_slug: ''
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 [The Optical Society](http://www.osa.org) (OSA) has announced support for the MathJax project by becoming a [MathJax Supporter](http://www.mathjax.org/sponsors/mathjax-sponsorship-program/). A leader in the Optics and Photonics fields since 1916, OSA has a strong publishing program that includes journals and  conference proceedings and that covers subject areas such as Applied Optics, Biomedical Optics, Metamaterials, Nonlinear Optics, and Lasers. 

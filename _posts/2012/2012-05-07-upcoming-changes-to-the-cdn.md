@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '1'
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340504'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 We would like to announce a few minor changes to the MathJax CDN.

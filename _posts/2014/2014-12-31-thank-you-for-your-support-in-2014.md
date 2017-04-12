@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2014-12-31 15:17:48'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 As 2014 draws to a close (or already has if you're in the right time zone), we would like to thank everyone who has supported MathJax this year. We, the MathJax team are grateful for the incredible continued support from our entire community -- from large scale sponsors to our contributors to all the amazing people using MathJax.

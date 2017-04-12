@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown: '1'
-  _edit_last: '12'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Our website here at [www.mathjax.org](http://www.mathjax.org) will be down for maintenance on June 11, 2012 between 14.00-18.00 UTC.

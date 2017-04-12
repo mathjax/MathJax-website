@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown_gmt: '2014-10-29 16:35:33'
-  _cws_is_markdown: '2'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 After a quiet summer, fall has already brought around a ton of cool new stuff and links from around the MathJax community.

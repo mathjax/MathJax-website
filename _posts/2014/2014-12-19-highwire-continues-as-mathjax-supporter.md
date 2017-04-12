@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2014-12-19 09:46:15'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The HighWire Open Platform](http://home.highwire.org/) provides innovative technology solutions to influential societies, university presses, and independent publishing organizations, assisting in the digital dissemination and readability of some of the most high-impact journals, books, and other scholarly materials on the net.

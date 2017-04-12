@@ -9,17 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-  dsq_thread_id: '812337793'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 The Readium developer blog announced yesterday (`http://readium.github.com/blog/2012/03/18/readium-adds-mathml-support-by-integrating-mathjax/`) that Readium now renders MathML by integrating MathJax.

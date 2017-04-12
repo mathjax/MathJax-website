@@ -8,14 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 Basic MathML support is now enabled in the development version of MathJax.  The new functionality is currently only available to developers via the source control repository at [mathjax.sourceforge.net](http://mathjax.sourceforge.net).  A new beta distribution of MathJax containing the new functionality will be posted in the next several weeks.

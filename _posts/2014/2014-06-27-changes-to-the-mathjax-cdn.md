@@ -11,22 +11,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  dsq_thread_id: '2799490230'
-  _oembed_6999ce9317d0df3887ea91f5486011ff: "{{unknown}}"
-  _oembed_ce5628ff2fd23954ed9848d7e8aeebdc: "{{unknown}}"
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown_gmt: '2014-06-27 12:43:29'
-  _cws_is_markdown: '2'
-  _oembed_01a12f5e9e587140e1d10e9ae35378ee: "{{unknown}}"
-  _oembed_a09db5a3b8a8f15e7968d3dd05497466: "{{unknown}}"
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 With the release of MathJax v2.4, we have switched CDN providers. The MathJax CDN is now combining Google Cloud Storage and CloudFlare.

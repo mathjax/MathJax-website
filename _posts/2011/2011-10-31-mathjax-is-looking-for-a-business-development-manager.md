@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '3'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 The MathJax project is looking for a Business Development Manager. You can [read more about the position](/) on our jobs page. A major focus of the job will be promoting and facilitating the use of MathJax in the exciting and rapidly-growing ebooks market.

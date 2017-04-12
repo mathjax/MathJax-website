@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340631'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 The American Physical Society ([APS](http://www.aps.org/)) continues to support the MathJax project as a MathJax Supporter. APS was one of first organizations to become a MathJax Supporter, and the support of organizations like APS over time is key to ensuring the project’s long-term success.

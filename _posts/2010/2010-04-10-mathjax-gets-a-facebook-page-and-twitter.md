@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  aktt_notify_twitter: 'no'
-  _edit_last: '7'
-author:
-  login: caseys
-  email: caseys@mathjax.org
-  display_name: Casey Stark
-  first_name: Casey
-  last_name: Stark
+author: Casey Stark
 ---
 
 In order to make getting news about MathJax as convenient as possible, we have created a facebook page, which we are updating regularly. You can see the page [here](http://www.facebook.com/pages/MathJax/351834882701). We have aggregated our blog and twitter feeds to automatically post to facebook whenever we update. If you like getting your news through Facebook or if you would just like to show your support for MathJax, please become a fan of our page.

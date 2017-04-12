@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '921228527'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 We are planning a MathJax community meetup at the [Joint Mathematics Meetings 2013](http://jointmathematicsmeetings.org/jmm) in San Diego, January 9--12, 2013.

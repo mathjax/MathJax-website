@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '8'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339451'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 [The Annals of Mathematics ](http://annals.math.princeton.edu) and [Biomedical Optics Express](http://www.opticsinfobase.org/boe/home.cfm), two leading journals in their own domains, are now using MathJax for math display. There are some noteworthy differences between the two implementations, demonstrating how MathJax can be tailored to different digital environments and specific user needs. Interestingly, the two journals together nicely illustrate the long history of journal publishing and the move into the digital age.

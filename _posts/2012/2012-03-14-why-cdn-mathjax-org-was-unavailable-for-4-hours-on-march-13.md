@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812338330'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 As you may have noticed, we've had some technical difficulties at MathJax.org yesterday morning. These difficulties were resolved within a few hours and the CDN was available again around noon Eastern time (~16.00 UTC, March 13).

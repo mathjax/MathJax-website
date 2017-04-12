@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-12-04 21:33:25'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-  dsq_thread_id: '2025037974'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [HighWire](http://highwire.stanford.edu/) is giving the MathJax project a boost by joining our sponsorship program as [MathJax Supporter](http://www.mathjax.org/sponsors/#supporters). A division of the Stanford University Libraries, HighWire hosts the largest repository of peer-reviewed content.

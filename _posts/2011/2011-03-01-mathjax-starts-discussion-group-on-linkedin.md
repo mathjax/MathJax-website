@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '8'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339530'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 MathJax is an increasingly popular way for online publishers to display mathematical notation to a wide audience due to its ease of use and wide browser support. In order to have a place where publishers and other professionals can exchange ideas on how MathJax can help them in their job, we have started the [MathJax Community](http://www.linkedin.com/groups/MathJax-Community-3772588) on LinkedIn Groups. This discussion and interest group exists in addition to the MathJax User and Developer groups, which are geared towards more technical usage and development issues.

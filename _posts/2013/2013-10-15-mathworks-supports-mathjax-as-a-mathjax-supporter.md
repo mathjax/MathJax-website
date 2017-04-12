@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-10-15 19:35:20'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  dsq_thread_id: '1861004204'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The MathWorks](http://www.mathworks.com) is giving the MathJax project a boost by joining our sponsorship program as [MathJax Supporter](http://www.mathjax.org/sponsors/#supporters). As a leading developer of mathematical computing software MathWorks helps engineers and scientists worldwide to accelerate the pace of discovery, innovation, and development.

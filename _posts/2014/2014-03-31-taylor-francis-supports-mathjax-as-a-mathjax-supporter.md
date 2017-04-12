@@ -11,18 +11,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2014-03-31 16:13:40'
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '2564709250'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Taylor &amp; Francis](http://www.taylorandfrancisgroup.com/) is giving the MathJax project a boost by joining our sponsorship program as [MathJax Supporter](http://www.mathjax.org/sponsors/). Taylor &amp; Francis, a division of [Informa plc](http://www.informa.com/), is a leading international academic publisher with roots reaching back to 1798.

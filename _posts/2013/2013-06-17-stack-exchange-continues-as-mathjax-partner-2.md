@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-06-17 20:41:40'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  dsq_thread_id: '1408237963'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Stack Exchange](http://stackexchange.com) continues its support as a MathJax Partner, demonstrating its commitment to being a partner to the math and science community on the web.

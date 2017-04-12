@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _wp_old_slug: ''
-  _edit_last: '8'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 [Stack Exchange](http://stackexchange.com) is a rapidly growing network of community-driven Q&A sites. Stack Exchange is already using MathJax on several sites in the network, and has now announced major support for MathJax by joining the project as a MathJax Partner. 

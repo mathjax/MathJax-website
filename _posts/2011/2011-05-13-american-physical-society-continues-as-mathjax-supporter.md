@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '8'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 The American Physical Society ([APS](http://www.aps.org)) has announced that it will continue its support for the MathJax project for another year. APS was one of first organizations to become a [MathJax Supporter](http://www.mathjax.org/sponsors/mathjax-sponsorship-program/), and is now one of the first to renew. The announcement represents an important milestone for MathJax, since support of organizations like APS over time is key to ensuring the project’s long-term success.

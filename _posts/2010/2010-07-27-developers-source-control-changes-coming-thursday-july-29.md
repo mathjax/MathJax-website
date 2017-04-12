@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 The MathJax 1.0 release will be taking place the first week in August, and in preparation, we will be making some changes to the MathJax source control layout on Thursday, July 29.  Developers that obtain MathJax directly from source control using svn should be aware they may to need to make changes to paths and directories on their own systems as a result.

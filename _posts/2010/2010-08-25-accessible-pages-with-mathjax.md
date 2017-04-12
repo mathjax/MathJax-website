@@ -7,9 +7,7 @@ categories:
 status: publish
 type: post
 published: true
-author:
-  first_name: Neil
-  last_name: Soiffer
+author: Neil Soiffer
 ---
 
 

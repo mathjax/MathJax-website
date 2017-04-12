@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '8'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 The MathJax project has been very successful so far. Several million documents on the web use MathJax, and new organizations, websites, blogs, and wikis are adopting it for their math content every day. MathJax is now a vital part of the scientific communication infrastructure. To ensure MathJax remains a solid, robust solution in a rapidly changing internet environment, this requires ongoing browser testing and managed hosting, all of which is hard for an open source project to do without funding.  So far, our existing sponsors have been generous in providing funding, but as the whole community benefits, we need you to step up.  We are working on a revamped sponsorship program. Before we finalize our plans, we'd like to share them with you and get your opinion. 

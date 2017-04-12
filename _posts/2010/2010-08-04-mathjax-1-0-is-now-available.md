@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _wp_old_slug: ''
-  _edit_last: '3'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339221'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 The MathJax project reached a major milestone today with the release of MathJax 1.0. To get the new distribution, visit the [download page](http://docs.mathjax.org/en/latest/installation.html).

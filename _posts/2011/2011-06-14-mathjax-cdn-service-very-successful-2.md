@@ -9,15 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '8'
-  dsq_thread_id: '812339867'
-author:
-  login: hylkek
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 In March of this year, a public MathJax CDN Service was launched so that authors and publishers can use MathJax without having to install MathJax on their own server. The CDN service has seen great uptake right from the beginning and now, after three months, it is serving just under 2,000 domains - and still growing rapidly. 

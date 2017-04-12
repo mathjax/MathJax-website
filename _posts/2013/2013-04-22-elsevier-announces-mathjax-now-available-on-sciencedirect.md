@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown_gmt: '2013-04-22 15:48:54'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '1228680796'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Elsevier](http://www.elsevier.com), a world-leading provider of scientific, technical and medical products and services, [announced today](http://www.elsevier.com/about/press-releases/science-and-technology/elsevier-announces-mathjax-now-available-on-sciencedirect) the incorporation of MathJax into research papers published online on [ScienceDirect](http://www.sciencedirect.com).

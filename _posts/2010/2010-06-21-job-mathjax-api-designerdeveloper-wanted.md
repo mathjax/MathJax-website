@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  aktt_notify_twitter: 'no'
-  _edit_last: '7'
-  dsq_thread_id: '812337959'
-author:
-  login: pault
-  email: pault@dessci.com
-  display_name: Paul Topping
-  first_name: Paul
-  last_name: Topping
+author: Paul Topping
 ---
 
 A robust JavaScript API has always been envisioned as an important part of  MathJax. It will enable script in a web page to control equation features, allow dynamic interactive pages to be built using MathJax, and provide hooks for accessibility tools such as screen readers. We would also like to make this API an expandable standard that will allow other notations to be supported in future. ChemJax anyone?

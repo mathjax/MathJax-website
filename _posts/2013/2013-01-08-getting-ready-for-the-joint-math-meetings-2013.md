@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown: '1'
-  _edit_last: '12'
-  dsq_thread_id: '1015241691'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 We're getting ready for the [Joint Mathematics Meetings](http://jointmathematicsmeetings.org/jmm) in San Diego! There's lots to do but we wanted to give you a few extra suggestions with a MathJax flavor.

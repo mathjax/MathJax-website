@@ -8,14 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 [Project Euclid](http://projecteuclid.org) added its support to the MathJax project in a move that is good news for low-cost independent and society journals.  Project Euclid, jointly managed by Cornell University Library and Duke University Press, is dedicated to the mission of advancing scholarly communication in the field of theoretical and applied mathematics and statistics. Through collaborative partnerships, Project Euclid helps publishers of independent and society journals provide an online presence with advanced functionality, without sacrificing their intellectual or economic independence or commitment to low subscription prices.

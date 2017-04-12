@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339380'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 MathJax developer resources  have been expanded and moved from SourceForge to a mix of services hosted at GitHub and Google.  The new services will provide a better user experience, greater convenience and more functionality to those in the MathJax community wishing to follow along or get involved with MathJax development.

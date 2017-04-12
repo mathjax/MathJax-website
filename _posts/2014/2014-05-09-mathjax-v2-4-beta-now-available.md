@@ -11,18 +11,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2014-05-09 11:15:42'
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '2672171456'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Today we are entering the public beta phase of MathJax v2.4. This bug fix release includes over 70 improvements to increase the quality and stability of MathJax ([see below for details](#new-in-mathjax-v24)).

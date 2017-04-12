@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _wp_old_slug: aip-online-journals-mathjax
-  _edit_last: '8'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340408'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 AIP Publishing, a division of the American Institute of Physics, has announced today that it has become a MathJax partner, providing major funding and using MathJax to render mathematics in its online journals.

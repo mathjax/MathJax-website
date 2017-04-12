@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _wp_old_slug: ''
-  _edit_last: '3'
-  dsq_thread_id: '812338604'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 One of the strengths of MathJax is that is provides high-quality display of MathML in all modern browsers.  Firefox and and Internet Explorer with MathPlayer have had MathML support for years, but HTML files had to be prepared differently for each browser, and publishers often required yet a third version for other browsers.  MathJax solves that problem!

@@ -9,18 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown_gmt: '2013-08-06 23:07:04'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '1578853620'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Welcome to our first _COMM_ post!

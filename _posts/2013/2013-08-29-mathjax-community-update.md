@@ -13,18 +13,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  dsq_thread_id: '1669486978'
-  _cws_is_markdown_gmt: '2013-09-09 16:40:38'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 As part of our still very much fresh _COMM_ section, we plan to semi-regularly update you on news from around the MathJax community. If you have some MathJax related news to share, be sure to [get in touch](https://www.mathjax.org/#contact)!

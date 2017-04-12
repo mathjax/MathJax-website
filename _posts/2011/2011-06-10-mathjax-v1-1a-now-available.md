@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '3'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 A minor maintenance update to MathJax was released Thursday, June 9.  The update corrects several issues in Internet Explorer and Opera, improves MathML support, and addresses a variety of other minor problems.

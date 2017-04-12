@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  dsq_thread_id: '812337834'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 Presentations delivered at the 2010 Joint Mathematics Meetings in San Francisco previewed MathML support in MathJax, discussed ideas for copy and paste support.  The slides for the talk are available at the links below.

@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  dsq_thread_id: '812337752'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 Lead MathJax developer Davide Cervone will be speaking about the project at the [Joint Mathematics Meetings](http://www.ams.org/amsmtgs/2124_intro.html) in San Francisco, Web, Jan 15, 2010.  The title of his talk will be [MathJax: a JavaScript-based engine for including TeX and MathML in HTML](http://www.ams.org/amsmtgs/2124_abstracts/1056-n5-1947.pdf).

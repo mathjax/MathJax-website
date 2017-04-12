@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  dsq_thread_id: '812338219'
-author:
-  login: pault
-  email: pault@dessci.com
-  display_name: Paul Topping
-  first_name: Paul
-  last_name: Topping
+author: Paul Topping
 ---
 
 These are busy times for MathJax and it is as popular as ever. Version 2.0 is almost out. Online learning and ebooks are exploding and where there's education and research, math will be there too. There are a lot of opportunities for MathJax to make an even bigger contribution than it has already.

@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _wp_old_slug: ''
-  _edit_last: '5'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339233'
-author:
-  login: caseys
-  email: caseys@mathjax.org
-  display_name: Casey Stark
-  first_name: Casey
-  last_name: Stark
+author: Casey Stark
 ---
 
 Software development project hosting sevice [GitHub](http://github.com) announced last week that its new wiki system uses MathJax to provide math support. The new wiki is called [gollum](http://github.com/github/gollum/) and you can read [their post](http://github.com/blog/699-making-github-more-open-git-backed-wikis) for more information on the release. 

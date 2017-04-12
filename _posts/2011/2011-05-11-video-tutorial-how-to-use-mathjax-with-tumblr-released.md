@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '8'
-  _wp_old_slug: video-tutorial-%e2%80%9chow-to-use-mathjax-with-tumblr%e2%80%9d-released
-author:
-  login: hylkek
-  email: hkoers@gmail.com
-  display_name: Hylke Koers
-  first_name: Hylke
-  last_name: Koers
+author: Hylke Koers
 ---
 
 A three-minute video tutorial that describes how to set up MathJax with a Tumblr blog is now available under [Demos: Use in Web Platforms](//docs.mathjax.org). While some of the specifics in this video apply only to Tumblr, the approach is very general and this tutorial will help to set up MathJax in many other online environments as well.

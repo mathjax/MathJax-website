@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown: '1'
-  _edit_last: '12'
-  dsq_thread_id: '979422614'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 The London Mathematical Society, ([LMS](http://lms.ac.uk/)) continues to support the MathJax project as a MathJax Supporter.

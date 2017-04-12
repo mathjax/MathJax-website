@@ -8,15 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '5'
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 [MathJax beta 1](https://sourceforge.net/projects/mathjax/files/) is now available for download.  This initial beta distribution supports high-quality HTML+CSS+JavaScript mathematics display that scales and aligns with surrounding text.  Equations are described by a subset of LaTeX math commands; support for equations described using MathML will be added soon. MathJax supports most browsers on all major operating systems, with no special installation or set up required.  MathJax is made available under the terms of the Apache 2.0 open source license. 

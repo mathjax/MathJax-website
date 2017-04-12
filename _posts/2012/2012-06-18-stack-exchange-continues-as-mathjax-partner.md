@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812340547'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Stack Exchange has renewed their commitment as a MathJax Partner for another year. This represents another milestone for MathJax, since the support of companies like Stack Exchange over time is key to ensuring the project's long-term success.

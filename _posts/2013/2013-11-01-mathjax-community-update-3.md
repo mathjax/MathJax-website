@@ -17,18 +17,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-11-02 04:17:23'
-  _edit_last: '13'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '1928447573'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 While [MathJax v2.3-beta](http://www.mathjax.org/mathjax-v2-3-beta-now-available/) is running smoothly, there news from around the MathJax community keeps coming in. So let's catch up a little!

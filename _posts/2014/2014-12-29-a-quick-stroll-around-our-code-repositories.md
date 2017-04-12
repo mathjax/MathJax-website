@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2014-12-29 22:02:09'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 A lot has happened at MathJax this year. As the end of the year is closing in, we wanted to take a quick stroll around [our repositories on GitHub](https://github.com/mathjax/) to highlight a few new and old parts, give you an idea where things are moving, and, if you are interested, show you some points of entry for contributions.

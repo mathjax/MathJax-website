@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '5'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: ''
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 For the past eight months, we've been busy putting together version 2.0 of MathJax, which includes a number of important new features, enhancements, and bug fixes.  The most significant of these are described below.  Today we are releasing a public beta version of MathJax v2.0, available at [http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js) which you can load in place of the current version of MathJax that you are using.  Alternatively, you can get a ZIP archive to use locally via [https://github.com/mathjax/MathJax/zipball/v2.0-latest](https://github.com/mathjax/MathJax/zipball/v2.0-latest) or you can check out the v2.0-candidate branch of MathJax by using the commands

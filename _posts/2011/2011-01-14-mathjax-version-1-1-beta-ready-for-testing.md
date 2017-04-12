@@ -8,16 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '5'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 MathJax version 1.1 beta was released today, and MathJax users interested in beta testing are encouraged to help us put the new release through its paces.  "For a project like MathJax that runs on a wide range of browsers and devices, the benefit of a robust beta testing period is clear.  This is an area where an engaged user community and the open source model can really excel," said Robert Miner, MathJax Project Director.

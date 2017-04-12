@@ -9,17 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _cws_is_markdown: '1'
-  _rawhtml_settings: '0,0,0,0'
-  dsq_thread_id: '812339343'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The Optical Society](http://www.osa.org) (OSA) continues to support the MathJax project as a MathJax Supporter. Through its 15 journals, OSA publishes optics and photonics content that is broad-based and covers many fields—from physics to engineering to biology to telecommunications and beyond.

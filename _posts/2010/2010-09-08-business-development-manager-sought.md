@@ -9,16 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '3'
-  _wp_old_slug: ''
-  _rawhtml_settings: '0,0,0,0'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 The MathJax project was founded on the belief web technology has reached a stage of development where a JavaScript math display engine can offer a genuine <emph>solution</emph> for math and science communication on the web.  There have been many efforts in the past that led to various means of putting math on the web, but to date it can be argued none have achieved the status of a generally acknowledged solution to the problem. We think that the key characteristics of anything claiming to be a solution must include:

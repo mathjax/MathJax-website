@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '8'
-  _wp_old_slug: ''
-  dsq_thread_id: '812339892'
-author:
-  login: robertm
-  email: stevenp@dessci.com
-  display_name: Robert Miner
-  first_name: Robert
-  last_name: Miner
+author: Robert Miner
 ---
 
 MathJax version 1.1 was released yesterday both as a [download](http://docs.mathjax.org/en/v1.1-latest/installation.html#installing-and-testing-mathjax) and as a hosted installation  available via a content distribution network (CDN).  The hosted installation of MathJax utilizes Amazon's CloudFront service, which mirrors MathJax files on a network of fast servers around the world, and automatically routes requests from browsers to the nearest server.  The MathJax CDN service will offer most readers a significantly faster, more robust MathJax viewing experience.

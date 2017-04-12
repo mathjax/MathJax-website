@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown_gmt: '2013-04-24 00:00:57'
-  dsq_thread_id: '1231954091'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [IEEE](http://www.ieee.org/), the world’s largest professional association, has announced today it has become a [MathJax Partner](/#sponsors), becoming one of a select group of technical publishers that play an active role in the development and support of MathJax.

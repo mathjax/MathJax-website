@@ -11,18 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '12'
-  _rawhtml_settings: '0,0,0,0'
-  _cws_is_markdown_gmt: '2013-10-28 00:05:35'
-  _cws_is_markdown: '2'
-  dsq_thread_id: '1908264000'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 {% include image.html img="images/interview_profile_letsfeedback.jpg" title="Deniz Demirsoy" caption="Deniz Demirsoy is managing director at letsfeedback" %}

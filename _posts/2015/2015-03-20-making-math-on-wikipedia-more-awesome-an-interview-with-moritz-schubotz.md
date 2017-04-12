@@ -3,9 +3,7 @@ layout: post
 title: Making math on Wikipedia more awesome  | an interview with Moritz Schubotz
 date: 2015-03-20
 categories: COMM
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 {% include image.html img="images/interview_profile_mediawiki.jpg" title="Moritz Schubotz" caption="Moritz Schubotz maintains the MediaWiki Math Extension" %}

@@ -3,9 +3,7 @@ layout: post
 title: 'MathJax Community Update #8'
 date: 2015-05-18
 categories: COMM
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 It's been far too long since we shared all the great new stuff from around the MathJax community!

@@ -6,9 +6,7 @@ categories:
 - News
 tags: []
 status: publish
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Project Euclid](http://projecteuclid.org) continues to support the MathJax project as a MathJax Supporter.

@@ -9,9 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Today we are entering the public beta phase of MathJax v2.7. MathJax v2.7 is primarily a bug-fix release with over 60 important bug fixes. In addition, this release adds several new features as an opt-in. The following are some of the highlights:

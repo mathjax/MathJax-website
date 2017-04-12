@@ -4,9 +4,7 @@ title: MathJax v2.6 now available
 date: 2015-12-30
 categories:
 - News
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 After a smooth [beta run](http://www.mathjax.org/mathjax-v2-6-beta-now-available/), we're happy to officially release MathJax v2.6. This release focused on two main features:

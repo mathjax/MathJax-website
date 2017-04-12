@@ -5,9 +5,7 @@ date: 2016-04-25
 categories:
   - News
 tags: []
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Atypon](https://atypon.com) continues to support the MathJax project as a MathJax Supporter.

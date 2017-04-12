@@ -5,9 +5,7 @@ date: 2015-10-02
 categories:
 - News
 status: publish
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [The Mathematical Association of America (MAA)](http://www.maa.org/) continues to support MathJax as a MathJax Supporter.

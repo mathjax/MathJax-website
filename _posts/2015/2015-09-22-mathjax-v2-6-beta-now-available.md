@@ -9,9 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 Today we are entering the public beta phase of MathJax v2.6. This release focused on two main features:

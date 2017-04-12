@@ -6,9 +6,7 @@ categories:
 - News
 tags: []
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Springer Science+Business Media](http://www.springer.com/) continues to support the MathJax project as a MathJax Supporter.

@@ -5,9 +5,7 @@ date: 2016-08-04
 categories:
 - News
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 At this year's SLA Annual Conference, MathJax was awarded the PAM Division Award 2016.

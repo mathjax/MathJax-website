@@ -4,9 +4,7 @@ title: Oxford University Press continues as MathJax Supporter
 date: 2016-04-28
 categories: News
 type: post
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Oxford University Press](http://www.oup.com) (OUP) continues to support the MathJax project as a MathJax Supporter.

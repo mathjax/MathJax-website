@@ -6,9 +6,7 @@ categories:
 - News
 tags: []
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 [AIP Publishing](https://publishing.aip.org/), a division of the American Institute of Physics, continues to support MathJax as a MathJax Supporter.
 

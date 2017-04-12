@@ -8,17 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2015-01-14 14:34:29'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [IOP Publishing](http://ioppublishing.org/) continues to support MathJax as a MathJax Supporter.

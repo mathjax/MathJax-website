@@ -4,9 +4,7 @@ title: MathJax Accessibility Extensions v1.0 now available
 date: 2016-06-15
 categories:
 - News
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 The MathJax Consortium is pleased to announce the release of the MathJax Accessibility Extensions v1.0. The Consortium is grateful for the support from the [Alfred P. Sloan Foundation](http://www.sloan.org/) in this project.

@@ -6,9 +6,7 @@ categories:
 - News
 tags: []
 published: true
-author:
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 [Stack Exchange](http://stackexchange.com) continues to support the MathJax project as a MathJax Partner.

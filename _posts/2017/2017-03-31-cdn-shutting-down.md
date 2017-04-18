@@ -10,7 +10,7 @@ categories:
 
 **The MathJax CDN hosted at [cdn.mathjax.org](cdn.mathjax.org) will be shutting down on April 30, 2017. <br> Current and future releases available on other CDN providers.**
 
-**Last Update: 2017/04/10** Please check for updates marked *[Updated 2017/04/10]*.
+**Last Update: 2017/04/18** Please check for updates marked *[Updated 2017/04/10]*,*[Updated 2017/04/18]*.
 
 
 ## Background
@@ -27,6 +27,11 @@ We are proud of what the MathJax CDN has accomplished for mathematics on the web
 
 We believe there will be no loss to the community thanks to the many good alternatives that exist - we outline several options below.
 
+## Upcoming bug fix release MathJax v2.7.1
+
+**[Updated 2017/04/18]** 
+
+An upcoming bug fix release (MathJax v2.7.1) will add `mhchem v3` and the [MathJax accessibility extension](https://github.com/mathjax/MathJax-a11y) to the core MathJax release. This will remove the dependency on `cdn.mathjax.org` from core MathJax and ensure that CDN copies are self-contained going forward. As always, you can track our progress in the (very small) [release milestone](https://github.com/mathjax/MathJax/milestone/15) on GitHub.
 
 ## Alternative CDN providers
 
@@ -50,11 +55,11 @@ to
 </script>
 ```
 
-<!--
-**[Updated 2017/04/10]** Other free CDN providers include
-  * [rawgit](https://rawgit.com), e.g., `https://cdn.rawgit.com/mathjax/MathJax/2.7.0/MathJax.js`.
-  * [jsdelivr](https://jsdelivr.com), e.g., `https://cdn.jsdelivr.net/mathjax/2.1/MathJax.js`.
--->
+
+**[Updated 2017/04/18]** Other free CDN providers include
+* [rawgit](https://rawgit.com), e.g., `https://cdn.rawgit.com/mathjax/MathJax/2.7.0/MathJax.js`.
+<!--* [jsdelivr](https://jsdelivr.com) TBA-->
+
 
 **Note** If you have been using `https://cdn.mathjax.org/mathjax/latest/`, we suggest to switch to a fixed version going forward as this represents best practices to avoid unexpected changes.  That is, you will have to change the address manually to a higher number when new versions become available.
 
@@ -64,16 +69,18 @@ to
 
 **Note** The shutdown includes `beta.mathjax.org`.
 
+
 ## Temporary redirect starting May 1, 2017
 
 **[Updated 2017/04/10]**
 
 We will implement a temporary redirect on `cdn.mathjax.org` to redirect users to cdnjs.
 
-**Note** This is a temporary stopgap. While most sites should continue to work as usual, this will not work in all edge cases, e.g., custom configurations with hard-coded references to `cdn.mathjax.org`, sites with security policies that whitelist only `cdn.mathjax.org`. 
+**[Updated 2017/04/18]** The code for the redirect can be [found on GitHub](https://github.com/mathjax/cdn-redirect).
+
+**Note** This is a temporary stopgap. While most sites should continue to work as usual, this will not work in all edge cases, e.g., custom configurations with hard-coded references to `cdn.mathjax.org`, sites with security policies that whitelist only `cdn.mathjax.org`, poorly synchronized code.
 
 We recommend switching to another CDN provider or your own copy of MathJax as soon as possible.
-
 
 ## Install a local copy
 
@@ -93,10 +100,17 @@ In addition, most sites only require a fraction of MathJax's functionality - usu
 
 ### Third party extensions 
 
-MathJax's [third party extensions](https://github.com/mathjax/MathJax-third-party-extensions) are not yet available on alternative CDNs but we are working on adding them to cdnjs to ensure a smooth transition. We will update the community and our documentation once it is ready.
+**[Updated 2017/04/18]** 
+
+MathJax's [third party extensions](https://github.com/mathjax/MathJax-third-party-extensions) will be retired in its current form. 
+
+We will retire the current repository and strongly recommend to maintainers to provide separte repositories for their extensions. For more details, check [the relevant announcement on GitHub](https://github.com/mathjax/MathJax-third-party-extensions/issues/39).
+
+Some extensions have already been updated to our new suggestions, e.g., mhchem v3 [on cdnjs](https://cdnjs.com/libraries/mathjax-mhchem) and [on rawgit](https://rawgit.com/mhchem/MathJax-mhchem/master/mhchem.js)). We are working with other maintainers to get everyone up to date.
+
+To ensure a smooth transition, we will keep the copies at `cdn.mathjax.org/mathjax/contrib` available alongside the redirect (see above). A bug fix release for MathJax will fix the dependency on this URL within MathJax itself.
 
 In the mean time, you can easily set up your own copy and follow our [documentation for loading third party extensions](http://docs.mathjax.org/en/latest/options/ThirdParty.html#custom-extension-path-configuration).
-
 
 ## Next steps
 

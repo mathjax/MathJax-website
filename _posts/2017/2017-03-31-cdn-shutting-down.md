@@ -54,13 +54,13 @@ to
 
 ```
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?...">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?...">
 </script>
 ```
 
 
 **[Updated 2017/04/25]** Other free CDN providers include
-* [rawgit](https://rawgit.com), e.g., `https://cdn.rawgit.com/mathjax/MathJax/2.7.0/MathJax.js`.
+* [rawgit](https://rawgit.com), e.g., `https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js`.
 * [jsdelivr](https://jsdelivr.com) plans to provide a (functional) copy of MathJax in the future.
 
 

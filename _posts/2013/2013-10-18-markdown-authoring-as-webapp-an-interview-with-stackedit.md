@@ -11,18 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-10-18 17:48:36'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  dsq_thread_id: '1872597582'
-author:
-  login: PeterK
-  email: info@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 {% include image.html img="images/interview_profile_stackedit.jpg" title="Benoit Schweblin" caption="Benoit Schweblin is the creator of StackEdit" %}

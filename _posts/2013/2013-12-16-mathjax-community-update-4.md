@@ -8,18 +8,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _cws_is_markdown: '2'
-  _cws_is_markdown_gmt: '2013-12-17 06:48:50'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '12'
-  dsq_thread_id: '2055591667'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 You might think things quiet down because MathJax v2.3 has been released but the MathJax community is busy as always. So here are a few new ideas, projects, and helpful tips.

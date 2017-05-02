@@ -11,17 +11,7 @@ tags: []
 status: trash
 type: post
 published: false
-meta:
-  _wp_trash_meta_status: draft
-  _wp_trash_meta_time: '1421235927'
-  _rawhtml_settings: '0,0,0,0'
-  _edit_last: '13'
-author:
-  login: pkra
-  email: peter.krautzberger@mathjax.org
-  display_name: Peter Krautzberger
-  first_name: Peter
-  last_name: Krautzberger
+author: Peter Krautzberger
 ---
 
 With the release of MathJax v2.4, we launched the MathJax Third Party extensions repository, an open repository for extensions and enhancements to MathJax that anyone can contribute to and everyone can use via the MathJax CDN.

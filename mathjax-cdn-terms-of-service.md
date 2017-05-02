@@ -4,6 +4,8 @@ title: MathJax CDN Terms of Service
 redirect_from: "/download/mathjax-cdn-terms-of-service/"
 ---
 
+<div class="alert alert-info" role="alert" style="text-align:center;"><strong>This page is for archival purposes only.</strong> <br> The MathJax CDN service at <code>cdn.mathjax.org</code> was retired on April 30, 2017. For alternatives, please check <a href="{{ site.baseurl }}/cdn-shutting-down/">our original announcement</a>.</div>
+
 **Intended Relationship.** MathJax software is made available through a content distribution network (MathJax CDN) by [MathJax Sponsors]({{ site.baseurl }}/#sponsors) to facilitate the use of high-quality, accessible, reusable mathematics notation in web pages.  The MathJax CDN enables users to take advantage of MathJax software without installing or maintaining the software themselves.
 
 **Acceptance of Terms.** MathJax CDN services are provided subject to the following Terms of Service (TOS). By accessing and using the MathJax CDN, you accept and agree to be bound by the terms and provision of the TOS.

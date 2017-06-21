@@ -13,7 +13,7 @@ author: Peter Krautzberger
 Stack Overflow operates the Stack Exchange network, an ever-growing network of online communities provides dedicated platforms that serve experts in a specific field. Among the 143 Stack Exchange sites, 29 integrate MathJax support to provide easy authoring and flawless rendering of mathematical content, including [Mathematics Stack Exchange](http://math.stackexchange.com) and [Physics Stack Exchange](http://physics.stackexchange.com) as well as newer communities such as [History of Math and Science Stack Exchange](http://hsm.stackexchange.com/) and [Worldbuilding Stack Exchange](http://worldbuilding.stackexchange.com/).
 
 
-"MathJax has been an essential partner of Stack Overflow for the past 6 years. Our partnership with MathJax allows us to continue to improve MathJax to serve not only our own math, tech and science communities, but also the entire worldwide mathematical community. We look forward to continuing to work with the MathJax team in the coming year."
+"MathJax has been an essential partner of Stack Overflow for the past 6 years. Our partnership with MathJax allows us to continue to improve MathJax to serve not only our own math, tech and science communities, but also the entire worldwide mathematical community," said David Fullerton, Vice President of Engineering. "We look forward to continuing to work with the MathJax team in the coming year."
 
 “Dedicated sponsors like Stack Overflow help us ensure the continuous development of MathJax”, comments Peter Krautzberger, MathJax manager. “The diverse Stack Exchange communities and the rich feedback from their technical team is critical to our development so that MathJax continues to be flexible, open, and robust.”
 

@@ -5,6 +5,7 @@ date: 2017-07-14
 categories:
 - News
 published: true
+permalink: /SpringerNature-continues-as-mathjax-supporter-2017/
 author: Peter Krautzberger
 ---
 

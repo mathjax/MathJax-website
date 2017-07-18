@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cambridge University Press continues as MathJax Supporter
-date: 2016-06-30
+date: 2017-07-18
 categories:
 - News
 tags: []

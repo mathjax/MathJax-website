@@ -12,7 +12,11 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+# GitHub
+repository: mathjax/mathjax
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-github-metadata

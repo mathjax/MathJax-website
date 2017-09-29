@@ -1,0 +1,332 @@
+---
+---
+@import 'normalize';
+
+/* Basics */
+
+* {
+    box-sizing: border-box;
+}
+
+*+* {
+    margin-top: 1.5em;
+}
+
+
+/* exclude MathJax rendering */
+
+span,
+div {
+    margin-top: 0
+}
+
+
+/* font stack */
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* "molten leading" */
+
+body {
+    font-size: 1em;
+    font-size: calc(1em + 1vmin);
+    line-height: 1.2em;
+    line-height: calc(1.2em + 1vmin);
+    color: #2d2d2d;
+}
+
+h1 {
+    font-size: 1.6875em;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 1.375em;
+    line-height: 1.6em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-top: 1em;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+a {
+    color: #169538
+}
+
+a:focus,
+a:hover {
+    color: #397F4C
+}
+
+time {
+    font-style: italic;
+}
+
+ul,
+li {
+    margin: 0;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+
+/* Layout */
+
+section {
+    padding: 7vmin;
+}
+
+section:nth-of-type(2n + 1) {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 50em;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/* nav, footer */
+
+.nav,
+.footer {
+    background-color: #5cb85c;
+    color: #fff;
+    display: block;
+    display: flex;
+}
+
+.nav {
+    font-size: 0.8em;
+    font-variant: all-small-caps;
+    min-height: 3em;
+    position: fixed;
+    top: 0;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+    /* ensure mathjax output stays under the nav*/
+    margin-top: 0;
+    /* avoids mathjax-message screwing things up   */
+}
+
+.nav ul {
+    float: right;
+    /*fallback*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    padding: .5vmin 0.75vw;
+}
+
+.nav a,
+.footer a {
+    color: #fff;
+}
+
+.nav a:hover,
+,
+.footer a:hover {
+    color: #397F4C;
+}
+
+.footer {
+    margin-top: 0;
+    padding: 0 2em;
+}
+
+
+/* FRONTPAGE */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    /*fallback*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    width: 15em;
+}
+
+.card--img {
+    width: 33%;
+    height: auto;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50%;
+    shape-outside: circle();
+}
+
+.card--popout {
+    display: none
+}
+
+.card--popout:target {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    margin-top: 3em;
+    padding: 0 2em;
+}
+
+.btn {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: block;
+    text-align: center;
+    padding: .5em 1em;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn[href*="//"]::after {
+    content: "\2BAD";
+}
+
+.btn--popout {
+    max-width: 15em;
+    display: block;
+    margin: 1em auto;
+}
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.hero-math {
+    font-size: 2em;
+    overflow-x: auto;
+}
+
+.hero-svg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    margin: 1em 0em;
+}
+
+
+/* Sponsors */
+
+.sponsors {
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.partner-img {
+    max-height: 7em;
+    max-width: 10em;
+    vertical-align: middle
+}
+
+.supporter-img {
+    max-height: 3em;
+    max-width: 6em;
+    vertical-align: middle
+}
+
+.supporters>a {
+    padding: 1em;
+}
+
+.friends>a {
+    font-size: 0.6em;
+    padding-right: 1em;
+}
+
+
+/* Features - Live Demo */
+
+.preview {
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+
+/*  Docs */
+
+.shield {
+    margin-top: 0;
+}
+
+.snippet {
+    display: block;
+    overflow: auto;
+    margin: auto;
+}
+
+.snippet pre {
+    color: red
+}
+
+
+/* page template */
+
+.page {
+    display: block;
+    max-width: 40em;
+    margin: auto;
+    margin-top: 5em;
+}
+
+
+/* News page */
+
+
+/*  list of articles  */
+
+.datelist dt,
+.datelist dd {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 30em;
+    margin-top: 1em;
+}

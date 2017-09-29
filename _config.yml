@@ -11,6 +11,8 @@ TimeZone: America/New_York
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+sass:
+    sass_dir: css
 
 # GitHub
 repository: mathjax/mathjax

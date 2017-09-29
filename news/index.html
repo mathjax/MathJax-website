@@ -2,28 +2,24 @@
 layout: page
 title: News
 full_posts: 2
-redirect_from: 
+redirect_from:
   - "/category/COMM/"
 ---
 
-<section>
 {% for post in site.posts %}
   {% if forloop.index < page.full_posts %}
-  <article class="post">
     <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
-    <aside class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></aside>
-    <section class="body">{{post.content}}</section>
-  </article>
-  <hr>
+    <aside><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></aside>
+    {{post.content}}
   {% else %}
     {% if forloop.index == page.full_posts %}
-    <section>
-    <h3>Previous News</h3>
-    <ul>
+    <h2>Previous News</h2>
+    <dl class="datelist">
     {% endif %}
-      <li><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time> | <a href='{{site.baseurl}}{{ post.url }}'>{{ post.title }}</a></li>
-  {% endif %}  
+      <div>
+        <dt><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></dt>
+        <dd><a href='{{site.baseurl}}{{ post.url }}'>{{ post.title }}</a></dd>
+      </div>
+  {% endif %}
 {% endfor %}
-  </ul>
-  </section>
-</section>
+  </dl>

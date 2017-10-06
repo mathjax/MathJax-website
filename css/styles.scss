@@ -2,6 +2,10 @@
 ---
 @import 'normalize';
 
+/* SASS */
+
+$primary-color: #008200;
+
 /* Basics */
 
 * {
@@ -64,12 +68,12 @@ h6 {
 }
 
 a {
-    color: #169538
+    color: lighten($primary-color,10%);
 }
 
 a:focus,
 a:hover {
-    color: #397F4C
+    color: darken($primary-color, 10%)
 }
 
 time {
@@ -107,7 +111,7 @@ section:nth-of-type(2n + 1) {
 
 .nav,
 .footer {
-    background-color: #5cb85c;
+    background-color: $primary-color;
     color: #fff;
     display: block;
     display: -webkit-box;
@@ -154,9 +158,8 @@ section:nth-of-type(2n + 1) {
 }
 
 .nav a:hover,
-,
 .footer a:hover {
-    color: #397F4C;
+    color: black;
 }
 
 .footer {
@@ -220,12 +223,12 @@ section:nth-of-type(2n + 1) {
     background-color: #f3f3f3;
     margin-top: 3em;
     padding: 0 2em;
+    position: relative;
 }
 
 .btn {
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: $primary-color;
     display: block;
     text-align: center;
     padding: .5em 1em;
@@ -236,15 +239,15 @@ section:nth-of-type(2n + 1) {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid transparent;
+    border: 1px solid darken($primary-color,10%);
     border-radius: 4px;
     text-decoration: none;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #449d44;
-    border-color: #398439;
+    @extend .btn;
+    background-color: darken($primary-color,5%);
 }
 
 .btn[href*="//"]::after {

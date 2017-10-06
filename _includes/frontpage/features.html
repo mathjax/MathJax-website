@@ -11,7 +11,7 @@
             or SVG, instead of bitmap images or Flash, so equations scale with surrounding text at all zoom levels.
           </p>
         </div>
-        <a class="btn" href="#samples">View Samples</a>
+        <a class="btn" href="#samples" id="to-samples">View Samples</a>
       </div>
 
       <div class="card">
@@ -22,7 +22,7 @@
             and output. Use MathML, TeX and ASCIImath as input and produce HTML+CSS, SVG and MathML as output.
           </p>
         </div>
-        <a class="btn" href="#demo">Try a live demo</a>
+        <a class="btn" href="#demo" id="to-demo">Try a live demo</a>
       </div>
 
       <div class="card">
@@ -33,7 +33,7 @@
             & provides zoom for everyone. You can also copy equations into Office, LaTeX, wikis, and other software.
           </p>
         </div>
-        <a class="btn" href="#a11ydemo">Learn more</a>
+        <a class="btn" href="#a11y" id="to-a11y">Learn more</a>
       </div>
       <div class="card card--popout" id="samples">
         <h3>Samples</h3>
@@ -76,7 +76,7 @@
 
         <h4>Definition of Christoffel Symbols</h4>
         \[(\nabla_X Y)^k = X^i (\nabla_i Y)^k = X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)\]
-
+        <a href="#to-samples" aria-label="Close pop-out" class="card--popout__close">✖</a>
       </div>
       <div class="card card--popout" id="demo">
         <h3>Live Demo</h3>
@@ -92,8 +92,9 @@
         <br/>Preview is shown here:
         <div id="MathPreview" class="preview" style=""></div>
         <div id="MathBuffer" class="preview" style="visibility:hidden; position:absolute; top:0; left: 0"></div>
+        <a href="#to-demo" aria-label="Close pop-out" class="card--popout__close">✖</a>
       </div>
-      <div class="card card--popout" id="a11ydemo">
+      <div class="card card--popout" id="a11y">
         <h3>Accessibility and reuse.</h2>
           <h4> Accessibility </h3>
         <p>
@@ -118,6 +119,7 @@
           copied and pasted into a variety of applications below. Note that this screencast is based on MathJax v1.1 so the
           menu structure is a little different.
         </p>
+        <a href="#to-a11y" aria-label="Close pop-out" class="card--popout__close">✖</a>
       </div>
     </div>
 </section>

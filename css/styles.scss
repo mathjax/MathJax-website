@@ -226,6 +226,10 @@ section:nth-of-type(2n + 1) {
     position: relative;
 }
 
+section:nth-of-type(2n + 1) .card--popout:target {
+    background: white;
+}
+
 .btn {
     color: #fff;
     background-color: $primary-color;
@@ -366,4 +370,23 @@ section:nth-of-type(2n + 1) {
     vertical-align: top;
     max-width: 30em;
     margin-top: 1em;
+}
+
+.card--popout__close {
+    border-radius: 2px;
+    border: 1px solid #d0d0d0;
+    background-color: #efefef;
+    color: #000;
+    font-size: 1.25em;
+    margin-right: 0.25em;
+    margin-top: 0.25em;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+
+.card--popout__close:hover, .card--popout__close:target {
+    background-color: #d0d0d0;
+    color: #000;
 }

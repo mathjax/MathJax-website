@@ -11,7 +11,7 @@
             author or a professional developer, it's easy to integrate MathJax.
           </p>
         </div>
-        <a class="btn" href="#gettingstarted">Learn more</a>
+        <a class="btn" href="#gettingstarted" id="to-gettingstarted">Learn more</a>
       </div>
       <div class="card">
         <div>
@@ -21,7 +21,7 @@
             content, advanced authoring tools, and math-enabled web and mobile apps.
           </p>
         </div>
-        <a class="btn" href="#apis">Dive deeper</a>
+        <a class="btn" href="#apis" id="to-apis">Dive deeper</a>
       </div>
 
       <div class="card">
@@ -32,7 +32,7 @@
             output on all browsers &amp; platforms - even on IE 6 (if you have to).
           </p>
         </div>
-        <a class="btn" href="#browsers">Check our overview</a>
+        <a class="btn" href="#browsers" id="to-browsers">Check our overview</a>
       </div>
 
       <div class="card">
@@ -41,7 +41,6 @@
           <p>
             <img src="https://www.mathjax.org/img/gh-mark.svg" alt="" class="card--img"> We host our code, docs, and this
             site on GitHub. Please <a href="https://github.com/mathjax/MathJax/blob/master/CONTRIBUTING.md#reporting-an-issue">report issues</a> &amp; <a href="https://github.com/mathjax/MathJax/blob/master/CONTRIBUTING.md#working-on-mathjax-core">submit patches</a>!
-            <img class="shield" src="https://img.shields.io/github/issues/mathjax/mathjax.svg" alt="">  <img class="shield" src="https://img.shields.io/github/issues-pr-closed/mathjax/mathjax.svg" alt="">
           </p>
         </div>
         <a class="btn" href="https://github.com/mathjax/mathjax">Visit us on GitHub</a>
@@ -78,9 +77,10 @@
       <p><strong>Note:</strong> the configuration file <code>TeX-MML-AM_CHTML</code> is a great way test all input options at once. You can find leaner <a href="http://docs.mathjax.org/en/latest/config-files.html#combined-configurations">combined configuration packages</a> in our documentation.
       </p>
       <p>If you are a developer who wants to integrate MathJax you can <a href="https://github.com/mathjax/MathJax/archive/master.zip">download a copy</a>        or fetch it from <a href="npmjs.com/package/mathjax">npm</a> or <a href="https://packagist.org/packages/mathjax/mathjax">Packagist</a>.
-        and configure MathJax yourself. If you prefer to render server-side, you can check out <a href="https://github.com/mathjax/mathjax-node">mathjax-node</a>
+        and configure MathJax yourself. If you prefer to render server-side, you can check out <a href="https://github.com/mathjax/mathjax-node">mathjax-node</a>.
       </p>
-      <a class="btn btn\-\-popout" href="https://docs.mathjax.org/en/latest/start.html">Jump to our docs</a>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/start.html">Jump to our docs</a>
+      <a href="#to-gettingstarted" aria-label="Close pop-out" class="card--popout__close">✖</a>
     </div>
     <div class="card card--popout" id="apis">
         <h3>A rich set of APIs</h3>
@@ -88,9 +88,10 @@
             Our extensive APIs allow developers to create everything from interactive content, to advanced authoring tools, to math-enabled web and mobile apps.
         </p>
         <p>
-          To get started, check out how to <a href="http://docs.mathjax.org/en/latest/advanced/typeset.html">modify math</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/extension-writing.html">write your own extension</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/mathjax-node.html">render on the server using NodeJS</a>. To dive deeper, start with our landing page.
+          To get started, check out how to <a href="http://docs.mathjax.org/en/latest/advanced/typeset.html">modify math</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/extension-writing.html">write your own extension</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/mathjax-node.html">render on the server using NodeJS</a>. To dive deeper, start with the landing page in
         </p>
-        <a class="btn btn\-\-popout" href="https://docs.mathjax.org/en/latest/api/index.html">our API documentation</a>.
+        <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/api/index.html">our API documentation</a>
+        <a href="#to-apis" aria-label="Close pop-out" class="card--popout__close">✖</a>
     </div>
     <div class="card card--popout" id="browsers">
         <h3>Browser support</h3>
@@ -110,8 +111,10 @@
           </li>
         </ul>
         <p>
-          You can find additional details in <a href="http://docs.mathjax.org/en/latest/misc/browser-compatibility.html">our overview</a> in the documentation.
+          You can find additional details in
+          <a class="btn btn--popout" href="http://docs.mathjax.org/en/latest/misc/browser-compatibility.html">our documentation</a>
         </p>
+        <a href="#to-browsers" aria-label="Close pop-out" class="card--popout__close">✖</a>
     </div>
   </div>
   </div>

@@ -68,16 +68,18 @@ h6 {
 }
 
 a {
-    color: lighten($primary-color,10%);
+    color: $primary-color;
 }
 
 a:focus,
 a:hover {
-    color: darken($primary-color, 10%)
+    color: darken($primary-color, 10%);
+    outline: dotted 1px $primary-color;
 }
 
 time {
     font-style: italic;
+    font-size: 0.8em;
 }
 
 ul,
@@ -243,7 +245,7 @@ section:nth-of-type(2n + 1) .card--popout:target {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid darken($primary-color,10%);
+    border: 1px solid darken($primary-color, 10%);
     border-radius: 4px;
     text-decoration: none;
 }
@@ -251,7 +253,7 @@ section:nth-of-type(2n + 1) .card--popout:target {
 .btn:hover,
 .btn:focus {
     @extend .btn;
-    background-color: darken($primary-color,5%);
+    background-color: darken($primary-color, 5%);
 }
 
 .btn[href*="//"]::after {
@@ -386,7 +388,8 @@ section:nth-of-type(2n + 1) .card--popout:target {
     top: 0;
 }
 
-.card--popout__close:hover, .card--popout__close:target {
+.card--popout__close:hover,
+.card--popout__close:target {
     background-color: #d0d0d0;
     color: #000;
 }

@@ -8,9 +8,13 @@ redirect_from:
 
 {% for post in site.posts %}
   {% if forloop.index < page.full_posts %}
-    <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
-    <aside><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></aside>
-    {{post.content}}
+    <article>
+      <header>
+        <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+        <aside class="post--date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></aside>
+      </header>
+      {{post.content}}
+    </article>
   {% else %}
     {% if forloop.index == page.full_posts %}
     <h2>Previous News</h2>

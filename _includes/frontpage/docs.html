@@ -1,0 +1,121 @@
+<section id="docs">
+  <div class="container">
+    <h2>Documentation <img class="shield" src="https://img.shields.io/github/release/mathjax/mathjax.svg" alt=""></h2>
+
+    <div class="cards">
+      <div class="card">
+        <div>
+          <h3>Getting Started</h3>
+          <p>
+            <img src="https://www.mathjax.org/img/code.svg" alt="" class="card--img"> Whether you're a casual user, a serious
+            author or a professional developer, it's easy to integrate MathJax.
+          </p>
+        </div>
+        <a class="btn" href="#gettingstarted" id="to-gettingstarted">Learn more</a>
+      </div>
+      <div class="card">
+        <div>
+          <h3>A rich API</h3>
+          <p>
+            <img src="https://www.mathjax.org/img/api.svg" alt="" class="card--img"> Use our extensive APIs to create interactive
+            content, advanced authoring tools, and math-enabled web and mobile apps.
+          </p>
+        </div>
+        <a class="btn" href="#apis" id="to-apis">Dive deeper</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <h3>Works everywhere</h3>
+          <p>
+            <img src="https://www.mathjax.org/img/browsers.svg" alt="" class="card--img"> MathJax generates high-quality
+            output on all browsers &amp; platforms - even on IE 6 (if you have to).
+          </p>
+        </div>
+        <a class="btn" href="#browsers" id="to-browsers">Check our overview</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <h3>Bugs, Issues, Code</h3>
+          <p>
+            <img src="https://www.mathjax.org/img/gh-mark.svg" alt="" class="card--img"> We host our code, docs, and this
+            site on GitHub. Please <a href="https://github.com/mathjax/MathJax/blob/master/CONTRIBUTING.md#reporting-an-issue">report issues</a> &amp; <a href="https://github.com/mathjax/MathJax/blob/master/CONTRIBUTING.md#working-on-mathjax-core">submit patches</a>!
+          </p>
+        </div>
+        <a class="btn" href="https://github.com/mathjax/mathjax">Visit us on GitHub</a>
+      </div>
+      <div class="card">
+        <div>
+          <h3>General Support</h3>
+          <p>
+            <img src="https://www.mathjax.org/img/mailing.svg" alt="" class="card--img"> You can ask general questions
+            on the <a href="https://groups.google.com/forum/#!forum/mathjax-users">MathJax-Users</a> mailing list where the entire community will chime in.
+          </p>
+        </div>
+        <a class="btn" href="http://docs.mathjax.org/en/latest/community.html#forums">Learn more</a>
+      </div>
+    </div>
+    <div class="card card--popout" id="gettingstarted">
+      <h3>Simple integration</h3>
+      <p>
+        Integrating MathJax is easy and many community tools make it even easier.
+      </p>
+      <p>
+        If you are using a CMS, there's probably a plugin to add MathJax to your site already, e.g., <a href="https://wordpress.org/plugins/search/mathjax/">for Wordpress</a> or <a href="https://www.drupal.org/project/mathjax">Drupal</a>.
+      </p>
+      <p>
+        If you are using specialized authoring tools they might integrate MathJax out of the box or have plugins, e.g., for <a href="https://tex.stackexchange.com/a/1654/19276">LaTeX</a>, <a href="https://www.sitepoint.com/best-markdown-editors-windows/">Markdown</a>, or even <a href="https://sigil-ebook.com/" rel="nofollow">epub</a>.
+      </p>
+      <p>
+        If you roll your own HTML (directly or via a template/theme engine), you can jump start with a CDN, e.g., by adding this snippet to your page:
+      </p>
+      <div class="snippet">
+        <pre><code>&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'&gt;&lt;/script&gt;</code></pre>
+      </div>
+      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20type%3D%22text%2Fjavascript%22%20async%0A%20%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fmathjax%2F2.7.2%2FMathJax.js%3Fconfig%3DTeX-MML-AM_CHTML%22%3E%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%24%24x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%24%24%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live">example on jsbin</a> you can re-use.</p>
+      <p><strong>Note:</strong> the configuration file <code>TeX-MML-AM_CHTML</code> is a great way test all input options at once. You can find leaner <a href="http://docs.mathjax.org/en/latest/config-files.html#combined-configurations">combined configuration packages</a> in our documentation.
+      </p>
+      <p>If you are a developer who wants to integrate MathJax you can <a href="https://github.com/mathjax/MathJax/archive/master.zip">download a copy</a>        or fetch it from <a href="npmjs.com/package/mathjax">npm</a> or <a href="https://packagist.org/packages/mathjax/mathjax">Packagist</a>.
+        and configure MathJax yourself. If you prefer to render server-side, you can check out <a href="https://github.com/mathjax/mathjax-node">mathjax-node</a>.
+      </p>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/start.html">Jump to our docs</a>
+      <a href="#to-gettingstarted" aria-label="Close pop-out" class="card--popout__close">✖</a>
+    </div>
+    <div class="card card--popout" id="apis">
+        <h3>A rich set of APIs</h3>
+        <p>
+            Our extensive APIs allow developers to create everything from interactive content, to advanced authoring tools, to math-enabled web and mobile apps.
+        </p>
+        <p>
+          To get started, check out how to <a href="http://docs.mathjax.org/en/latest/advanced/typeset.html">modify math</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/extension-writing.html">write your own extension</a>, or <a href="http://docs.mathjax.org/en/latest/advanced/mathjax-node.html">render on the server using NodeJS</a>. To dive deeper, start with the landing page in
+        </p>
+        <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/api/index.html">our API documentation</a>
+        <a href="#to-apis" aria-label="Close pop-out" class="card--popout__close">✖</a>
+    </div>
+    <div class="card card--popout" id="browsers">
+        <h3>Browser support</h3>
+        <p>
+            MathJax generates identical, high-quality
+            output on all browsers &amp; platforms. Our newer <a href="http://docs.mathjax.org/en/latest/output.html">output formats</a> have minimal restrictions on browser support:
+        </p>
+        <ul>
+          <li>
+              The <strong>HTML-CSS Output</strong> supports even IE 6+ (as well as Firefox 3+, Safari 2+, Chrome 1+).
+          </li>
+          <li>
+              The <strong>CommonHTML Output</strong> supports IE 8+ etc.
+          </li>
+          <li>
+              The <strong>SVG Output</strong> supports IE 9+ etc.
+          </li>
+        </ul>
+        <p>
+          You can find additional details in
+          <a class="btn btn--popout" href="http://docs.mathjax.org/en/latest/misc/browser-compatibility.html">our documentation</a>
+        </p>
+        <a href="#to-browsers" aria-label="Close pop-out" class="card--popout__close">✖</a>
+    </div>
+  </div>
+  </div>
+</section>

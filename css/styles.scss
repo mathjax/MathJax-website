@@ -1,0 +1,400 @@
+---
+---
+@import 'normalize';
+
+/* SASS */
+
+$primary-color: #008200;
+
+/* Basics */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*+* {
+    margin-top: 1.5em;
+}
+
+
+/* exclude MathJax rendering */
+
+span,
+div {
+    margin-top: 0
+}
+
+
+/* font stack */
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* "molten leading" */
+
+body {
+    font-size: 1em;
+    font-size: calc(1em + 1vmin);
+    line-height: 1.2em;
+    line-height: calc(1.2em + 1vmin);
+    color: #2d2d2d;
+}
+
+h1 {
+    font-size: 1.6875em;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 1.375em;
+    line-height: 1.6em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-top: 1em;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+a {
+    color: $primary-color;
+}
+
+a:focus,
+a:hover {
+    color: darken($primary-color, 10%);
+    outline: dotted 1px $primary-color;
+}
+
+time {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+ul,
+li {
+    margin: 0;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+
+/* Layout */
+
+section {
+    padding: 7vmin;
+}
+
+section:nth-of-type(2n + 1) {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 50em;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/* nav, footer */
+
+.nav,
+.footer {
+    background-color: $primary-color;
+    color: #fff;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav {
+    font-size: 0.8em;
+    font-variant: all-small-caps;
+    min-height: 3em;
+    position: fixed;
+    top: 0;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+    /* ensure mathjax output stays under the nav*/
+    margin-top: 0;
+    /* avoids mathjax-message screwing things up   */
+}
+
+.nav ul {
+    float: right;
+    /*fallback*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    padding: .5vmin 0.75vw;
+}
+
+.nav a,
+.footer a {
+    color: #fff;
+}
+
+.nav a:hover,
+.footer a:hover {
+    color: black;
+}
+
+.footer {
+    margin-top: 0;
+    padding: 0 2em;
+}
+
+
+/* FRONTPAGE */
+
+.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.card {
+    display: inline-block;
+    /*fallback*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 5px;
+    width: 15em;
+}
+
+.card--img {
+    width: 33%;
+    height: auto;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50%;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+}
+
+.card--popout {
+    display: none
+}
+
+.card--popout:target {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    margin-top: 3em;
+    padding: 2em;
+    position: relative;
+}
+
+section:nth-of-type(2n + 1) .card--popout:target {
+    background: white;
+}
+
+.btn {
+    color: #fff;
+    background-color: $primary-color;
+    display: block;
+    text-align: center;
+    padding: .5em 1em;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid darken($primary-color, 10%);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    @extend .btn;
+    background-color: darken($primary-color, 5%);
+}
+
+.btn[href*="//"]::after {
+    content: "\2BAD";
+}
+
+.btn--popout {
+    max-width: 15em;
+    display: block;
+    margin: 1em auto;
+}
+
+
+/* Hero */
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.hero-math {
+    font-size: 2em;
+    overflow-x: auto;
+}
+
+.hero-svg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    margin: 1em 0em;
+}
+
+
+/* Sponsors */
+
+.sponsors {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.partner-img {
+    max-height: 7em;
+    max-width: 10em;
+    vertical-align: middle
+}
+
+.supporter-img {
+    max-height: 3em;
+    max-width: 6em;
+    vertical-align: middle
+}
+
+.partners>a, .supporters>a {
+    padding: 1em;
+}
+
+.friends>a {
+    font-size: 0.6em;
+    padding-right: 1em;
+}
+
+
+/* Features - Live Demo */
+
+.preview {
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+
+/*  Docs */
+
+.shield {
+    margin-top: 0;
+}
+
+.snippet {
+    display: block;
+    overflow: auto;
+    margin: auto;
+}
+
+.snippet pre {
+    color: red
+}
+
+
+/* page template */
+
+.page {
+    display: block;
+    max-width: 40em;
+    margin: auto;
+    margin-top: 5em;
+}
+
+/* post template */
+
+.post--date {
+    margin-top: -1em;
+}
+
+/* News page */
+
+
+/*  list of articles  */
+
+.datelist dt,
+.datelist dd {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 30em;
+    margin-top: 1em;
+}
+
+.card--popout__close {
+    border-radius: 2px;
+    border: 1px solid #d0d0d0;
+    background-color: #efefef;
+    color: #000;
+    font-size: 1.25em;
+    margin-right: 0.25em;
+    margin-top: 0.25em;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+
+.card--popout__close:hover,
+.card--popout__close:target {
+    background-color: #d0d0d0;
+    color: #000;
+}

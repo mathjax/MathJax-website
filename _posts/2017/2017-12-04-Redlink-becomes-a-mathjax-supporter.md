@@ -7,7 +7,6 @@ categories:
 - News
 ---
 
-## RedLink becomes a MathJax Supporter
 
 [RedLink](http://www.redlink.com) is giving the MathJax project a boost by joining our sponsorship program as [MathJax Supporter](http://www.mathjax.org/#supporters).
 

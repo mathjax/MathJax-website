@@ -8,7 +8,6 @@ status: publish
 author: Peter Krautzberger
 ---
 
-# MathWorks continues as MathJax Supporter
 
 MathWorks provides the fundamental tools for research and development in academia and industry. Its leading computing software products, [MATLAB](http://www.mathworks.com/products/matlab/) and [Simulink](http://www.mathworks.com/products/simulink/), help engineers and scientists worldwide to accelerate the pace of discovery, innovation, and development. From industries, such as aerospace and industrial automation, to technical fields, such as financial services and computational biology, to more than 5000 colleges and universities around the world, the tools support teaching and research in a broad range of technical disciplines.
 

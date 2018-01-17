@@ -5,10 +5,10 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://cdnjs.cloudflare.com http://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.mathjax.org https://www.google-analytics.com https://img.shields.io; font-src 'self' https://cdnjs.cloudflare.com;" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
   <meta name="description" content="{{ site.description }}">
-  <link rel="canonical" href="{{ site.url }}{{page.url}}">
-  <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="MathJax Atom feed">
+  <link rel="canonical" href="{{ site.baseurl }}{{page.url}}">
+  <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.xml" title="MathJax Atom feed">
   {% seo %}
-  <script type="text/javascript" async src="{{ site.url }}/js/main.js"></script>
+  <script type="text/javascript" async src="{{ site.baseurl }}/js/main.js"></script>
 </head>

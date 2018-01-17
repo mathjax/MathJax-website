@@ -2,8 +2,8 @@
 title: MathJax
 email: info@mathjax.org
 description: "Beautiful math in all browsers."
-##baseurl: "/MathJax-website"
-url: "http://www.mathjax.org"
+baseurl: "https://www.mathjax.org"
+url: "https://www.mathjax.org"
 author: MathJax Consortium
 TimeZone: America/New_York
 

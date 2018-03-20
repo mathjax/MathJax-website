@@ -97,6 +97,7 @@
         buffer: null, // filled in by Init below
         timeout: null, // store setTimout id
         mjRunning: false, // true when MathJax is processing
+        refreshNeeded: false, // true if refresh needed after MathJax finishes  
         oldText: null, // used to check if an update is needed
         //  Get the preview and buffer DIV's
         Init: function () {
@@ -108,7 +109,7 @@
         //  the results of running MathJax are more accurate that way.)
         SwapBuffers: function () {
           var buffer = this.preview,
-            preview = this.buffer;
+              preview = this.buffer;
           this.buffer = buffer;
           this.preview = preview;
           buffer.style.visibility = "hidden";
@@ -126,8 +127,8 @@
           if (this.timeout) {
             clearTimeout(this.timeout);
           }
-          var callback = MathJax.Callback(["CreatePreview", Preview]);
-          callback.autoReset = true; // make sure it can run more than once
+          var callback = MathJax.Callback(["CreatePreview", this]);
+//          callback.autoReset = true; // make sure it can run more than once
           this.timeout = setTimeout(callback, this.delay);
         },
         //  Creates the preview and runs MathJax on it.
@@ -137,7 +138,10 @@
         //    typesetting.  After it is done, call PreviewDone.
         CreatePreview: function () {
           Preview.timeout = null;
-          if (this.mjRunning) return;
+          if (this.mjRunning) {
+            this.refreshNeeded = true;
+            return;
+          }
           var text = document.getElementById("MathInput").value;
           if (text === this.oldtext) return;
           this.buffer.innerHTML = this.oldtext = text;
@@ -151,11 +155,15 @@
         PreviewDone: function () {
           this.mjRunning = false;
           this.SwapBuffers();
+          if (this.refreshNeeded) {
+              this.refreshNeeded = false;
+              this.CreatePreview();
+          }
         }
       };
       Preview.Init();
       var inputarea = document.getElementById('MathInput');
-      inputarea.addEventListener('keyup', Preview.Update, false);
+      inputarea.addEventListener('input', Preview.Update.bind(Preview), false);
       Preview.Update();
     }
   };
@@ -209,5 +217,5 @@
   };
   window.onhashchange = followHash;
   var script = document.createElement('script');
-  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML-full';
+  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-MML-AM_CHTML-full';
   document.head.appendChild(script);

@@ -10,8 +10,6 @@ published: true
 author: Davide P. Cervone
 ---
 
-# The American Statistical Association becomes a MathJax Supporter
-
 MathJax today announced that the [American Statistical
 Association](https://www.amstat.org/) is joining its sponsorship program as
 a [MathJax Supporter](//www.mathjax.org/#sponsors).

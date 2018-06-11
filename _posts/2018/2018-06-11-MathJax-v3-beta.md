@@ -10,7 +10,7 @@ published: true
 author: Davide P. Cervone
 ---
 
-The MathJax team has been working hard over the past year and a half in a major rewrite of MathJax from the ground up, with the goal of modernizing MathJax's internal infrastructure, bringing it more flexibility for use with contemporary web technologies, making it easier to use with NodeJS for pre-processing and server-side support, and making it faster to render your mathematics. We have made headway in all these areas and we are pleased to announce the first public [beta release of MathJax v3](https://github.com/mathjax/mathjax-v3/releases/tag/3.0.0-beta.1).
+The MathJax team has been working hard over the past year and a half on a major rewrite of MathJax from the ground up, with the goal of modernizing MathJax's internal infrastructure, bringing it more flexibility for use with contemporary web technologies, making it easier to use with NodeJS for pre-processing and server-side support, and making it faster to render your mathematics. We have made headway in all these areas and we are pleased to announce the first public [beta release of MathJax v3](https://github.com/mathjax/mathjax-v3/releases/tag/3.0.0-beta.1).
 
 ## Where to Find the Beta Release
 

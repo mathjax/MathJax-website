@@ -28,13 +28,13 @@
       disabled: true
     },
     SVG: {
-      linebreaks: {automatic: true, width: "80%container"}
+      linebreaks: {automatic: true, width: "80% container"}
     },
     "HTML-CSS": {
-      linebreaks: {automatic: true, width: "80%container"}
+      linebreaks: {automatic: true, width: "80% container"}
     },
     CommonHTML: {
-      linebreaks: {automatic: true, width: "80%container"}
+      linebreaks: {automatic: true, width: "80% container"}
     },
     AuthorInit: function () {
       // ***Modal*** "Samples" -- switch renderer button
@@ -128,7 +128,6 @@
             clearTimeout(this.timeout);
           }
           var callback = MathJax.Callback(["CreatePreview", this]);
-//          callback.autoReset = true; // make sure it can run more than once
           this.timeout = setTimeout(callback, this.delay);
         },
         //  Creates the preview and runs MathJax on it.
@@ -217,5 +216,5 @@
   };
   window.onhashchange = followHash;
   var script = document.createElement('script');
-  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML-full';
+  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML-full';
   document.head.appendChild(script);

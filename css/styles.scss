@@ -336,6 +336,7 @@ section:nth-of-type(2n + 1) .card--popout:target {
     border: 1px solid black;
     margin-bottom: 1em;
     padding: 3px 5px;
+    line-height: calc(1em + 1vmin);
 }
 
 

@@ -16,7 +16,7 @@ The MathJax team has been working hard over the past year and a half on a major 
 
 The code for the release is available in the [beta](https://github.com/mathjax/mathjax-v3/tree/beta) branch of the [MathJax v3](https://github.com/mathjax/mathjax-v3) github repository.
 
-Examples of how to use MathJax v3 in web pages are available in the [mj3-demos](https://github.com/mathjax/mj3-demos) repository.  This includes several pre-packaged versions of MathJax for common use cases (e.g., converting TeX to HTML in a web page) that you can link to for your own test pages, along with sample HTML pages that call them, and documentation on how to configure MathJax v3.  Ther are also instructions on how to make your own custom webpacked version of MathJax v3.
+Examples of how to use MathJax v3 in web pages are available in the [mj3-demos](https://github.com/mathjax/mj3-demos) repository.  This includes several pre-packaged versions of MathJax for common use cases (e.g., converting TeX to HTML in a web page) that you can link to for your own test pages, along with sample HTML pages that call them, and documentation on how to configure MathJax v3.  There are also instructions on how to make your own custom webpacked version of MathJax v3.
 
 Examples of how to use MathJax v3 in web pages are available in the [mj3-demos-node](https://github.com/mathjax/mj3-demos-node) repository.  These include samples of how to convert a TeX string to an HTML string or to a MathML string, for example.
 

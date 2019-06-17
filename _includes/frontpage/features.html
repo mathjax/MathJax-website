@@ -8,7 +8,8 @@
           <h3>High-quality typography</h3>
           <p>
             <img src="img/integral.svg" alt="" class="card--img"> MathJax™ uses CSS with web fonts
-            or SVG, instead of bitmap images or Flash, so equations scale with surrounding text at all zoom levels.
+            or SVG, instead of bitmap images or Flash, so equations scale with surrounding text at
+            all zoom levels.
           </p>
         </div>
         <a class="btn" href="#samples" id="to-samples">View Samples</a>
@@ -19,7 +20,8 @@
           <h3>Modular Input &amp; Output</h3>
           <p>
             <img src="img/modular.svg" alt="" class="card--img"> MathJax is highly modular on input
-            and output. Use MathML, TeX and ASCIImath as input and produce HTML+CSS, SVG and MathML as output.
+            and output. Use MathML, TeX, and ASCIImath as input and produce HTML+CSS, SVG, or MathML
+            as output.
           </p>
         </div>
         <a class="btn" href="#demo" id="to-demo">Try a live demo</a>
@@ -29,8 +31,9 @@
         <div>
           <h3>Accessible &amp; reusable</h3>
           <p>
-            <img src="img/a11y.svg" alt="" class="card--img"> MathJax is compatible with screenreaders
-            & provides zoom for everyone. You can also copy equations into Office, LaTeX, wikis, and other software.
+            <img src="img/a11y.svg" alt="" class="card--img"> MathJax works with
+            screenreaders &amp; provides expression zoom and interactive exploration.
+            You also can copy equations into Office, LaTeX, wikis, and other software.
           </p>
         </div>
         <a class="btn" href="#a11y" id="to-a11y">Learn more</a>
@@ -38,7 +41,12 @@
       <div class="card card--popout" id="samples">
         <h3>Samples</h3>
         <p>
-          Our homepage is configured to use MathJax's CommonHTML mode with web fonts to display the equations, which produces uniform layout and typesetting across browsers. But MathJax can also be configured to use HTML-CSS (for legacy browsers), SVG, and native MathML rendering when available in a browser. You can try the various output modes using the MathJax context Menu (which you access by ctrl+clicking / alt-clicking an equation) or the button below.
+          Our homepage is configured to use MathJax's CommonHTML mode with web fonts to display the
+          equations, which produces uniform layout and typesetting across browsers. But MathJax can
+          also be configured to use HTML-CSS (for legacy browsers), SVG, and native MathML rendering
+          when available in a browser. You can try the various output modes using the MathJax
+          context Menu (which you access by ctrl+clicking / alt-clicking / right-clicking an equation)
+          or the menu below.
         </p>
         <p>
           Select the rendering mode: &nbsp;
@@ -52,35 +60,43 @@
 
 
         <h4>The Quadratic Formula</h4>
-
         \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 
         <h4>Cauchy's Integral Formula</h4>
-
         \[f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\]
-        <h4>Double angle formula for Cosines</h4>
 
+        <h4>Double angle formula for Cosines</h4>
         \[ \cos(θ+φ)=\cos(θ)\cos(φ)−\sin(θ)\sin(φ) \]
 
         <h4>Gauss' Divergence Theorem</h4>
         \[ \int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS \]
 
-        <h5>Curl of a Vector Field</h5>
-
-        \[ \vec{\nabla} \times \vec{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i}
-        + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \mathbf{j} + \left( \frac{\partial
-        F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k} \]
+        <h4>Curl of a Vector Field</h4>
+        \[ \vec{\nabla} \times \vec{F} =
+            \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i}
+          + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \mathbf{j}
+          + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k} \]
 
         <h4>Standard Deviation</h4>
         \[\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2} \]
 
         <h4>Definition of Christoffel Symbols</h4>
-        \[(\nabla_X Y)^k = X^i (\nabla_i Y)^k = X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)\]
+        \[(\nabla_X Y)^k = X^i (\nabla_i Y)^k =
+           X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)\]
+
         <a href="#to-samples" aria-label="Close pop-out" class="card--popout__close"></a>
       </div>
+
       <div class="card card--popout" id="demo">
         <h3>Live Demo</h3>
-        <p>Type text in the box below. Include some math as MathML, wrap TeX in <code>$</code> or <code>$$</code> delimiters, and ASCIImath in <code>`</code> delimiters (<a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20type%3D%22text%2Fjavascript%22%20async%0A%20%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fmathjax%2F2.7.5%2Flatest.js%3Fconfig%3DTeX-MML-AM_CHTML%22%3E%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%24%24x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%24%24%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">pre-populated jsbin</a>).  The text you enter is actually HTML, so you can include tags if you want; but this also means you have to be careful how you use less-than signs, ampersands, and other HTML special characters (surrounding them by spaces should be sufficient).
+        <p>
+        Type text in the box below.  Include some math as MathML, wrap TeX in <code>$</code> or
+        <code>$$</code> delimiters, and ASCIImath in <code>`</code> delimiters (<a
+        href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20type%3D%22text%2Fjavascript%22%20async%0A%20%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fmathjax%2F2.7.5%2Flatest.js%3Fconfig%3DTeX-MML-AM_CHTML%22%3E%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%24%24x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%24%24%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live"
+        target="_blank">pre-populated jsbin</a>).  The text you enter is actually HTML, so you can
+        include tags if you want; but this also means you have to be careful how you use less-than
+        signs, ampersands, and other HTML special characters (surrounding them by spaces should be
+        sufficient).
         </p>
 
         <textarea id="MathInput" rows="10" style="width: 100%;">
@@ -96,26 +112,36 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</textarea>
         <h3>Accessibility and reuse.</h2>
           <h4> Accessibility </h3>
         <p>
-          MathJax provides a powerful set of accessibility extensions that provide navigation, exploration, and voicing on the client.
+          MathJax provides a powerful set of accessibility extensions that
+          provide navigation, exploration, and voicing on the client.
 
         </p>
-        <p>You can find more information in <a href="https://youtu.be/6GSgTjorewQ">our introductory video on YouTube.</a> and
-          our <a href="http://docs.mathjax.org/en/latest/misc/accessibility-features.html">documentation</a>.</p>
+        <p>
+         You can find more information in <a href="https://youtu.be/6GSgTjorewQ">our introductory
+         video on YouTube.</a> and our
+         <a href="http://docs.mathjax.org/en/latest/misc/accessibility-features.html">documentation</a>.
+        </p>
         <hr>
         <h3> Reuse </h3>
-        <p>Using the MathJax context menu, you can access the source of any mathematical expression either in MathML format,
-          or in TeX if its source format was TeX.</p>
+        <p>
+          Using the MathJax context menu, you can access the source of any mathematical expression
+          either in MathML format, or in its original format if that was TeX or AsciiMath.</p>
+        <p>
+          To access the MathJax menu, right-click on a math formula (if you are using Windows), or
+          Control-click it (if you are using a Mac) or touble-tap and hold on a touch device.  In
+          the sub-menu “<code>Show Math as</code>” you can choose between “<code>MathML Code</code>” and
+          “<code>TeX commands</code>” to get a pop-up that allows you to copy the math source into
+          another application.  Try it out on the equation below!
+        </p>
+
+        \[ \left [ &#8211; \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi =
+            i \hbar \frac{\partial}{\partial t} \Psi \]
 
         <p>
-          To access the MathJax menu, right-click on a math formula (if you are using Windows), or Control-click it (if you are using a Mac) or touble-tap and hold on a touch device. In the sub-menu <code>Show Math as</code> you can choose between <code>MathML Code</code> and <code>TeX commands</code> to get a pop-up that allows you to copy the math source into another application. Try it out on the equation below!</p>
-
-        \[ \left [ &#8211; \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial
-        t} \Psi \]
-
-        <p>
-          You can also watch <a href="https://youtu.be/VBt0Qeq5GWw">our screencast on YouTube</a> of a MathJax equation being
-          copied and pasted into a variety of applications below. Note that this screencast is based on MathJax v1.1 so the
-          menu structure is a little different.
+          You can also watch <a href="https://youtu.be/VBt0Qeq5GWw">our screencast on YouTube</a> of
+          a MathJax equation being copied and pasted into a variety of applications. Note that
+          this screencast is based on MathJax v1.1 so the menu structure is a little different in
+          the current version.
         </p>
         <a href="#to-a11y" aria-label="Close pop-out" class="card--popout__close"></a>
       </div>

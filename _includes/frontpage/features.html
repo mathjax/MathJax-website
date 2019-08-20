@@ -49,13 +49,15 @@
           or the menu below.
         </p>
         <p>
+          <label>
           Select the rendering mode: &nbsp;
           <select id="Renderer" onchange="setMode(this.value)" style="margin: 0px 0px 0px">
-              <option value="CommonHTML">CommonHTML</option>
-              <option value="NativeMML">MathML</option>
-              <option value="HTML-CSS">HTML-CSS</option>
-              <option value="SVG">SVG</option>
-            </select>
+            <option value="CommonHTML">CommonHTML</option>
+            <option value="NativeMML">MathML</option>
+            <option value="HTML-CSS">HTML-CSS</option>
+            <option value="SVG">SVG</option>
+          </select>
+          </label>
         </p>
 
 
@@ -99,7 +101,7 @@
         sufficient).
         </p>
 
-        <textarea id="MathInput" rows="10" style="width: 100%;">
+        <textarea id="MathInput" rows="10" style="width: 100%;" title="HTML content to be typeset">
 When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</textarea>
         <br/>

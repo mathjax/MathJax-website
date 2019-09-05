@@ -17,6 +17,10 @@ $primary-color: #008200;
     margin-top: 1.5em;
 }
 
+mjx-container *+* {
+    margin-top: unset;
+}
+
 .small-top {
     margin: .5em 5%;
     background-color: #f3f3f3;

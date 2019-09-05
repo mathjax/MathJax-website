@@ -52,7 +52,7 @@
             patches</a>!
           </p>
         </div>
-        <a class="btn" href="https://github.com/mathjax/mathjax">Visit us on GitHub</a>
+        <a class="btn" href="https://github.com/mathjax/MathJax-src">Visit us on GitHub</a>
       </div>
 
       <div class="card">
@@ -65,7 +65,7 @@
             list where the entire community can chime in.
           </p>
         </div>
-        <a class="btn" href="http://docs.mathjax.org/en/latest/community.html#forums">Learn more</a>
+        <a class="btn" href="http://docs.mathjax.org/en/latest/basic/community.html#mailing-lists">Learn more</a>
       </div>
     </div>
 
@@ -94,39 +94,45 @@
         MathJax by adding this snippet to your page:
       </p>
       <div class="snippet">
-        <pre><code>&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;
+&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
       </div>
-      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20type%3D%22text%2Fjavascript%22%20async%0A%20%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fmathjax%2F2.7.5%2FMathJax.js%3Fconfig%3DTeX-MML-AM_CHTML%22%20async%3E%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%24%24x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%24%24%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
+      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20src%3D%22https%3A%2F%2Fpolyfill.io%2Fv3%2Fpolyfill.min.js%3Ffeatures%3Des6%22%3E%3C%2Fscript%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <p>
-        <strong>Note:</strong> the configuration file <code>TeX-MML-AM_CHTML</code> is a great way
-        to test all input options at once. You can find leaner
-        <a href="http://docs.mathjax.org/en/latest/config-files.html#combined-configurations">combined
+        <strong>Note:</strong> the configuration file <code>tex-mml-chtml.js</code> is a great way
+        to test both TeX and MathML input options at once. You can find leaner
+        <a href="http://docs.mathjax.org/en/latest/web/components/combined.html">combined
         configuration packages</a> in our documentation.
       </p>
       <hr>
       <p>
-        If you use the snippet above, you will need to change the version number in the
-        <code>src</code> attribute any time the version of MathJax changes.  If you want to always
-        get the most up-to-date version without modifying your web pages, use the following instead:
+        If you use the snippet above, you will not need to change the version number in the
+        <code>src</code> attribute every time the version of MathJax changes.  If you want to always
+        use a specific version, then use a reference like
       </p>
       <div class="snippet">
-        <pre><code>&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;
+&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
       </div>
-      <p>
-        Although this refers to a specific version, the <code>latest.js</code> file will load the
-        most current version regardless of the one you specified.
-      </p>
-      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20type%3D%22text%2Fjavascript%22%20async%0A%20%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fmathjax%2F2.7.5%2Flatest.js%3Fconfig%3DTeX-MML-AM_CHTML%22%20async%3E%0A%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%24%24x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%24%24%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
+      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20src%3D%22https%3A%2F%2Fpolyfill.io%2Fv3%2Fpolyfill.min.js%3Ffeatures%3Des6%22%3E%3C%2Fscript%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403.0.0%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <hr>
       <p>
-        If you are a developer who wants to integrate MathJax into your workflow, you can
-        <a href="https://github.com/mathjax/MathJax/archive/master.zip">download a copy</a> or fetch
-        it from <a href="https://www.npmjs.com/package/mathjax">npm</a> or
-        <a href="https://packagist.org/packages/mathjax/mathjax">Packagist</a> and configure MathJax
-        yourself. If you prefer to render server-side, you can check out
-        <a href="https://github.com/mathjax/mathjax-node">mathjax-node</a>.
+        If you are a developer who wants to integrate MathJax into your workflow, you can <a
+        href="https://github.com/mathjax/MathJax/archive/master.zip">download a copy</a> or fetch it
+        from <a href="https://www.npmjs.com/package/mathjax">npm</a> or <a
+        href="https://packagist.org/packages/mathjax/mathjax">Packagist</a> and configure MathJax
+        yourself.  The <a href="https://github.com/mathjax/MathJax-src/archive/master.zip">source
+        code</a> is available from <a href="https://www.npmjs.com/package/mathjax-full">npm</a>
+        as well.  There are example files in the <a
+        href="https://github.com/mathjax/MathJax-demos-web#MathJax-demos-web">MathJax Web
+        Examples</a> repository.
       </p>
-      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/start.html">Jump to our docs</a>
+      <p>
+        If you prefer to render server-side, MathJax version 3 makes that easy as well.  There are
+        examples in our <a href="https://github.com/mathjax/MathJax-demos-node#MathJax-demos-node">MathJax Node
+        Demos</a> repository.
+      </p>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our docs</a>
       <a href="#to-gettingstarted" aria-label="Close pop-out" class="card--popout__close"></a>
     </div>
 
@@ -138,10 +144,9 @@
         </p>
         <p>
           To get started, check out how to
-          <a href="http://docs.mathjax.org/en/latest/advanced/typeset.html">modify math</a>, or
-          <a href="http://docs.mathjax.org/en/latest/advanced/extension-writing.html">write your
-          own extension</a>, or
-          <a href="http://docs.mathjax.org/en/latest/advanced/mathjax-node.html">render on the
+          <a href="http://docs.mathjax.org/en/latest/web/typeset.html">use dynamic math content</a>, or
+          <a href="http://docs.mathjax.org/en/latest/web/webpack.html">write your own cusotm component</a>, or
+          <a href="http://docs.mathjax.org/en/latest/index.html#server-nodejs">render on the
           server using NodeJS</a>. To dive deeper, start with the landing page in
         </p>
         <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/api/index.html">our API documentation</a>
@@ -151,24 +156,19 @@
     <div class="card card--popout" id="browsers">
         <h3>Browser support</h3>
         <p>
-          MathJax generates identical, high-quality output on all browsers &amp; platforms. Our
-          newer <a href="http://docs.mathjax.org/en/latest/output.html">output formats</a> have
-          minimal restrictions on browser support:
+          MathJax generates consistent, high-quality output on all browsers &amp; platforms. Our
+          <a href="http://docs.mathjax.org/en/latest/output/index.html">output formats</a> support all
+          the major browser, including: IE11, Edge, Chrome, Firefox, Safari, Opera, etc.
         </p>
-        <ul>
-          <li>
-              The <strong>HTML-CSS Output</strong> supports even IE 6+ (as well as Firefox 3+, Safari 2+, Chrome 1+).
-          </li>
-          <li>
-              The <strong>CommonHTML Output</strong> supports IE 8+ etc.
-          </li>
-          <li>
-              The <strong>SVG Output</strong> supports IE 9+ etc.
-          </li>
-        </ul>
+        <p>
+
+          Version 2 of MathJax supported earlier versions of IE, back to IE6 in some output formats,
+          so if you need to support extremely old browsers, you can continue to use
+          <a href="http://docs.mathjax.org/en/v2.7-latest/">MathJax v2.7.5</a> for those needs.
+        </p>
         <p>
           You can find additional details in
-          <a class="btn btn--popout" href="http://docs.mathjax.org/en/latest/misc/browser-compatibility.html">our documentation</a>
+          <a class="btn btn--popout" href="http://docs.mathjax.org/en/latest/output/browser.html">our documentation</a>
         </p>
         <a href="#to-browsers" aria-label="Close pop-out" class="card--popout__close"></a>
     </div>

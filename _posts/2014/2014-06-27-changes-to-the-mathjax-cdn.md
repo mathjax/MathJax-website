@@ -34,4 +34,4 @@ you should switch to
 
 > https://cdn.mathjax.org/...
 
-See [the MathJax documentation](http://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn) for more information.
+See [the MathJax documentation](http://docs.mathjax.org/en/v2.4-latest/start.html#secure-access-to-the-cdn) for more information.

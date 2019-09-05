@@ -24,7 +24,7 @@ MathJax v2.7 is primarily a bug-fix release with over 60 important bug fixes. In
   * *Universal aural Rendering.* An aural rendering tool providing on-the-fly speech-text for mathematical content and its subexpressions using various rule sets.
   * *Full Exploration.* A fully accessible exploration tool, allowing for meaningful exploration of mathematical content including multiple highlighting features and synchronized aural rendering.
   * For detailed information check the accessibility extensions' [release announcement](https://www.mathjax.org/mathjax-accessibility-extensions-v1-now-available/).
-3. *Opt-in for mhchem v3* The mhchem extension in the core now provides a configuration option to switch to mchhem v3. This new version was (re-)written by Martin Hensel, author of the original $\rm \LaTeX$ package, and greatly revises and extends it. This new extension is also available directly through the [MathJax Third Party Extension repository](http://docs.mathjax.org/en/latest/options/ThirdParty.html)
+3. *Opt-in for mhchem v3* The mhchem extension in the core now provides a configuration option to switch to mchhem v3. This new version was (re-)written by Martin Hensel, author of the original $\rm \LaTeX$ package, and greatly revises and extends it. This new extension is also available directly through the [MathJax Third Party Extension repository](http://docs.mathjax.org/en/v2.7-latest/options/ThirdParty.html)
 3. *Simplified opt-in for third party extensions* MathJax v2.7 configures the `[Contrib]` path variable to the URL of the third party extension repository on the MathJax CDN. This simplifies loading contributed extensions.
 4. *Third Party Extension Updates* Our Third Party Extension repository as seen some great additions recently. **The MathJax team is grateful for these contributions from the community!**
   * [arabic.js](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/arabic): Omar Al-Ithawi ([@omarithawi](https://github.com/omarithawi)) from Edraak.org contributed this extension for basic Arabic support in the TeX input.  
@@ -44,11 +44,11 @@ If you are using [a combined configuration](https://docs.mathjax.org/en/v2.7-lat
 
 ## Release on the MathJax CDN
 
-MathJax v2.7 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/latest/installation.html#obtaining-mathjax-via-an-archive).
+MathJax v2.7 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/v2.7-latest/installation.html#obtaining-mathjax-via-an-archive).
 
 Version 2.7 is available on the CDN at
 
-> [http://cdn.mathjax.org/mathjax/2.7-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js)
+> [http://cdn.mathjax.org/mathjax/2.7-latest/MathJax.js](http://cdn.mathjax.org/mathjax/2.7-latest/MathJax.js)
 
 and **starting today** the files at the
 

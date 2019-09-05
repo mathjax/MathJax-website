@@ -50,7 +50,7 @@ The major focus of MathJax v2.3 are additional webfonts options. Due to font and
 
 MathJax v2.3 now adds six new webfonts derived from **STIX, Neo Euler, Asana, Gyre Pagella, Gyre Termes, and Latin Modern**. This is a major improvement in both functionality, Unicode coverage and typographical options.
 
-To configure MathJax to use these fonts, you can follow our existing documentation. For HTML-CSS output, the configuration option is `webFont` ([see the docs](http://docs.mathjax.org/en/latest/options/HTML-CSS.html)) and for SVG output the option is `font` ([see the docs](http://docs.mathjax.org/en/latest/options/SVG.html)). The possible values are
+To configure MathJax to use these fonts, you can follow our existing documentation. For HTML-CSS output, the configuration option is `webFont` ([see the docs](http://docs.mathjax.org/en/v2.7-latest/options/HTML-CSS.html)) and for SVG output the option is `font` ([see the docs](http://docs.mathjax.org/en/v2.7-latest/options/SVG.html)). The possible values are
 
 * `TeX`
 * `STIX-Web`
@@ -90,7 +90,7 @@ Thanks to the contributions from [TranslateWiki.net volunteers](https://translat
 
 MathJax's "Show Math as" menu will now expose the [MathML annotation features](http://www.w3.org/Math/draft-spec/chapter5.html#mixing.semantic.annotations) (annotation and annotation-xml). Since many MathML authoring tools provide such annotations, this allows users to access embedded representations such as TeX, CAS syntax, and other descriptions.
 
-There are also two new preview options for the MathML input mode: `mathml` (now the default) and `altimage` which will show the original MathML and an alternative image respectively. To configure these new options, simply follow [the mml2jax documentation](http://docs.mathjax.org/en/latest/options/mml2jax.html). For example, the `altimage` option would look as follows:
+There are also two new preview options for the MathML input mode: `mathml` (now the default) and `altimage` which will show the original MathML and an alternative image respectively. To configure these new options, simply follow [the mml2jax documentation](http://docs.mathjax.org/en/v2.7-latest/options/mml2jax.html). For example, the `altimage` option would look as follows:
 
     MathJax.Hub.Config({
       mml2jax: {
@@ -160,7 +160,7 @@ To allow similar functionality when setting the MathJax variable, you can use th
       }
     }
 
-When the AuthorInit function is called, the MathJax objects are already created and thus you can for example already use `MathJax.Callback` to synchronize your code (e.g. listening signals). As you can see in http://docs.mathjax.org/en/latest/startup.html, this happens a bit before "text/x-mathjax-config" so it will allow for finer control (e.g. your can now really add listener for the "Begin" and "Begin Config" signals before they happen, say to measure the exact time between "Begin" and "End"). In particular, you can now modify the startup sequence; for example, the upcoming version of the MediaWiki Math extension will use this to replace MathJax's resource loader with its own resource loader.
+When the AuthorInit function is called, the MathJax objects are already created and thus you can for example already use `MathJax.Callback` to synchronize your code (e.g. listening signals). As you can see in http://docs.mathjax.org/en/v2.7-latest/startup.html, this happens a bit before "text/x-mathjax-config" so it will allow for finer control (e.g. your can now really add listener for the "Begin" and "Begin Config" signals before they happen, say to measure the exact time between "Begin" and "End"). In particular, you can now modify the startup sequence; for example, the upcoming version of the MediaWiki Math extension will use this to replace MathJax's resource loader with its own resource loader.
 
 #### Bower package
 

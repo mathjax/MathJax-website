@@ -18,7 +18,7 @@ With the release of MathJax v2.4, we launched the MathJax Third Party extensions
 
 ### MathJax -- modular by design
 
-Modularity is deeply embedded into MathJax's design. The core functionality consists of highly modular input, internal, and output components. Each of these can be modified by an extension system using the [MathJax API](http://docs.mathjax.org/en/latest/api/index.html). In fact, the majority of MathJax functionality is implemented in the form of over 30 core extensions.
+Modularity is deeply embedded into MathJax's design. The core functionality consists of highly modular input, internal, and output components. Each of these can be modified by an extension system using the [MathJax API](http://docs.mathjax.org/en/v2.4-latest/api/index.html). In fact, the majority of MathJax functionality is implemented in the form of over 30 core extensions.
 
 ### Your extension, available for everyone
 
@@ -51,10 +51,10 @@ As a page author, you can easily load extensions from the repository alongside M
       });
     </script>
 
-For further details, see [the documentation](http://docs.mathjax.org/en/latest/options/ThirdParty.html).
+For further details, see [the documentation](http://docs.mathjax.org/en/v2.4-latest/options/ThirdParty.html).
 
 ### Make your own extensions
 
-MathJax makes it easy to add your own extensions. From simple extensions containing TeX macros to complex graphical extensions like xyjax, [MathJax's APIs](http://docs.mathjax.org/en/latest/api/index.html) allows devlopers to add functionality easily and consistently.
+MathJax makes it easy to add your own extensions. From simple extensions containing TeX macros to complex graphical extensions like xyjax, [MathJax's APIs](http://docs.mathjax.org/en/v2.4-latest/api/index.html) allows devlopers to add functionality easily and consistently.
 
-For an introduction, check out our [extension writing tutorial](http://docs.mathjax.org/en/latest/extension-writing.html) in our documentation. If you have any questions about extension writing, head over to the [MathJax User Group](http://groups.google.com/forum/#!forum/mathjax-users)
+For an introduction, check out our [extension writing tutorial](http://docs.mathjax.org/en/v2.4-latest/extension-writing.html) in our documentation. If you have any questions about extension writing, head over to the [MathJax User Group](http://groups.google.com/forum/#!forum/mathjax-users)

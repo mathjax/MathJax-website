@@ -13,7 +13,7 @@ author: Peter Krautzberger
 
 After a successful [beta run](http://www.mathjax.org/mathjax-v2-2-beta-now-available/), we're happy to officially release MathJax v2.2.
 
-MathJax v2.2 is available on the CDN, and for download from GitHub or via the download page at [docs.mathjax.org](http://docs.mathjax.org/en/latest/installation.html).
+MathJax v2.2 is available on the CDN, and for download from GitHub or via the download page at [docs.mathjax.org](http://docs.mathjax.org/en/v2.2-latest/installation.html).
 
 Version 2.2 is available on the CDN at
 
@@ -29,7 +29,7 @@ During the time that the files are making their way out to the CDN's servers, th
 
 If you are a page author and concerned about this, you can change (temporarily) to the `mathjax/2.2-latest` URL instead of `mathjax/latest` since that is a new address that will not have any cached older versions to worry about. You can switch back to `mathjax/latest` after a day or two when the new version has migrated to all the locations in the cloud.
 
-See [http://docs.mathjax.org/en/latest/whats-new-2.2.html](http://docs.mathjax.org/en/latest/whats-new-2.2.html) for details about the changes in v2.2, and some caveats about the effect of these changes on existing sites.
+See [http://docs.mathjax.org/en/v2.2-latest/whats-new-2.2.html](http://docs.mathjax.org/en/v2.2-latest/whats-new-2.2.html) for details about the changes in v2.2, and some caveats about the effect of these changes on existing sites.
 
 We anticipate a smooth upgrade from v2.1 to v2.2, but as always, let us know on the [bug tracker](http://github.com/mathjax/mathjax/issues) if you experience problems with this new version of MathJax.  Thank you for your continued support.
 

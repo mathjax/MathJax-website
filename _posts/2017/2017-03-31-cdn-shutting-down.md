@@ -87,9 +87,9 @@ We recommend switching to another CDN provider or your own copy of MathJax as so
 
 ## Install a local copy
 
-[Our documentation page on installing MathJax](http://docs.mathjax.org/en/latest/installation.html) explains how to install MathJax locally. 
+[Our documentation page on installing MathJax](http://docs.mathjax.org/en/v2.7-latest/installation.html) explains how to install MathJax locally. 
 
-If you want to share your installation across (sub)domains, keep in mind that MathJax uses webfonts which are subject to same-origin restrictions; see our [notes about shared installations](http://docs.mathjax.org/en/latest/installation.html#notes-about-shared-installations) for more details. If you are looking into hosting MathJax via a cloud provider, you can also check our developer wiki [on how we set up MathJax on Google Cloud Storage](https://github.com/mathjax/MathJax/wiki/CDN-Hosting-at-Google-Cloud-Storage).
+If you want to share your installation across (sub)domains, keep in mind that MathJax uses webfonts which are subject to same-origin restrictions; see our [notes about shared installations](http://docs.mathjax.org/en/v2.7-latest/installation.html#notes-about-shared-installations) for more details. If you are looking into hosting MathJax via a cloud provider, you can also check our developer wiki [on how we set up MathJax on Google Cloud Storage](https://github.com/mathjax/MathJax/wiki/CDN-Hosting-at-Google-Cloud-Storage).
 
 ### Optimization
 
@@ -99,7 +99,7 @@ A common concern with local installations is the size of a complete copy of Math
 
 In addition, most sites only require a fraction of MathJax's functionality - usually 1 input + 1 output is sufficient. This allows further trimming of local installations, down to a few megabytes. Reducing the MathJax installation to the relevant parts is easily done either manually (using [our old guide](https://github.com/mathjax/MathJax-docs/wiki/Guide:-reducing-size-of-a-mathjax-installation/1814429ed1e97bfb7675c0fd400804baa9287249)) or automated, e.g., using our [MathJax-grunt-cleaner](https://github.com/mathjax/MathJax-grunt-cleaner). 
 
-**Note**: If you remove features that can be accessed via the MathJax Menu (e.g., output options), we recommend disabling the relevant controls in the Menu; see the [Menu configuration options](http://docs.mathjax.org/en/latest/options/MathMenu.html) for more information.
+**Note**: If you remove features that can be accessed via the MathJax Menu (e.g., output options), we recommend disabling the relevant controls in the Menu; see the [Menu configuration options](http://docs.mathjax.org/en/v2.7-latest/options/MathMenu.html) for more information.
 
 ### Third party extensions 
 
@@ -113,7 +113,7 @@ Some extensions have already been updated to our new suggestions, e.g., mhchem v
 
 To ensure a smooth transition, we will keep the copies at `cdn.mathjax.org/mathjax/contrib` available alongside the redirect (see above). A bug fix release for MathJax will fix the dependency on this URL within MathJax itself.
 
-In the mean time, you can easily set up your own copy and follow our [documentation for loading third party extensions](http://docs.mathjax.org/en/latest/options/ThirdParty.html#custom-extension-path-configuration).
+In the mean time, you can easily set up your own copy and follow our [documentation for loading third party extensions](http://docs.mathjax.org/en/v2.7-latest/options/ThirdParty.html#custom-extension-path-configuration).
 
 ## Next steps
 

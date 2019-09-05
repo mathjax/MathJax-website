@@ -17,7 +17,7 @@ After a smooth [beta run](http://www.mathjax.org/mathjax-v2-6-beta-now-available
 
 The v2.6 release also includes over 30 bug fixes to increase the quality and stability of MathJax ([see below for details](#new-in-release)).
 
-MathJax v2.6 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/latest/installation.html#obtaining-mathjax-via-an-archive).
+MathJax v2.6 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/v2.6-latest/installation.html#obtaining-mathjax-via-an-archive).
 
 Version 2.6 is available on the CDN at
 

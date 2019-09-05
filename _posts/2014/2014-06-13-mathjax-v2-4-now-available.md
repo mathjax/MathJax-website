@@ -16,7 +16,7 @@ author: Peter Krautzberger
 
 After a smooth [beta run](http://www.mathjax.org/mathjax-v2-4-beta-now-available/), we're happy to officially release MathJax v2.4.
 
-MathJax v2.4 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/latest/installation.html#obtaining-mathjax-via-an-archive).
+MathJax v2.4 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/v2.4-latest/installation.html#obtaining-mathjax-via-an-archive).
 
 Version 2.4 is available on the CDN at
 

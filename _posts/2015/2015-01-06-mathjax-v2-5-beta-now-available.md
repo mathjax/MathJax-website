@@ -19,7 +19,7 @@ In terms of MathML support, Content MathML is now fully supported via a new exte
 
 The beta is available via our CDN at [beta.mathjax.org/mathjax/latest/MathJax.js](https://beta.mathjax.org/mathjax/latest/MathJax.js) which you can load it in place of the version you are currently using. Alternatively, you can get a [ZIP archive](https://github.com/mathjax/MathJax/archive/v2.5-latest.zip) or access the branch [on GitHub](https://github.com/mathjax/MathJax/tree/v2.5-latest). 
 
-**Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
+**Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/v2.5-latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
 
       <script type="text/javascript">
         window.MathJax = {
@@ -50,7 +50,7 @@ MathJax v2.5 includes a number of new features, as well a more than 70 important
 
 * _Speed improvements._ The HTML-CSS output performance was improved by 30-40% (depending on content complexity, with higher gains in more complex content such as very long documents).
 * _New output for fast preview._ The new CommonHTML output provides a rough but 10x-faster rendering. The <tt><span>CHTML-preview</span></tt> extension will use this fast output as a preview mode for HTML-CSS or SVG output.
-* _Improved Content MathML support._ Content MathML is now fully supported via a new extension, in particular this allows customization of the conversion process. [See our documentation](http://docs.mathjax.org/en/latest/mathml.html#content-mathml) for loading the extension.
+* _Improved Content MathML support._ Content MathML is now fully supported via a new extension, in particular this allows customization of the conversion process. [See our documentation](http://docs.mathjax.org/en/v2.5-latest/mathml.html#content-mathml) for loading the extension.
 * _Improved elementary math support_ The experimental support for elementary math elements has been significantly improved special thanks to David Carlisle. It now ships in a separate extension <tt>mml3.js</code>.</tt>
 * _NodeJS compatibility_. Enable the implementation of a NodeJS API (released as [MathJax-node](https://github.com/mathjax/MathJax-node)).
 

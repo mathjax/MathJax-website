@@ -12,7 +12,7 @@ author: Peter Krautzberger
 
 After a smooth [beta run](http://www.mathjax.org/mathjax-v2-5-beta-now-available/), we're happy to officially release MathJax v2.5.
 
-MathJax v2.5 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/latest/installation.html#obtaining-mathjax-via-an-archive).
+MathJax v2.5 is available on the CDN, and for download from GitHub; see [the documentation for details](http://docs.mathjax.org/en/v2.5-latest/installation.html#obtaining-mathjax-via-an-archive).
 
 Version 2.5 is available on the CDN at
 
@@ -28,7 +28,7 @@ If you are a page author and concerned about this, you can change (temporarily) 
 
 See [http://docs.mathjax.org/en/v2.5-latest/whats-new-2.5.html](http://docs.mathjax.org/en/v2.5-latest/whats-new-2.5.html) for details about the changes in v2.5. We anticipate a smooth upgrade from v2.4 to v2.5, but as always, let us know on the [bug tracker](http://github.com/mathjax/mathjax/issues) if you experience problems with this new version of MathJax.
 
-**Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
+**Note:** If you are using [a pre-defined configuration](http://docs.mathjax.org/en/v2.5-latest/config-files.html), please note the new fast-preview mode is activated in these. If you want to de-activate it on your page, add the following to your page **before** `MathJax.js` is loaded.
 
       <script type="text/javascript">
         window.MathJax = {

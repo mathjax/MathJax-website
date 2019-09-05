@@ -30,7 +30,7 @@ The MathJax Accessibility extensions currently include the following  components
 
 The easiest way to get started is by adding the Accessibility Menu Extension to your MathJax configuration. This adds very little load to your site while providing your visitors with an accessible opt-in for all features.
 
-Future MathJax releases will integrate the Accessibility Menu Extension which will automatically enable this opt-in for most sites using MathJax. For now (MathJax v2.6 and below), you will need to [load the extensions from our third party extension repository](http://docs.mathjax.org/en/latest/options/ThirdParty.html#mathjax-third-party-extension-repository).
+Future MathJax releases will integrate the Accessibility Menu Extension which will automatically enable this opt-in for most sites using MathJax. For now (MathJax v2.6 and below), you will need to [load the extensions from our third party extension repository](http://docs.mathjax.org/en/v2.7-latest/options/ThirdParty.html#mathjax-third-party-extension-repository).
 
 To load the Accessibility Menu Extension, you set the custom configuration path and add the extensions to your configuration's `extensions` array, e.g., add
 
@@ -188,7 +188,7 @@ If you encounter any issues, please let us know by filing a bug on either the [M
 
 ### Research information
 
-In the course of the research for this project, the MathJax team published several articles and gave a number of presentations. As always, these are (or will be)  listed in the [MathJax documentation](http://docs.mathjax.org/en/latest/misc/articles.html).
+In the course of the research for this project, the MathJax team published several articles and gave a number of presentations. As always, these are (or will be)  listed in the [MathJax documentation](http://docs.mathjax.org/en/v2.7-latest/misc/articles.html).
 
 <hr>
 

@@ -65,8 +65,8 @@
         <h4>Cauchy's Integral Formula</h4>
         \[f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\]
 
-        <h4>Double angle formula for Cosines</h4>
-        \[ \cos(θ+φ)=\cos(θ)\cos(φ)−\sin(θ)\sin(φ) \]
+        <h4>Angle Sum Formula for Cosines</h4>
+        \[ \cos(\theta+\phi)=\cos(\theta)\cos(\phi)−\sin(\theta)\sin(\phi) \]
 
         <h4>Gauss' Divergence Theorem</h4>
         \[ \int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS \]
@@ -101,7 +101,7 @@
 When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</textarea>
         <br/>
-        <input type="button" value="Render HTML" onclick="typesetInput(this)"
+        <input type="button" value="Render HTML" id="renderHTML" onclick="typesetInput()"
                style="float: right; font-size: initial; margin-top: .5em">
         <br/>Preview is shown here:
         <div id="MathPreview" class="preview"></div>

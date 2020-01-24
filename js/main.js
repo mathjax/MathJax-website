@@ -9,7 +9,7 @@ _gaq.push(['_trackPageview']);
   var ga = document.createElement('script');
   ga.type = 'text/javascript';
   ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(ga, s);
 })();
@@ -38,8 +38,9 @@ window.MathJax = {
       //
       var input = document.getElementById('MathInput');
       var output = document.getElementById('MathPreview');
+      var button = document.getElementById('renderHTML');
       output.innerHTML = input.value.trim();
-      window.typesetInput = function (button) {
+      window.typesetInput = function () {
         button.disabled = true;
         output.innerHTML = input.value.trim();
         MathJax.texReset();
@@ -52,6 +53,7 @@ window.MathJax = {
           button.disabled = false;
         });
       }
+      input.oninput = typesetInput;
 
       return MathJax.startup.defaultPageReady();
     }

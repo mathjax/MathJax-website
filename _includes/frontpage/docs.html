@@ -94,6 +94,7 @@
         <a href="https://sigil-ebook.com/" rel="nofollow">epub</a>.
       </p>
       <hr>
+      <h3>Using MathJax version 3</h3>
       <p>
         If you write your own HTML (directly or via a template/theme engine), you can include
         MathJax by adding this snippet to your page:
@@ -107,7 +108,7 @@
         <strong>Note:</strong> the configuration file <code>tex-mml-chtml.js</code> is a great way
         to test both TeX and MathML input options at once. You can find leaner
         <a href="http://docs.mathjax.org/en/latest/web/components/combined.html">combined
-        configuration packages</a> in our documentation.
+        components</a> in our documentation.
       </p>
       <hr>
       <p>
@@ -117,9 +118,9 @@
       </p>
       <div class="snippet">
         <pre><code>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;
-&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
+&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
       </div>
-      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20src%3D%22https%3A%2F%2Fpolyfill.io%2Fv3%2Fpolyfill.min.js%3Ffeatures%3Des6%22%3E%3C%2Fscript%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403.0.0%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
+      <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20src%3D%22https%3A%2F%2Fpolyfill.io%2Fv3%2Fpolyfill.min.js%3Ffeatures%3Des6%22%3E%3C%2Fscript%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403.0.1%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <hr>
       <p>
         If you are a developer who wants to integrate MathJax into your workflow, you can <a
@@ -137,7 +138,22 @@
         examples in our <a href="https://github.com/mathjax/MathJax-demos-node#MathJax-demos-node">MathJax Node
         Demos</a> repository.
       </p>
-      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our docs</a>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our v3 docs</a>
+      <hr style="border-width: medium">
+      <h3>Using MathJax version 2</h3>
+      <p>
+        Some features from version 2 are still being ported to version 3.  MathJax version 2 is still
+        available, and you can continue to use that until version 3 includes the features that you
+        need. We will make updates to version 2 until version 3 is complete.  To load MathJax
+        version 2 into your page, use this snippet:
+      </p>
+      <div class="snippet">
+        <pre>&lt;script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"&gt;&lt;/script&gt;</code></pre>
+      </div>
+      <p>
+      More information is available in the version 2 documentation at the link below.
+      </p>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/v2.7-latest/index.html">Jump to our v2 docs</a>
       <a href="#to-gettingstarted" aria-label="Close pop-out" class="card--popout__close"></a>
     </div>
 
@@ -169,7 +185,7 @@
 
           Version 2 of MathJax supported earlier versions of IE, back to IE6 in some output formats,
           so if you need to support extremely old browsers, you can continue to use
-          <a href="http://docs.mathjax.org/en/v2.7-latest/">MathJax v2.7.5</a> for those needs.
+          <a href="http://docs.mathjax.org/en/v2.7-latest/">MathJax v2.7</a> for those needs.
         </p>
         <p>
           You can find additional details in

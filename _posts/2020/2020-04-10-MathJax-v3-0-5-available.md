@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MathJax v3.0.5 now available
-date: 2020-04-07
+date: 2020-04-10
 author: Davide P. Cervone
 categories:
 - News

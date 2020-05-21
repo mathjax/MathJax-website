@@ -67,6 +67,9 @@ window.MathJax = {
 var followHash = function () {
   var anchor = document.querySelector('a[href="' + location.hash + '"]');
   var permissibleTargets = [
+    "#epub",
+    "#training",
+    "#consultancy",
     "#demo",
     "#a11y",
     "#samples",
@@ -79,6 +82,9 @@ var followHash = function () {
     "#gettingstarted",
     "#apis",
     "#browsers",
+    "#to-epub",
+    "#to-training",
+    "#to-consultancy",
     "#to-demo",
     "#to-a11y",
     "#to-samples",

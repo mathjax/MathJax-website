@@ -129,7 +129,7 @@ section {
     margin-top: 0;
 }
 
-section:nth-of-type(2n + 1) {
+section:nth-of-type(2n) {
     background-color: #f3f3f3;
 }
 
@@ -259,7 +259,7 @@ section:nth-of-type(2n + 1) {
     position: relative;
 }
 
-section:nth-of-type(2n + 1) .card--popout:target {
+section:nth-of-type(2n) .card--popout:target {
     background: white;
 }
 

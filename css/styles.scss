@@ -384,7 +384,10 @@ section:nth-of-type(2n) .card--popout:target {
 }
 
 .snippet pre {
-    color: red
+    color: #050;
+    background-color: #F3F3F3;
+    margin: 0;
+    padding: .5em;
 }
 
 

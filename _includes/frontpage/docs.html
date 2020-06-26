@@ -1,39 +1,59 @@
 <section id="docs">
   <div class="container">
-    <h2>Documentation
-        <img class="shield" alt="GitHub package.json version"
+    <h2>Getting Started
+    <a href="https://github.com/MathJax/MathJax" class="shield">
+      <img class="shield" alt="MathJax version on GitHub"
            src="https://img.shields.io/github/package-json/v/mathjax/MathJax">
-       <img class="shield" alt="GitHub package.json version (branch)"
+      </img>
+    </a>
+    <a href="https://github.com/MathJax/MathJax/tree/legacy-v2" class="shield">
+      <img class="shield" alt="MathJax version 2 legacy version on GitHub"
            src="https://img.shields.io/github/package-json/v/mathjax/MathJax/legacy-v2">
+      </img>
+    </a>
+    <a href="https://www.npmjs.com/package/mathjax" class="shield">
+      <img class="shield" alt="MathJax npm package"
+           src="https://img.shields.io/npm/v/mathjax">
+      </img>
+    <a href="https://www.npmjs.com/package/mathjax-full" class="shield">
+      <img class="shield" alt="MathJax sources npm package"
+           src="https://img.shields.io/npm/v/mathjax-full?label=npm@sources">
+      </img>
+    </a>
+    <a href="https://www.npmjs.com/package/mathjax-node" class="shield">
+      <img class="shield" alt="MathJax version 2 legacy npm package"
+           src="https://img.shields.io/npm/v/mathjax-node?label=npm@legacy-v2">
+      </img>
+    </a>
     </h2>
 
     <div class="cards">
 
-      <div class="card">
+      <div class="card" id="to-gettingstarted">
         <div>
-          <h3>Getting Started</h3>
+          <h3>Web Integration</h3>
           <p>
             <img src="img/code.svg" alt="" class="card--img">
             Whether you're a casual user, a serious author, or a professional developer, it's easy to
             integrate MathJax.
           </p>
         </div>
-        <a class="btn" href="#gettingstarted" id="to-gettingstarted">Learn more</a>
+        <a class="btn" href="#gettingstarted">Start now</a>
       </div>
 
-      <div class="card">
+      <div class="card" id="to-installnow">
         <div>
-          <h3>A rich API</h3>
+          <h3>Server Integration</h3>
           <p>
-            <img src="img/api.svg" alt="" class="card--img">
-            Use our extensive APIs to create interactive content, advanced authoring tools, and
-            math-enabled web and mobile apps.
+            <img src="img/prompt.svg" alt="" class="card--img">
+              Our node package allows you to use MathJax on the server or
+              integrate it into your development workflow.
           </p>
         </div>
-        <a class="btn" href="#apis" id="to-apis">Dive deeper</a>
+        <a class="btn" href="#installnow">Install now</a>
       </div>
 
-      <div class="card">
+      <div class="card" id="to-browsers">
         <div>
           <h3>Works everywhere</h3>
           <p>
@@ -42,7 +62,19 @@
             browsers such as IE 6 (if you really have to).
           </p>
         </div>
-        <a class="btn" href="#browsers" id="to-browsers">Check our overview</a>
+        <a class="btn" href="#browsers">Check our overview</a>
+      </div>
+
+      <div class="card" id="to-apis">
+        <div>
+          <h3>A rich API</h3>
+          <p>
+            <img src="img/api.svg" alt="" class="card--img">
+            Use our extensive APIs to create interactive content, advanced authoring tools, and
+            math-enabled web and mobile apps.
+          </p>
+        </div>
+        <a class="btn" href="#apis">Dive deeper</a>
       </div>
 
       <div class="card">
@@ -122,22 +154,6 @@
       </div>
       <p>Here's a pre-populated <a href="http://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20src%3D%22https%3A%2F%2Fpolyfill.io%2Fv3%2Fpolyfill.min.js%3Ffeatures%3Des6%22%3E%3C%2Fscript%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403.0.1%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <hr>
-      <p>
-        If you are a developer who wants to integrate MathJax into your workflow, you can <a
-        href="https://github.com/mathjax/MathJax/archive/master.zip">download a copy</a> or fetch it
-        from <a href="https://www.npmjs.com/package/mathjax">npm</a> or <a
-        href="https://packagist.org/packages/mathjax/mathjax">Packagist</a> and configure MathJax
-        yourself.  The <a href="https://github.com/mathjax/MathJax-src/archive/master.zip">source
-        code</a> is available from <a href="https://www.npmjs.com/package/mathjax-full">npm</a>
-        as well.  There are example files in the <a
-        href="https://github.com/mathjax/MathJax-demos-web#MathJax-demos-web">MathJax Web
-        Examples</a> repository.
-      </p>
-      <p>
-        If you prefer to render server-side, MathJax version 3 makes that easy as well.  There are
-        examples in our <a href="https://github.com/mathjax/MathJax-demos-node#MathJax-demos-node">MathJax Node
-        Demos</a> repository.
-      </p>
       <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our v3 docs</a>
       <hr style="border-width: medium">
       <h3>Using MathJax version 2</h3>
@@ -155,6 +171,55 @@
       </p>
       <a class="btn btn--popout" href="https://docs.mathjax.org/en/v2.7-latest/index.html">Jump to our v2 docs</a>
       <a href="#to-gettingstarted" aria-label="Close pop-out" class="card--popout__close"></a>
+    </div>
+
+    <div class="card card--popout" id="installnow">
+      <h3>Server Integration</h3>
+      <p>
+        If you prefer to render server-side, MathJax version 3 makes that easy
+        as well. MathJax is available as a node package, which is easy to
+        install via node's package manager <a
+        href="https://www.npmjs.com/package/mathjax">npm</a> using the command
+      <div class="snippet">
+        <pre><code>npm install mathjax</code></pre>
+      </div>
+      </p>
+      <p>
+      Alternatively, MathJax is available on <a
+      href="https://packagist.org/packages/mathjax/mathjax">Packagist</a>. Just
+      add the following line to your <code>require</code> section in the
+      <code>composer.json</code> file of your project
+      <div class="snippet">
+        <pre><code>"mathjax/mathjax": "3.*"</code></pre>
+      </div>
+      </p>
+      <p>
+        Or simply <a
+        href="https://github.com/mathjax/MathJax/archive/master.zip">download a
+        copy</a> of the latest distribution. This allows you to run MathJax on
+        your server and configure it yourself.  There are plenty of examples on
+        how to use and configure MathJax for node in our <a
+        href="https://github.com/mathjax/MathJax-demos-node#MathJax-demos-node">MathJax
+        Node Demos</a> repository.
+      </p>
+      <hr>
+      <p>
+        If you are a developer who wants to integrate MathJax more tightly into
+        your development workflow, you can use our full code node package
+        available <a href="https://www.npmjs.com/package/mathjax-full">npm</a> with
+        <div class="snippet">
+          <pre><code>npm install mathjax-full</code></pre>
+        </div>
+      </p>
+      <p>
+        Or simply <a
+        href="https://github.com/mathjax/MathJax-src/archive/master.zip">download
+        the source code</a> directly.
+      </p>
+      <a class="btn btn--popout"
+      href="https://docs.mathjax.org/en/latest/server/start.html">Getting
+      started with Node</a>
+      <a href="#to-installnow" aria-label="Close pop-out" class="card--popout__close"></a>
     </div>
 
     <div class="card card--popout" id="apis">

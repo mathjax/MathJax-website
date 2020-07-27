@@ -82,21 +82,22 @@ var followHash = function () {
     "#gettingstarted",
     "#apis",
     "#browsers",
-    "#to-epub",
-    "#to-training",
+    "#to-a11y",
+    "#to-ams-stub",
+    "#to-apis",
+    "#to-browsers",
     "#to-consultancy",
     "#to-demo",
-    "#to-a11y",
-    "#to-samples",
-    "#to-ams-stub",
-    "#to-siam-stub",
-    "#to-stackoverflow-stub",
-    "#to-ieee-stub",
     "#to-elsevier-stub",
-    "#to-sponsorship-program",
+    "#to-epub",
     "#to-gettingstarted",
-    "#to-apis",
-    "#to-browsers"
+    "#to-ieee-stub",
+    '#to-installnow',
+    "#to-samples",
+    "#to-siam-stub",
+    "#to-sponsorship-program",
+    "#to-stackoverflow-stub",
+    "#to-training"
   ];
   // console.log(permissibleTargets.indexOf(location.hash));
   if (anchor && permissibleTargets.indexOf(location.hash) > -1) {

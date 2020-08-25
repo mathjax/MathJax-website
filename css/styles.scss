@@ -415,7 +415,13 @@ a.shield {
 
 /*  list of articles  */
 
-.datelist dt,
+.datelist dt {
+    display: inline-block;
+    vertical-align: top;
+    width: 5em;
+    margin-top: 1em;
+}
+
 .datelist dd {
     display: inline-block;
     vertical-align: top;

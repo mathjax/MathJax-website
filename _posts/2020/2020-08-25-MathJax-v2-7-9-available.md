@@ -13,13 +13,13 @@ MathJax 2.7.9 also updates the a11y extensions to version 1.6.0 to take advantag
 
 ## MathJax and CDNJS
 
-MathJax is hosted by a number of different CDNs.  For version 2, we had been recommending `cdnjs.cloudflare.com`, which had served us well for many years.  Now that MathJax has released version 3, it appears that `cdnjs` is no longer picking up earlier versions, so version 2.7.9 has not appeared there.  That means version 2.7.9 can not be obtained from `cdnjs`, and the `latest.js` file will not update automatically to this version
+MathJax is hosted by a number of different CDNs.  For version 2, we had been recommending `cdnjs.cloudflare.com`, which had served us well for many years.  Now that MathJax has released version 3, it appears that `cdnjs` is no longer picking up earlier versions, so version 2.7.9 has not appeared there.  That means version 2.7.9 cannot be obtained from `cdnjs`, and the `latest.js` file will not update automatically to this version
 
 In order to use MathJax v2.7.9, you will need to change the CDN to one of the other ones that does provide all versions of MathJax.  Our current recommendation is `jsdelivr`, which provides all past versions, as well as an automatic latest version if you wish.  For example, you can use
 
     cdn.jsdelivr.net/npm/mathjax@2/MathJax.js
 
-to obtain the latest version 2 release (2.7.9 currently).  Alternatively, you can request a specific version and stay with at until you are ready to change to a new version, e.g.,
+to obtain the latest version 2 release (2.7.9 currently).  Alternatively, you can request a specific version and stay at it until you are ready to change to a new version, e.g.,
 
     cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js
 

@@ -200,6 +200,18 @@ section:nth-of-type(2n) {
     padding: 0 2em;
 }
 
+#privacy-statement {
+    color: #000;
+    margin-top: 1em;
+}
+
+#privacy-statement a {
+    color: #000;
+}
+
+:target {
+    scroll-margin-top: 4em;
+}
 
 /* FRONTPAGE */
 

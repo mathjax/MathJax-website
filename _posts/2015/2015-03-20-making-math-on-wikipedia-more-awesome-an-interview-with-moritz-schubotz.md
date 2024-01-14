@@ -8,7 +8,7 @@ author: Peter Krautzberger
 
 {% include image.html img="images/interview_profile_mediawiki.jpg" title="Moritz Schubotz" caption="Moritz Schubotz maintains the MediaWiki Math Extension" %}
             
-_We haven't done one of these in ages! Here's our fifth interview with interesting people in the MathJax community. This time we had the pleasure to talk to [Moritz Schubotz](http://moritzschubotz.de/) (Technische Universität Berlin) about math on Wikipedia._
+_We haven't done one of these in ages! Here's our fifth interview with interesting people in the MathJax community. This time we had the pleasure to talk to [Moritz Schubotz](https://schubotz.org) (Technische Universität Berlin) about math on Wikipedia._
 
 **You are the volunteer lead on MediaWiki's Math Extension. Can you tell us a little bit about the Math Extension?**
 

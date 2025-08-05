@@ -126,15 +126,15 @@
         <a href="https://sigil-ebook.com/" rel="nofollow">epub</a>.
       </p>
       <hr>
-      <h3>Using MathJax version 3</h3>
+      <h3>Using MathJax version 4</h3>
       <p>
         If you write your own HTML (directly or via a template/theme engine), you can include
         MathJax by adding this snippet to your page:
       </p>
       <div class="snippet">
-        <pre><code>&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
       </div>
-      <p>Here's a pre-populated <a href="https://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
+      <p>Here's a pre-populated <a href="https://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%404%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <p>
         <strong>Note:</strong> the configuration file <code>tex-mml-chtml.js</code> is a great way
         to test both TeX and MathML input options at once. You can find leaner
@@ -148,17 +148,15 @@
         use a specific version, then use a reference like
       </p>
       <div class="snippet">
-        <pre><code>&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
       </div>
-      <p>Here's a pre-populated <a href="https://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%403.0.1%2Fes5%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
+      <p>Here's a pre-populated <a href="https://jsbin.com/?html=%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%3Ctitle%3EMathJax%20example%3C%2Ftitle%3E%0A%20%20%3Cscript%20id%3D%22MathJax-script%22%20async%0A%20%20%20%20%20%20%20%20%20%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fmathjax%404.0.0%2Ftex-mml-chtml.js%22%3E%0A%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cp%3E%0A%20%20When%20%5C(a%20%5Cne%200%5C)%2C%20there%20are%20two%20solutions%20to%20%5C(ax%5E2%20%2B%20bx%20%2B%20c%20%3D%200%5C)%20and%20they%20are%0A%20%20%5C%5Bx%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D.%5C%5D%0A%3C%2Fp%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E&live" target="_blank">example on jsbin</a> you can re-use.</p>
       <hr>
-      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our v3 docs</a>
+      <a class="btn btn--popout" href="https://docs.mathjax.org/en/latest/index.html">Jump to our v4 docs</a>
       <hr style="border-width: medium">
       <h3>Using MathJax version 2</h3>
       <p>
-        Some features from version 2 are still being ported to version 3.  MathJax version 2 is still
-        available, and you can continue to use that until version 3 includes the features that you
-        need. We will make updates to version 2 until version 3 is complete.  To load MathJax
+        MathJax version 2 is still available, and you can continue to use that if you wish.  To load MathJax
         version 2 into your page, use this snippet:
       </p>
       <div class="snippet">
@@ -174,7 +172,7 @@
     <div class="card card--popout" id="installnow">
       <h3>Server Integration</h3>
       <p>
-        If you prefer to render server-side, MathJax version 3 makes that easy
+        If you prefer to render server-side, MathJax version 3 and above makes that easy
         as well. MathJax is available as a node package, which is easy to
         install via node's package manager <a
         href="https://www.npmjs.com/package/mathjax">npm</a> using the command
@@ -188,7 +186,7 @@
       add the following line to your <code>require</code> section in the
       <code>composer.json</code> file of your project
       <div class="snippet">
-        <pre><code>"mathjax/mathjax": "3.*"</code></pre>
+        <pre><code>"mathjax/mathjax": "4.*"</code></pre>
       </div>
       </p>
       <p>

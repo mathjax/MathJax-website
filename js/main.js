@@ -55,6 +55,5 @@ window.MathJax = {
 //  Load MathJax
 //
 var script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-script.setAttribute('id', 'MathJax-script');
+script.src = 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js';
 document.head.appendChild(script);

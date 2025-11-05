@@ -5,18 +5,17 @@ window.MathJax = {
       //
       // Synchronize menu renderer item with on-screen popup menu
       //
-      var select = document.getElementById('Renderer');
+      const select = document.getElementById('Renderer');
       if (select) {
-        var renderer = MathJax.startup.document.menu.settings.renderer;
-        var menu = MathJax.startup.document.menu.menu;
-        var item = (menu.getPool ? menu.getPool() : menu.pool).lookup('renderer');
+        const renderer = MathJax.startup.document.menu.settings.renderer;
+        const menu = MathJax.startup.document.menu.menu;
+        const item = (menu.getPool ? menu.getPool() : menu.pool).lookup('renderer');
         select.value = renderer;
-        if (renderer !== 'CHTML') item.setValue(renderer);
-        item.registerCallback(function () {
+        item.registerCallback(() => {
           var value = item.getValue();
           if (value !== select.value) select.value = value;
         });
-        window.setMode = function (renderer) {
+        window.setMode = (renderer) => {
           if (item.getValue() !== renderer) item.setValue(renderer);
         }
         //
@@ -26,16 +25,16 @@ window.MathJax = {
         var output = document.getElementById('MathPreview');
         var button = document.getElementById('renderHTML');
         output.innerHTML = input.value.trim();
-        window.typesetInput = function () {
+        window.typesetInput = () => {
           button.disabled = true;
           output.innerHTML = input.value.trim();
           MathJax.texReset();
           MathJax.typesetClear();
-          MathJax.typesetPromise([output]).catch(function (err) {
+          MathJax.typesetPromise([output]).catch((err) => {
             output.innerHTML = '';
             output.appendChild(document.createTextNode(err.message));
             console.error(err);
-          }).then(function () {
+          }).then(() => {
             button.disabled = false;
           });
         }
